@@ -1,0 +1,48 @@
+.sidenav { width: 4%; height: 100vh; background-color: #313233; position: fixed; }
+.sidenav a { text-decoration: none; }
+.sidenav hr { width: 80%; opacity: 0.7; }
+.sidenav img { padding-top: 15px; display: block; margin-left: auto; margin-right: auto; max-width: 100%; }
+
+.nav-bottom { margin-top: 100%; }
+
+.fade-carousel { height: 50vh; width: 96%; float: right; }
+.fade-carousel .carousel-inner .item { height: 50vh; }
+.fade-carousel .carousel-indicators > li { margin: 0 2px; background-color: #ffffff; border-color: #959595; }
+.fade-carousel .slides, .fade-carousel .slide-1, .fade-carousel .slide-2, .fade-carousel .slide-3 { height: 100vh; background-size: contain; background-position: top center; background-repeat: no-repeat; }
+.fade-carousel .slide-1 { background-image: url(/img/carousel/img_dog1.png); }
+.fade-carousel .slide-2 { background-image: url(/img/carousel/img_dog2.png); }
+.fade-carousel .slide-3 { background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327); }
+
+.fade-carousel .carousel-indicators > li.active { width: 10px; height: 10px; background-color: #323232; opacity: 1; }
+
+.logo { position: absolute; z-index: 20; left: 40%; top: 15%; }
+
+.hot-items { margin-top: 50px; color: #ffffff; }
+.hot-items .title { text-transform: uppercase; }
+.hot-items .items { display: flex; }
+.hot-items .item { margin: 15px; padding: 5px; border: 1px solid #ffffff; height: auto; background-color: #565656; }
+.hot-items .item p { margin-left: 7px; font-weight: bold; margin-top: 4px; }
+.hot-items .item span { float: right; margin-right: 7px; font-weight: normal; }
+.hot-items .discover { float: right; }
+.hot-items .discover a { text-decoration: none; color: #ffffff; }
+
+.overlay { position: absolute; width: 100%; height: 100%; z-index: 2; background-color: #080d15; opacity: .7; right: 0; }
+
+.newsletter { margin-top: 50px; margin-bottom: 150px; }
+.newsletter .adv { height: 200px; background-color: green; background-image: url(/img/newsletter/discover.png); text-align: center; color: #ffffff; }
+.newsletter .adv h1 { margin-top: 20px; }
+.newsletter .adv h4 { line-height: 120px; vertical-align: bottom; text-transform: uppercase; }
+.newsletter .subscribe { height: 200px; background-color: #5f5f5f; }
+.newsletter .subscribe h3 { color: #ffffff; margin-top: 35px; }
+.newsletter .subscribe span { color: #ffffff; opacity: .6; }
+.newsletter .form-subscribe { margin: 25px 0 25px 0; }
+.newsletter .form-subscribe button { background-color: #323232; color: #ffffff; border: none; height: 3em; width: 3em; }
+.newsletter .form-subscribe input { height: 2.9em; width: 80%; }
+
+.canvas { width: 96%; min-height: 100vh; height: 100%; float: right; background-color: #444546; }
+.canvas .intro { margin-top: 50px; color: #ffffff; text-align: center; }
+.canvas .animal { margin-top: 50px; height: 90px; border-right: 1px solid grey; text-align: center; text-transform: uppercase; }
+.canvas .animal:last-child { border: none; padding-top: 20px; }
+.canvas .animal p { padding-top: 15px; color: #ffffff; }
+
+.centered { float: none; margin: 0 auto; }

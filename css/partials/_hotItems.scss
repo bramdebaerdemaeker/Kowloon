@@ -1,0 +1,52 @@
+.hot-items {
+  margin-top: 50px;
+  color: $white;
+
+  .title {
+    text-transform: uppercase;
+  }
+
+  .items {
+    display: flex;
+  }
+
+  .item {
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid $white;
+    height: auto;
+    background-color: $bg-product;
+
+    p {
+      margin-left: 7px;
+      font-weight: bold;
+      margin-top: 4px;
+    }
+
+    span {
+      float: right;
+      margin-right: 7px;
+      font-weight: normal;
+    }
+  }
+
+  .discover {
+    float: right;
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}
+
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+    right: 0;
+}

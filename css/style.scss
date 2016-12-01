@@ -1,0 +1,45 @@
+@import 'partials/vars';
+@import 'partials/navigation';
+@import 'partials/carousel';
+@import 'partials/hotItems';
+@import 'partials/subscribe';
+
+.canvas {
+  width: 96%;
+  min-height: 100vh;
+  height: 100%;
+  float: right;
+  background-color: $bg-content;
+
+
+
+  .intro {
+    margin-top: 50px;
+    color: $white;
+    text-align: center;
+  }
+
+  .animal {
+    margin-top: 50px;
+    height: 90px;
+    border-right: 1px solid grey;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:last-child {
+      border: none;
+      padding-top: 20px;
+    }
+
+    p {
+      padding-top: 15px;
+      color: $white;
+    }
+  }
+
+}
+
+.centered {
+  float: none;
+  margin: 0 auto;
+}
