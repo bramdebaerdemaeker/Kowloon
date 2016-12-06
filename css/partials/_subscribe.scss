@@ -16,7 +16,6 @@
     h4 {
       line-height: 120px;
       vertical-align: bottom;
-      text-transform: uppercase;
     }
   }
 
@@ -39,7 +38,7 @@
       margin: 25px 0 25px 0;
 
       button {
-        background-color: $button;
+        background-color: $bg-button-newsletter;
         color: $white;
         border: none;
         height: 3em;

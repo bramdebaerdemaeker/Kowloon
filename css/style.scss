@@ -3,6 +3,7 @@
 @import 'partials/carousel';
 @import 'partials/hotItems';
 @import 'partials/subscribe';
+@import 'partials/about';
 
 .canvas {
   width: 96%;
@@ -42,4 +43,8 @@
 .centered {
   float: none;
   margin: 0 auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

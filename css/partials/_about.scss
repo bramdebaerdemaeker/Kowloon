@@ -1,0 +1,67 @@
+.slide-about {
+  @extend .slides;
+  background-image: url(/img/about/about.png);
+}
+
+.indicator {
+  margin: 60px 0 40px 0;
+  display: flex;
+
+}
+
+.about {
+  color: $white;
+
+  .contact {
+    border-left: 1px solid $white;
+    border-bottom: 1px solid $white;
+
+    h4 {
+      margin-left: 25px;
+    }
+  }
+
+}
+
+.message {
+  margin-top: 50px !important;
+  min-height: 50px;
+  color: $white;
+
+  .email {
+    width: 20%;
+  }
+
+  .textarea {
+    width: 75%;
+  }
+
+  button {
+    width: 20%;
+    background-color: $bg-button-message;
+  }
+}
+
+
+.faq {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+  color: $white;
+
+  .item {
+    background-color: $bg-subscribe;
+    margin-bottom: 15px;
+
+    .test {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h4 {
+        margin-left: 15px;
+    }
+
+
+  }
+}

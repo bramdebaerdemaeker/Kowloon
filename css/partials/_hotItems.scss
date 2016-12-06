@@ -2,16 +2,14 @@
   margin-top: 50px;
   color: $white;
 
-  .title {
-    text-transform: uppercase;
-  }
 
   .items {
     display: flex;
+    justify-content: space-between;
   }
 
   .item {
-    margin: 15px;
+    margin: 15px 0px 15px 0px;
     padding: 5px;
     border: 1px solid $white;
     height: auto;

@@ -3,11 +3,12 @@
   height: 100vh;
   background-color: $bg-nav;
   position: fixed;
+  z-index: 10;
 
   a {
     text-decoration: none;
   }
-  
+
 
   hr {
     width: 80%;
@@ -25,6 +26,7 @@
 }
 
 .nav-bottom {
-  margin-top: 100%;
-
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
 }
