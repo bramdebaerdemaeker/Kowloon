@@ -1,5 +1,7 @@
-.slide-about {
-  @extend .slides;
+.header {
+  height: 50vh;
+  width: 96%;
+  float: right;
   background-image: url(/img/about/about.png);
 }
 
@@ -13,12 +15,16 @@
   color: $white;
 
   .contact {
-    border-left: 1px solid $white;
-    border-bottom: 1px solid $white;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 
     h4 {
       margin-left: 25px;
     }
+  }
+
+  .content {
+    margin-top: 30px;
   }
 
 }
@@ -35,13 +41,23 @@
   .textarea {
     width: 75%;
   }
-
-  button {
-    width: 20%;
-    background-color: $bg-button-message;
-  }
 }
 
+button {
+  border-radius: 0px !important;
+  width: 20%;
+  background-color: $bg-button-message;
+  color: $white;
+
+  &:hover {
+    background-color: $bg-button-message;
+    color: $white !important;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}
 
 .faq {
   margin-top: 60px !important;
@@ -52,7 +68,7 @@
     background-color: $bg-subscribe;
     margin-bottom: 15px;
 
-    .test {
+    .split {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -61,7 +77,9 @@
     h4 {
         margin-left: 15px;
     }
+  }
 
-
+  .collapse {
+    padding-bottom: 10px;
   }
 }

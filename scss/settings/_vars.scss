@@ -1,11 +1,11 @@
 
-// colors //
-
-$bg-nav: #313233;
-$bg-content: #444546;
+// main colors
+$bg-canvas: #444546;
 $white: #ffffff;
 $black: #000000;
 
+//navigation
+$bg-nav: #313233;
 
 //color carousel-indicators
 $border-carousel-indicator: #959595;
@@ -15,6 +15,7 @@ $bg-carousel-indicator-active: #323232;
 
 //products
 $bg-product: #565656;
+$product-border: #717171;
 
 
 //newsletter
@@ -24,3 +25,14 @@ $bg-button-newsletter: #323232;
 
 //about form
 $bg-button-message: #ff6493;
+
+
+//breadcrumb
+$bg-breadcrumb: #272727;
+
+
+//sort by
+$color-text-active: #cecece;
+$color-text-non-active: #454545;
+$bg-sort: #616161;
+$bg-sort-hover: #e9e9e9;

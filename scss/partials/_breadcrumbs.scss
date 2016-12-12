@@ -1,0 +1,17 @@
+.breadcrumb {
+  background-color: inherit;
+
+  a {
+    color: $white;
+    padding: 5px 10px 5px 15px;
+    text-decoration: none;
+  }
+
+  li + li:before {
+    content: "";
+  }
+
+  li {
+    background-color: $bg-breadcrumb;
+  }
+}

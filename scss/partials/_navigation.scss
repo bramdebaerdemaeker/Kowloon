@@ -1,0 +1,63 @@
+.sidenav {
+  width: 4%;
+  height: 100vh;
+  background-color: $bg-nav;
+  position: fixed;
+  z-index: 10;
+
+  a {
+    text-decoration: none;
+  }
+
+
+  hr {
+    width: 80%;
+    opacity: 0.7;
+  }
+
+  img {
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+}
+
+.nav-bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
+
+
+.article {
+  height: 50px;
+  background: url('/img/nav/nav-sprite.png');
+  background-repeat: no-repeat;
+}
+
+.dogarticle {
+  background-position: 12px 0px;
+
+  &:hover {
+    background-color: green;
+  }
+}
+
+.catarticle {
+  background-position: 12px -50px;
+}
+
+.fisharticle {
+  background-position: 12px -100px;
+}
+
+.birdarticle {
+  background-position: 12px -150px;
+}
+
+.smallarticle {
+  background-position: 12px -200px;
+}

@@ -1,0 +1,84 @@
+.filter,
+.sort {
+  color: $white;
+}
+
+.filters {
+  display: flex;
+  margin-top: 20px;
+  align-items: baseline;
+
+  label {
+    padding-right: 30px;
+  }
+}
+
+
+// price slider
+
+
+
+// sort by
+.bootstrap-select {
+  .btn-default,
+  .btn-default:active {
+    color: $color-text-active;
+    background-color: $bg-sort;
+    border: none;
+    border-radius: 0px;
+  }
+
+  .btn-default:focus,
+  a:focus{
+    outline: none !important;
+  }
+
+  .dropdown-menu {
+    border: none;
+    background-color: $white;
+    border-radius: 0px;
+    color: $color-text-non-active;
+
+    li a {
+      color: $color-text-non-active;
+      padding: 8px 10px;
+
+      &:hover + &:active + li.selected a{
+        background: $bg-sort-hover;
+        color: $color-text-non-active;
+      }
+
+    }
+
+  }
+}
+
+.bootstrap-select.open .btn-default,
+.bootstrap-select.open .btn-default:hover {
+  color: $color-text-active;
+  background-color: $bg-sort;
+  border: none;
+  border-radius: 0px;
+}
+
+
+//articles
+
+.product-big{
+  padding: 20px;
+  height: auto;
+  background-color: $bg-product;
+  color: $white;
+
+  .btn-big {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px !important;
+  }
+}
+
+.tet3 {
+  padding: 0;
+  margin-top: 15px;
+}
