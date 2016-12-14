@@ -1,5 +1,20 @@
 $(function() {
 
+
+  /*
+   ** navbar expend **
+   */
+
+  $("#hamburger").on('click', function(){
+    console.log('clicked hamburger');
+    $("#sidenav").toggleClass('sidenav-big');
+  });
+
+
+  /*
+   ** price slider **
+   */
+
   $( "#slider-range" ).slider({
     range: true,
     min: 8,

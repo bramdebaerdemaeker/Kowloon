@@ -1,63 +1,128 @@
+
+/*********************
+ ** Navigation menu **
+ *********************/
+
 .sidenav {
-  width: 4%;
+  width: 60px;
   height: 100vh;
   background-color: $bg-nav;
   position: fixed;
   z-index: 10;
+  transition: .5s;
 
   a {
     text-decoration: none;
   }
 
-
   hr {
     width: 80%;
-    opacity: 0.7;
+    opacity: .3;
   }
 
-  img {
-    padding-top: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+  .sidenav-text {
+    display: none;
+    position: absolute;
+    left: 75px;
+    margin-top: -34px;
+    white-space: nowrap;
   }
-
 }
+
+/*
+ ** Kowloon logo **
+ */
 
 .nav-bottom {
   position: absolute;
-  bottom: 10px;
-  left: 15px;
+  bottom: 15px;
+  left: 17px;
 }
 
 
-.article {
-  height: 50px;
-  background: url('/img/nav/nav-sprite.png');
+/*
+ ** sprite-image positioning **
+ */
+
+.nav-item {
+  height: $nav-sprite-icon-height;
+  width: $nav-sprite-icon-width;
+  background: $nav-sprite-image;
   background-repeat: no-repeat;
 }
 
-.dogarticle {
-  background-position: 12px 0px;
+.hamburger {
+  background-position-y: -($nav-sprite-icon-height*0);
+}
 
-  &:hover {
-    background-color: green;
-  }
+.search {
+  background-position-y: -($nav-sprite-icon-height*1);
+}
+
+.faq {
+  background-position-y: -($nav-sprite-icon-height*2);
+}
+
+.contact {
+  background-position-y: -($nav-sprite-icon-height*3)
+}
+
+.dogarticle {
+  background-position-y: -($nav-sprite-icon-height*4);
 }
 
 .catarticle {
-  background-position: 12px -50px;
+  background-position-y: -($nav-sprite-icon-height*5);
 }
 
 .fisharticle {
-  background-position: 12px -100px;
+  background-position-y: -($nav-sprite-icon-height*6);
 }
 
 .birdarticle {
-  background-position: 12px -150px;
+  background-position-y: -($nav-sprite-icon-height*7);
 }
 
 .smallarticle {
-  background-position: 12px -200px;
+  background-position-y: -($nav-sprite-icon-height*8);
+}
+
+
+
+/*
+ ** sprite-image positioning on hover and active status **
+ */
+
+.search,
+.faq,
+.contact,
+.dogarticle,
+.catarticle,
+.fisharticle,
+.birdarticle,
+.smallarticle{
+  &:hover {
+    background-position-x: -($nav-sprite-icon-width);
+  }
+}
+
+.active {
+  background-position-x: -($nav-sprite-icon-width);
+}
+
+
+
+/*
+ ** navbar expend **
+ */
+
+.sidenav-big {
+  @extend .sidenav;
+  width: 250px;
+  transition: .5s;
+
+  .sidenav-text {
+    display: inherit;
+    transition-delay: .5s;
+  }
 }

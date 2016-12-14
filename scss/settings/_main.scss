@@ -1,26 +1,34 @@
 
-//
-// main settings for the whole site
-//
+/*
+ ** main settings for the whole site **
+ */
 
 
-// content container
+/*
+ ** content container **
+ */
+
 .canvas {
   width: 96%;
   min-height: 100vh;
   height: 100%;
   float: right;
   background-color: $bg-canvas;
-
 }
 
-//fix div in the center
+/*
+ ** div in the center of the canvas**
+ */
+
 .centered {
   float: none;
   margin: 0 auto;
 }
 
-//text to uppercase
+/*
+ ** text to uppercase **
+ */
+
 .uppercase {
   text-transform: uppercase;
 }

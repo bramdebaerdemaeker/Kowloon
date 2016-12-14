@@ -23,12 +23,12 @@
 
     .slide-1 {
       @extend .slides;
-      background-image: url(/img/carousel/img_dog1.png);
+      background-image: $img-slide1;
     }
 
     .slide-2 {
       @extend .slides;
-      background-image: url(/img/carousel/img_dog2.png);
+      background-image: $img-slide2;
     }
 
 }
