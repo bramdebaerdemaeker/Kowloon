@@ -1,14 +1,13 @@
-// @import 'compass/utilities';
-// @import "/nav/*.png";
 @import 'settings/vars';
 @import 'settings/main'; //fonts
-@import 'partials/navigation'; //nav extend, sprite
+@import 'partials/navigation';
 @import 'partials/carousel';
 @import 'partials/home/home';
-@import 'partials/hotItems'; //hover
+@import 'partials/products'; //hover
 @import 'partials/subscribe';
 @import 'partials/about/about'; //breadcrumbs, extend question icon turn
 @import 'partials/productView/dogarticles'; //amount characters limitation
+@import 'partials/productDetail/productDetail';
 @import 'partials/breadcrumbs';
 
 

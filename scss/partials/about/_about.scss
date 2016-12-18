@@ -11,6 +11,20 @@
 
 }
 
+.rotate {
+  @include transform(rotateZ(-90deg));
+
+  // &:hover {
+  //   @include transform(rotateZ(1deg));
+  //   transition-duration: .5s;
+  // }
+}
+
+.rotateZ{
+  @include transform(rotateZ(1deg));
+  transition-duration: .5s;
+}
+
 .about {
   color: $white;
 

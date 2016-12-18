@@ -1,0 +1,80 @@
+
+/**************
+ ** products **
+ **************/
+
+.hot-products {
+  margin-top: 50px;
+  color: $white;
+
+
+  .products {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+}
+
+
+.link-to-more {
+  float: right;
+
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+.product {
+  margin: 15px 0px 15px 0px;
+  padding: 5px;
+  border: $product-border;
+  height: auto;
+  background-color: $bg-product;
+  color: $white;
+
+  &:hover {
+    .overlay {
+      animation-name: overlay1;
+      animation-duration: .9s;
+      visibility: inherit;
+    }
+  }
+
+  p {
+    position: relative;
+    margin-left: 7px;
+    font-weight: bold;
+    margin-top: 4px;
+    z-index: 30;
+  }
+
+  span {
+    position: relative;
+    float: right;
+    margin-right: 7px;
+    font-weight: normal;
+    z-index: 30;
+  }
+
+}
+
+@keyframes overlay1 {
+  from {opacity: 0;}
+  to {opacity: .8;}
+}
+
+
+.overlay {
+    // top: 250px;
+    visibility: hidden;
+    position: absolute;
+    width: 228px;
+    height: 160px;
+    opacity: .8;
+    background-color: $bg-hover-product;
+    background-image: $img-hover-product;
+    background-position: center;
+    background-repeat: no-repeat;
+}

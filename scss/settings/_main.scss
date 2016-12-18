@@ -3,6 +3,9 @@
  ** main settings for the whole site **
  */
 
+body {
+  font-family: $font-family-main;  
+}
 
 /*
  ** content container **
@@ -31,4 +34,13 @@
 
 .uppercase {
   text-transform: uppercase;
+}
+
+
+/*
+ ** linkse inspringend
+ */
+
+.offset-left-1 {
+  margin-left: 25px;
 }

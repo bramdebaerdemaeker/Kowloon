@@ -11,7 +11,7 @@
  ** home **
  */
 /*
- ** color carousel-indicators **
+ ** carousel **
  */
 /*
  ** products - hot items **
@@ -29,8 +29,17 @@
  ** sort by **
  */
 /*
+ ** product detail
+ */
+/*
+ ** mixins **
+ */
+/*
  ** main settings for the whole site **
  */
+body {
+  font-family: "Arial", sans-serif; }
+
 /*
  ** content container **
  */
@@ -54,18 +63,31 @@
 .uppercase {
   text-transform: uppercase; }
 
+/*
+ ** linkse inspringend
+ */
+.offset-left-1 {
+  margin-left: 25px; }
+
 /*********************
  ** Navigation menu **
  *********************/
 .sidenav, .sidenav-big {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
   width: 60px;
   height: 100vh;
   background-color: #313233;
   position: fixed;
-  z-index: 10;
-  transition: .5s; }
+  z-index: 10; }
   .sidenav a, .sidenav-big a {
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #ffffff; }
+    .sidenav a:nth-child(-n+4), .sidenav-big a:nth-child(-n+4) {
+      opacity: .5; }
   .sidenav hr, .sidenav-big hr {
     width: 80%;
     opacity: .3; }
@@ -82,7 +104,9 @@
 .nav-bottom {
   position: absolute;
   bottom: 15px;
-  left: 17px; }
+  left: 17px;
+  width: 21px;
+  overflow: hidden; }
 
 /*
  ** sprite-image positioning **
@@ -140,11 +164,23 @@
  ** navbar expend **
  */
 .sidenav-big {
-  width: 250px;
-  transition: .5s; }
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  width: 220px; }
   .sidenav-big .sidenav-text {
-    display: inherit;
-    transition-delay: .5s; }
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    display: inherit; }
+  .sidenav-big .nav-bottom {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    width: 220px; }
 
 .fade-carousel {
   height: 50vh;
@@ -205,7 +241,9 @@
   text-align: center; }
   .animal p {
     margin-top: 90px;
-    color: #ffffff; }
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.2em; }
 
 .dogcategory {
   background-position-x: 0px; }
@@ -237,11 +275,12 @@
   .hot-products .products {
     display: flex;
     justify-content: space-between; }
-  .hot-products .discover {
-    float: right; }
-    .hot-products .discover a {
-      text-decoration: none;
-      color: #ffffff; }
+
+.link-to-more {
+  float: right; }
+  .link-to-more a {
+    text-decoration: none;
+    color: #ffffff; }
 
 .product {
   margin: 15px 0px 15px 0px;
@@ -250,14 +289,38 @@
   height: auto;
   background-color: #565656;
   color: #ffffff; }
+  .product:hover .overlay {
+    animation-name: overlay1;
+    animation-duration: .9s;
+    visibility: inherit; }
   .product p {
+    position: relative;
     margin-left: 7px;
     font-weight: bold;
-    margin-top: 4px; }
+    margin-top: 4px;
+    z-index: 30; }
   .product span {
+    position: relative;
     float: right;
     margin-right: 7px;
-    font-weight: normal; }
+    font-weight: normal;
+    z-index: 30; }
+
+@keyframes overlay1 {
+  from {
+    opacity: 0; }
+  to {
+    opacity: .8; } }
+.overlay {
+  visibility: hidden;
+  position: absolute;
+  width: 228px;
+  height: 160px;
+  opacity: .8;
+  background-color: #ff6f9e;
+  background-image: url("/img/hot_items/overlay.png");
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .newsletter {
   margin-top: 50px;
@@ -303,6 +366,19 @@
 .indicator {
   margin: 60px 0 40px 0;
   display: flex; }
+
+.rotate {
+  -webkit-transform: rotateZ(-90deg);
+  -moz-transform: rotateZ(-90deg);
+  -ms-transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg); }
+
+.rotateZ {
+  -webkit-transform: rotateZ(1deg);
+  -moz-transform: rotateZ(1deg);
+  -ms-transform: rotateZ(1deg);
+  transform: rotateZ(1deg);
+  transition-duration: .5s; }
 
 .about {
   color: #ffffff; }
@@ -403,6 +479,12 @@ button {
 .tet3 {
   padding: 0;
   margin-top: 15px; }
+
+.detail {
+  color: #ffffff; }
+
+.specifications {
+  border: 1px solid #717171; }
 
 .breadcrumb {
   background-color: inherit; }

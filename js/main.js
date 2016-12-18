@@ -11,6 +11,18 @@ $(function() {
   });
 
 
+  $("#rotate1").on('click', function(){
+    $(this).toggleClass('rotateZ');
+  });
+
+  $("#rotate2").on('click', function(){
+    $(this).toggleClass('rotateZ');
+  });
+
+  $("#rotate3").on('click', function(){
+    $(this).toggleClass('rotateZ');
+  });
+
   /*
    ** price slider **
    */

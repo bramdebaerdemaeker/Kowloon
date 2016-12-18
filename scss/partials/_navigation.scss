@@ -4,15 +4,21 @@
  *********************/
 
 .sidenav {
+  @include transition(.5s);
   width: 60px;
   height: 100vh;
   background-color: $bg-nav;
   position: fixed;
   z-index: 10;
-  transition: .5s;
 
   a {
     text-decoration: none;
+    font-size: $font-size-nav;
+    color: $white;
+
+    &:nth-child(-n+4) {
+      opacity: .5;
+    }
   }
 
   hr {
@@ -37,6 +43,8 @@
   position: absolute;
   bottom: 15px;
   left: 17px;
+  width: 21px;
+  overflow: hidden;
 }
 
 
@@ -118,11 +126,16 @@
 
 .sidenav-big {
   @extend .sidenav;
-  width: 250px;
-  transition: .5s;
+  @include transition(.5s);
+  width: 220px;
 
   .sidenav-text {
+    @include transition(.5s);
     display: inherit;
-    transition-delay: .5s;
+  }
+
+  .nav-bottom{
+    @include transition(.5s);
+    width: 220px;
   }
 }

@@ -3,6 +3,8 @@
  */
 
 
+$font-family-main:'Arial', sans-serif;
+
 
 
 
@@ -23,6 +25,7 @@ $bg-nav: #313233;
 $nav-sprite-image: url('/img/nav/nav-basic-sprite1.png');
 $nav-sprite-icon-height: 52px;
 $nav-sprite-icon-width: 60px;
+$font-size-nav: 1.3em;
 
 
 /*
@@ -52,7 +55,9 @@ $img-slide2: url(/img/carousel/img_dog2.png);
  */
 
 $bg-product: #565656;
-$product-border: #717171;
+$product-border: 1px solid #717171;
+$bg-hover-product: #ff6f9e;
+$img-hover-product: url('/img/hot_items/overlay.png');
 
 
 /*
@@ -85,3 +90,39 @@ $color-text-active: #cecece;
 $color-text-non-active: #454545;
 $bg-sort: #616161;
 $bg-sort-hover: #e9e9e9;
+
+
+/*
+ ** product detail
+ */
+
+$specifications-border: #717171;
+
+
+
+
+/*
+ ** mixins **
+ */
+
+ // @mixin border($border) {
+ //   -webkit-border: $border;
+ //      -moz-border: $border;
+ //       -ms-border: $border;
+ //           border: $border;
+ // }
+
+
+ @mixin transition($time) {
+  -webkit-transition: $time;
+     -moz-transition: $time;
+      -ms-transition: $time;
+          transition: $time;
+}
+
+@mixin transform($transformation) {
+ -webkit-transform: $transformation;
+    -moz-transform: $transformation;
+     -ms-transform: $transformation;
+         transform: $transformation;
+}
