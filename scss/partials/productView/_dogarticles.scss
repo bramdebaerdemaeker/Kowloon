@@ -21,7 +21,7 @@
 
 .filters {
   display: flex;
-  margin-top: 20px;
+  // margin-top: 10px;
   align-items: baseline;
 
   label {
@@ -33,10 +33,13 @@
 // price slider
 .ui-slider-handle {
   border-radius: 50%;
+  background-image: none !important;
+  background-color: $white;
 }
 
-.ui-slider-range {
-  color: #9a9a9a !important;
+.ui-widget-header {
+  background-image: none;
+  background-color: $bg-filter-slider;
 }
 
 

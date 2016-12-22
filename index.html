@@ -1,205 +1,321 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Kowloon</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Kowloon</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
 
-    <!-- navbar -->
-    <div class="sidenav" id="sidenav">
-        <a id="hamburger"><div class="nav-item hamburger"></div></a>
-        <a href="#"><div class="nav-item search"></div><span class="sidenav-text">Search</span></a>
-        <a href="#"><div class="nav-item faq"></div><span class="uppercase sidenav-text">faq</span></a>
-        <a href="about.html"><div class="nav-item contact"></div><span class="sidenav-text">Contact</span></a>
-      <hr>
-        <a href="dogarticles.html"><div class="nav-item dogarticle"></div><span class="sidenav-text">Dogs</span></a>
-        <a href="#"><div class="nav-item catarticle"></div><span class="sidenav-text">Cats</span></a>
-        <a href="#"><div class="nav-item fisharticle"></div><span class="sidenav-text">Fish</span></a>
-        <a href="#"><div class="nav-item birdarticle"></div><span class="sidenav-text">Birds</span></a>
-        <a href="#"><div class="nav-item smallarticle"></div><span class="sidenav-text">Small animals</span></a>
+  <!-- navbar -->
+  <div class="sidenav" id="sidenav">
+    <a id="hamburger"><div class="nav-item hamburger"></div></a>
+    <a href="#"><div class="nav-item search"></div><span class="sidenav-text">Search</span></a>
+    <a href="#"><div class="nav-item faq"></div><span class="uppercase sidenav-text">faq</span></a>
+    <a href="about.html"><div class="nav-item contact"></div><span class="sidenav-text">Contact</span></a>
+    <hr>
+    <a href="dogarticles.html"><div class="nav-item dogarticle"></div><span class="sidenav-text">Dogs</span></a>
+    <a href="#"><div class="nav-item catarticle"></div><span class="sidenav-text">Cats</span></a>
+    <a href="#"><div class="nav-item fisharticle"></div><span class="sidenav-text">Fish</span></a>
+    <a href="#"><div class="nav-item birdarticle"></div><span class="sidenav-text">Birds</span></a>
+    <a href="#"><div class="nav-item smallarticle"></div><span class="sidenav-text">Small animals</span></a>
 
-      <div class="nav-bottom">
-        <a href="index.html"><img src="img/nav/k-big.png"></a>
+    <div class="nav-bottom">
+      <a href="index.html"><img src="img/nav/k-big.png"></a>
+    </div>
+  </div>
+
+  <!-- search overlay -->
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-overlay-content">
+
+      <!-- filter -->
+      <div class="search-overlay-filter">
+        <div class="row">
+          <div class="col-md-9 centered">
+            <h3>Advanced filter &nbsp <i class="fa fa-sort-desc collapse rotate" aria-hidden="true" id="rotate4" data-toggle="collapse" data-target="#filterCollapse"></i></h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div id="filterCollapse" class="col-md-8 col-md-offset-1 centered collapse in">
+            <div class="collection">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>Category</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- checkbox filters -->
+                <div class="col-md-6 filters">
+                  <div class="checkbox">
+                    <label><input type="checkbox">Dogs</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <label><input type="checkbox">Cats</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <label><input type="checkbox">Fish</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <label><input type="checkbox">Birds</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <label><input type="checkbox">Other</label>
+                  </div>
+                </div>
+
+                <!-- price slider -->
+                <div class="col-md-6">
+                  <div id="price-slider">
+                    <label for="amount">Price range</label>
+                    <div class="row">
+                      <div class="col-md-12" id="slider-range"></div>
+                      <div class="row">
+                        <div class="col-md-12 price-slider">
+                          <input type="text" id="amount-min" readonly style="border:1px solid black; color:#000000; font-weight:normal;">
+                          -
+                          <input type="text" id="amount-max" readonly style="border:1px solid black; color:#000000; font-weight:normal;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- search bar -->
+      <div class="search-overlay-input">
+        <div class="row">
+          <div class="col-md-9 centered">
+
+            <div class="wrap">
+              <form action="" autocomplete="on">
+                <input id="search" name="search" type="text" placeholder="Just start typing and hit ... to enter"><input id="search_submit" value="Rechercher" type="submit">
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7 centered input-bar">
+            <div class="">
+              3 items found for the word "Crafted"
+            </div>
+            <div class="clear">
+              <i class="fa fa-window-close-o" aria-hidden="true"></i>Clear
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- results -->
+      <div class="search-overlay-results">
+        <div class="row">
+          <div class="col-md-9 centered result">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 centered result">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 centered result">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- carousel -->
+  <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+
+
+    <div class="logo">
+      <a href="index.html"><img src="img/carousel/logo.png" alt="Kowloon"></a>
+    </div>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#bs-carousel" data-slide-to="1"></li>
+      <li data-target="#bs-carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item slides active">
+        <div class="slide-1"></div>
+      </div>
+      <div class="item slides">
+        <div class="slide-2"></div>
       </div>
     </div>
 
-    <!-- carousel -->
-    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  </div>
 
-      <!-- Overlay -->
-      <!-- <div class="overlay"></div> -->
-      <div class="logo">
-        <a href="index.html"><img src="img/carousel/logo.png" alt="Kowloon"></a>
-      </div>
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#bs-carousel" data-slide-to="1"></li>
-        <li data-target="#bs-carousel" data-slide-to="2"></li>
-      </ol>
+  <div class="canvas">
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item slides active">
-          <div class="slide-1"></div>
-        </div>
-        <div class="item slides">
-          <div class="slide-2"></div>
-        </div>
-      </div>
+    <!-- intro text -->
+    <div class="row">
 
-    </div>
-
-    <div class="canvas">
-
-      <!-- intro text -->
-      <div class="row">
-
-        <div class="col-md-7 intro centered ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-
-      </div>
-
-      <!-- categories -->
-      <div class="row">
-        <div class="col-md-9 centered categories">
-
-            <!-- dogs -->
-            <a href="dogarticles.html"><div class="col-md-2 animal dogcategory">
-                <!-- <img src="img/categories/dog.png"> -->
-                <p class="uppercase">dogs</p>
-            </div></a>
-
-
-            <!-- cats -->
-            <a href="#"><div class="col-md-2 animal catcategory">
-              <!-- <img src="img/categories/cat.png"> -->
-              <p class="uppercase">cats</p>
-            </div></a>
-
-            <!-- fish -->
-            <a href="#"><div class="col-md-2 animal fishcategory">
-              <!-- <img src="img/categories/fish.png"> -->
-              <p class="uppercase">fish</p>
-            </div></a>
-
-            <!-- birds -->
-            <a href="#"><div class="col-md-2 animal birdcategory">
-              <!-- <img src="img/categories/bird.png"> -->
-              <p class="uppercase">birds</p>
-            </div></a>
-
-            <!-- small animals -->
-            <a href="#"><div class="col-md-2 animal smallcategory">
-              <!-- <img src="img/categories/hamster.png" alt=""> -->
-              <p class="uppercase kek">small </br> animals</p>
-            </div></a>
-
-            <!-- extra -->
-            <a href="#"><div class="col-md-2 animal othercategory">
-              <!-- <img src="img/categories/extra.png" alt=""> -->
-              <p class="uppercase">other</p>
-            </div></a>
-        </div>
-      </div>
-
-      <!-- hot products -->
-      <div class="row hot-products">
-        <div class="col-md-9 centered">
-
-          <!-- title -->
-          <div class="row title">
-            <div class="col-md-12 uppercase">
-              <h1>hot items.</h1>
-            </div>
-          </div>
-
-          <!-- products -->
-          <div class="row products">
-            <div class="product">
-              <div class="overlay"></div>
-              <div class="circles">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <div class="circle3"></div>
-              </div>
-              <img src="img/hot_items/product1.png">
-              <p>Cooling mat <span>€15,49</span></p>
-            </div>
-
-            <div class="product">
-              <div class="overlay"></div>
-              <div class="circles">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <div class="circle3"></div>
-              </div>
-              <img src="img/hot_items/product1.png">
-              <p>Cooling mat <span>€15,49</span></p>
-            </div>
-
-            <div class="product">
-              <div class="overlay"></div>
-              <div class="circles">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <div class="circle3"></div>
-              </div>
-              <img src="img/hot_items/product1.png">
-              <p>Cooling mat <span>€15,49</span></p>
-            </div>
-
-            <div class="product">
-              <div class="overlay"></div>
-              <div class="circles">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <div class="circle3"></div>
-              </div>
-              <img src="img/hot_items/product1.png">
-              <p>Cooling mat <span>€15,49</span></p>
-            </div>
-
-          </div>
-
-          <div class="link-to-more">
-            <a href=""><u>visit the store</u></a>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- newsletter -->
-      <div class="row newsletter">
-        <div class="col-md-9 centered">
-          <div class="row">
-              <div class="col-md-8 adv">
-                <h1>discover amazing </br>Kwoloon deals!</h1>
-                <h4 class="uppercase">only in our newsletter</h4>
-              </div>
-              <div class="col-md-4 subscribe">
-                <h3>Subscribe to our newsletter</h3>
-                <span>Lorem ipsum dolor sit amet...</span>
-
-                <form class="form-subscribe">
-                  <input type="text" name="email" placeholder="Your e-mail">
-                  <button type="button" name="submit">OK</button>
-                </form>
-              </div>
-          </div>
-        </div>
+      <div class="col-md-7 intro centered ">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
 
     </div>
 
+    <!-- categories -->
+    <div class="row">
+      <div class="col-md-9 centered categories">
 
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+        <!-- dogs -->
+        <a href="dogarticles.html"><div class="col-md-2 animal dogcategory">
+          <!-- <img src="img/categories/dog.png"> -->
+          <p class="uppercase">dogs</p>
+        </div></a>
+
+
+        <!-- cats -->
+        <a href="#"><div class="col-md-2 animal catcategory">
+          <!-- <img src="img/categories/cat.png"> -->
+          <p class="uppercase">cats</p>
+        </div></a>
+
+        <!-- fish -->
+        <a href="#"><div class="col-md-2 animal fishcategory">
+          <!-- <img src="img/categories/fish.png"> -->
+          <p class="uppercase">fish</p>
+        </div></a>
+
+        <!-- birds -->
+        <a href="#"><div class="col-md-2 animal birdcategory">
+          <!-- <img src="img/categories/bird.png"> -->
+          <p class="uppercase">birds</p>
+        </div></a>
+
+        <!-- small animals -->
+        <a href="#"><div class="col-md-2 animal smallcategory">
+          <!-- <img src="img/categories/hamster.png" alt=""> -->
+          <p class="uppercase kek">small </br> animals</p>
+        </div></a>
+
+        <!-- extra -->
+        <a href="#"><div class="col-md-2 animal othercategory">
+          <!-- <img src="img/categories/extra.png" alt=""> -->
+          <p class="uppercase">other</p>
+        </div></a>
+      </div>
+    </div>
+
+    <!-- hot products -->
+    <div class="row hot-products">
+      <div class="col-md-9 centered">
+
+        <!-- title -->
+        <div class="row title">
+          <div class="col-md-12 uppercase">
+            <h1>hot items.</h1>
+          </div>
+        </div>
+
+        <!-- products -->
+        <div class="row products">
+          <div class="product">
+            <div class="overlay"></div>
+            <div class="circles">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+              <div class="circle3"></div>
+            </div>
+            <img src="img/hot_items/product1.png">
+            <p>Cooling mat <span>€15,49</span></p>
+          </div>
+
+          <div class="product">
+            <div class="overlay"></div>
+            <div class="circles">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+              <div class="circle3"></div>
+            </div>
+            <img src="img/hot_items/product1.png">
+            <p>Cooling mat <span>€15,49</span></p>
+          </div>
+
+          <div class="product">
+            <div class="overlay"></div>
+            <div class="circles">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+              <div class="circle3"></div>
+            </div>
+            <img src="img/hot_items/product1.png">
+            <p>Cooling mat <span>€15,49</span></p>
+          </div>
+
+          <div class="product">
+            <div class="overlay"></div>
+            <div class="circles">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+              <div class="circle3"></div>
+            </div>
+            <img src="img/hot_items/product1.png">
+            <p>Cooling mat <span>€15,49</span></p>
+          </div>
+
+        </div>
+
+        <div class="link-to-more">
+          <a href=""><u>visit the store</u></a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- newsletter -->
+    <div class="row newsletter">
+      <div class="col-md-9 centered">
+        <div class="row">
+          <div class="col-md-8 adv">
+            <h1>discover amazing </br>Kwoloon deals!</h1>
+            <h4 class="uppercase">only in our newsletter</h4>
+          </div>
+          <div class="col-md-4 subscribe">
+            <h3>Subscribe to our newsletter</h3>
+            <span>Lorem ipsum dolor sit amet...</span>
+
+            <form class="form-subscribe">
+              <input type="text" name="email" placeholder="Your e-mail">
+              <button type="button" name="submit">OK</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
