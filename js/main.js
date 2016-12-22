@@ -23,6 +23,10 @@ $(function() {
     $(this).toggleClass('rotateZ');
   });
 
+  $("#rotate4").on('click', function(){
+    $(this).toggleClass('rotateZ');
+  });
+
   /*
    ** price slider **
    */

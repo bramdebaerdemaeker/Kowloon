@@ -1,17 +1,42 @@
 .breadcrumb {
   background-color: inherit;
+  color: $white;
+  padding-left: 0;
 
   a {
-    color: $white;
-    padding: 5px 10px 5px 15px;
+    padding: 5px 10px 5px 0px;
     text-decoration: none;
   }
 
-  li + li:before {
-    content: "";
+  .tag {
+    margin-left: 10px;
+    background-color: $bg-breadcrumb;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+
+    &:before{
+      content:"";
+      position:absolute;
+      border-right:11px solid $bg-breadcrumb;
+      border-top:11px solid transparent;
+      border-bottom:11px solid transparent;
+      left:51px;
+      top:0;
+    }
+
+    p {
+      margin: 0;
+    }
   }
 
-  li {
-    background-color: $bg-breadcrumb;
+  .tag2 {
+    @extend .tag;
+    &:before {
+      left: 124px;
+    }
   }
+
+
+
 }

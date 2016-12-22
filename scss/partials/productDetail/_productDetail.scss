@@ -1,8 +1,42 @@
 .detail {
   color: $white;
+  margin-top: 100px;
+
+  .small-tumbs,
+  .colors {
+    margin-top: 20px;
+  }
+
+  .indicator,
+  .circles,
+  h2 {
+    margin: 0;
+  }
+
+  .obligatory {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .o-square {
+    background-color: $bg-obligatory;
+    border: $border-obligatory;
+    width: 50px;
+    height: 50px;
+  }
+
+  .o-circle {
+    @extend .o-square;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
 }
 
+.description {
+  margin-top: 60px;
+}
 
 .specifications {
   border: 1px solid $specifications-border;
+  margin-top: 20px;
 }

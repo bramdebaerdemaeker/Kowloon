@@ -1,3 +1,19 @@
+/*
+ *
+ * breadcrumb circle */
+
+.circle4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fd719e;
+  position: absolute;
+  left:60px;
+  top: 5px;
+
+}
+
 .filter,
 .sort {
   color: $white;
@@ -15,7 +31,13 @@
 
 
 // price slider
+.ui-slider-handle {
+  border-radius: 50%;
+}
 
+.ui-slider-range {
+  color: #9a9a9a !important;
+}
 
 
 // sort by
@@ -65,16 +87,21 @@
 //articles
 
 .product-big{
-  padding: 20px;
+  padding: 10px;
   height: auto;
   background-color: $bg-product;
   color: $white;
 
+  img {
+    width: 100%;
+  }
   .btn-big {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 200px !important;
+    border: none;
+    padding: 5px;
   }
 }
 

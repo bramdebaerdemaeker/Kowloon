@@ -7,13 +7,10 @@
   margin-top: 50px;
   color: $white;
 
-
   .products {
     display: flex;
     justify-content: space-between;
   }
-
-
 }
 
 
@@ -67,7 +64,7 @@
 
 
 .overlay {
-    // top: 250px;
+    z-index: 2;
     visibility: hidden;
     position: absolute;
     width: 228px;
@@ -77,4 +74,36 @@
     background-image: $img-hover-product;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.circles {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.circle {
+  background-color: green;
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  border: $border-circles;
+  border-radius: 50%;
+}
+
+.circle1 {
+  @extend .circle;
+  background-color: $white;
+}
+
+.circle2 {
+  @extend .circle;
+  background-color: $bg-circle2;
+}
+
+.circle3 {
+  @extend .circle;
+  background-color: $bg-circle3;
 }
