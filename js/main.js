@@ -1,9 +1,5 @@
 $(function() {
 
-// start state of search and faq overlay
-  $('#search-overlay').hide();
-  $('#faq-overlay').hide();
-
   /*
    *
    * navbar expend */
@@ -11,6 +7,12 @@ $(function() {
   $("#nav-expend").on('click', function(){
     $("#sidenav").toggleClass('sidenav-big');
   });
+
+
+
+  // start state of search and faq overlay
+    $('#search-overlay').hide();
+    $('#faq-overlay').hide();
 
 
   /*

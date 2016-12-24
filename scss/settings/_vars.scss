@@ -2,6 +2,17 @@
 *
 * Fonts */
 
+//import
+@font-face {
+  font-family: choplin-light;
+  src: url(/scss/fonts/Choplin-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: choplin-medium;
+  src: url(/scss/fonts/Choplin-Medium.otf);
+}
+
 $font-family-main:'Arial', sans-serif;
 
 

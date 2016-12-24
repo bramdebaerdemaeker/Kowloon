@@ -5,8 +5,8 @@
 
 
 /*
- ** intro tekst **
- */
+ *
+ * intro tekst */
 
 .intro {
   margin-top: 50px;
@@ -15,8 +15,8 @@
 }
 
 /*
- ** categories **
- */
+ *
+ * categories */
 
 .categories {
   margin-left: 15%;
@@ -32,9 +32,9 @@
    text-align: center;
 
    p {
+     font-family: choplin-light;
      margin-top: 90px;
      color: $white;
-     font-weight: 100;
      font-size: 1.2em;
    }
  }

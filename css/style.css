@@ -1,6 +1,12 @@
 /*
 *
 * Fonts */
+@font-face {
+  font-family: choplin-light;
+  src: url(/scss/fonts/Choplin-ExtraLight.otf); }
+@font-face {
+  font-family: choplin-medium;
+  src: url(/scss/fonts/Choplin-Medium.otf); }
 /*
 *
 * main colors */
@@ -219,16 +225,16 @@ body {
  ** home page layout: intro + categories **
  ******************************************/
 /*
- ** intro tekst **
- */
+ *
+ * intro tekst */
 .intro {
   margin-top: 50px;
   color: #ffffff;
   text-align: center; }
 
 /*
- ** categories **
- */
+ *
+ * categories */
 .categories {
   margin-left: 15%;
   margin-top: 50px; }
@@ -241,9 +247,9 @@ body {
   border-right: 1px solid #616161;
   text-align: center; }
   .animal p {
+    font-family: choplin-light;
     margin-top: 90px;
     color: #ffffff;
-    font-weight: 100;
     font-size: 1.2em; }
 
 .dogcategory {
@@ -346,6 +352,8 @@ body {
 .hot-products {
   margin-top: 50px;
   color: #ffffff; }
+  .hot-products h1 {
+    font-family: Choplin-Medium; }
   .hot-products .products {
     display: flex;
     justify-content: space-between; }
@@ -353,6 +361,7 @@ body {
 .link-to-more {
   float: right; }
   .link-to-more a {
+    font-family: choplin-medium;
     text-decoration: none;
     color: #ffffff; }
 
@@ -364,7 +373,7 @@ body {
   background-color: #565656;
   color: #ffffff; }
   .product:hover .overlay {
-    animation-name: overlay1;
+    animation-name: overlay-product;
     animation-duration: .9s;
     visibility: inherit; }
   .product p {
@@ -379,24 +388,23 @@ body {
     margin-right: 7px;
     font-weight: normal;
     z-index: 30; }
+  .product .overlay {
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    width: 228px;
+    height: 160px;
+    opacity: .8;
+    background-color: #ff6f9e;
+    background-image: url("/img/hot_items/overlay.png");
+    background-position: center;
+    background-repeat: no-repeat; }
 
-@keyframes overlay1 {
+@keyframes overlay-product {
   from {
     opacity: 0; }
   to {
     opacity: .8; } }
-.overlay {
-  z-index: 2;
-  visibility: hidden;
-  position: absolute;
-  width: 228px;
-  height: 160px;
-  opacity: .8;
-  background-color: #ff6f9e;
-  background-image: url("/img/hot_items/overlay.png");
-  background-position: center;
-  background-repeat: no-repeat; }
-
 .circles {
   position: absolute;
   z-index: 1;
@@ -421,6 +429,9 @@ body {
 .circle3 {
   background-color: #2d4ca8; }
 
+/****************
+** Newsletter **
+****************/
 .newsletter {
   margin-top: 50px;
   margin-bottom: 150px; }
@@ -429,7 +440,8 @@ body {
     background-color: green;
     background-image: url(/img/newsletter/discover.png);
     text-align: center;
-    color: #ffffff; }
+    color: #ffffff;
+    font-family: choplin-medium; }
     .newsletter .adv h1 {
       margin-top: 20px; }
     .newsletter .adv h4 {
@@ -437,12 +449,11 @@ body {
       vertical-align: bottom; }
   .newsletter .subscribe {
     height: 200px;
-    background-color: #5f5f5f; }
+    background-color: #5f5f5f;
+    color: #ffffff; }
     .newsletter .subscribe h3 {
-      color: #ffffff;
       margin-top: 35px; }
     .newsletter .subscribe span {
-      color: #ffffff;
       opacity: .6; }
   .newsletter .form-subscribe {
     margin: 25px 0 25px 0; }

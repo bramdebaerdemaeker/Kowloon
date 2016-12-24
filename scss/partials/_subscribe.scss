@@ -1,3 +1,8 @@
+
+/****************
+** Newsletter **
+****************/
+
 .newsletter {
   margin-top: 50px;
   margin-bottom: 150px;
@@ -8,6 +13,7 @@
     background-image: url(/img/newsletter/discover.png);
     text-align: center;
     color: $white;
+    font-family: choplin-medium;
 
     h1 {
       margin-top: 20px;
@@ -18,36 +24,36 @@
       vertical-align: bottom;
     }
   }
+  
 
   .subscribe {
     height: 200px;
     background-color: $bg-subscribe;
+    color: $white;
 
-      h3 {
-        color: $white;
-        margin-top: 35px;
-      }
-
-      span {
-        color: $white;
-        opacity: .6;
-      }
+    h3 {
+      margin-top: 35px;
     }
 
-    .form-subscribe {
-      margin: 25px 0 25px 0;
-
-      button {
-        background-color: $bg-button-newsletter;
-        color: $white;
-        border: none;
-        height: 3em;
-        width: 3em;
-      }
-
-      input {
-        height: 2.9em;
-        width: 80%;
-      }
+    span {
+      opacity: .6;
     }
+  }
+
+  .form-subscribe {
+    margin: 25px 0 25px 0;
+
+    button {
+      background-color: $bg-button-newsletter;
+      color: $white;
+      border: none;
+      height: 3em;
+      width: 3em;
+    }
+
+    input {
+      height: 2.9em;
+      width: 80%;
+    }
+  }
 }
