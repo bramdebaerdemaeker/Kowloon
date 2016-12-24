@@ -25,8 +25,17 @@ $font-family-main:'Arial', sans-serif;
 $bg-canvas: #444546;
 $white: #ffffff;
 $black: #000000;
-$bg-category-dog: #fd719e;
 
+/*
+*
+* category colours */
+
+$bg-category-dog: #fd719e;
+$bg-category-cat: #888afc;
+$bg-category-fish: #fdb84c;
+$bg-category-bird: #80fd87;
+$bg-category-hamster: #7fe5fd;
+$bg-category-grey: #ffffff;
 
 /*
 *
@@ -95,6 +104,7 @@ $border-contact: 1px solid rgba(255,255,255,0.2);
 * breadcrumb */
 
 $bg-breadcrumb: #272727;
+
 
 
 /*

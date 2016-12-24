@@ -12,6 +12,9 @@
 * main colors */
 /*
 *
+* category colours */
+/*
+*
 * navigation */
 /*
 *
@@ -352,7 +355,8 @@ body {
 .hot-products {
   margin-top: 50px;
   color: #ffffff; }
-  .hot-products h1 {
+  .hot-products h1,
+  .hot-products h4 {
     font-family: Choplin-Medium; }
   .hot-products .products {
     display: flex;
@@ -372,7 +376,7 @@ body {
   height: auto;
   background-color: #565656;
   color: #ffffff; }
-  .product:hover .overlay {
+  .product:hover .overlay, .product:hover .overlay-dog, .product:hover .overlay-cat, .product:hover .overlay-fish, .product:hover .overlay-bird, .product:hover .overlay-hamster, .product:hover .overlay-grey {
     animation-name: overlay-product;
     animation-duration: .9s;
     visibility: inherit; }
@@ -388,18 +392,34 @@ body {
     margin-right: 7px;
     font-weight: normal;
     z-index: 30; }
-  .product .overlay {
+  .product .overlay, .product .overlay-dog, .product .overlay-cat, .product .overlay-fish, .product .overlay-bird, .product .overlay-hamster, .product .overlay-grey {
     z-index: 2;
     visibility: hidden;
     position: absolute;
     width: 228px;
     height: 160px;
     opacity: .8;
-    background-color: #ff6f9e;
     background-image: url("/img/hot_items/overlay.png");
     background-position: center;
     background-repeat: no-repeat; }
+  .product .overlay-dog {
+    background-color: #fd719e; }
+  .product .overlay-cat {
+    background-color: #888afc; }
+  .product .overlay-fish {
+    background-color: #fdb84c; }
+  .product .overlay-bird {
+    background-color: #80fd87; }
+  .product .overlay-hamster {
+    background-color: #7fe5fd; }
+  .product .overlay-grey {
+    background-color: #ffffff; }
 
+@keyframes overlay-product {
+  from {
+    opacity: 0; }
+  to {
+    opacity: .8; } }
 .product-big {
   padding: 10px;
   height: auto;
@@ -417,11 +437,6 @@ body {
     padding: 5px;
     background-color: #fd719e; }
 
-@keyframes overlay-product {
-  from {
-    opacity: 0; }
-  to {
-    opacity: .8; } }
 .circles {
   position: absolute;
   z-index: 1;
@@ -690,9 +705,11 @@ button {
   .detail .small-tumbs,
   .detail .colors {
     margin-top: 20px; }
-  .detail .indicator,
-  .detail .circles,
   .detail h2 {
+    margin: 0;
+    font-family: choplin-medium; }
+  .detail .indicator,
+  .detail .circles {
     margin: 0; }
   .detail .obligatory {
     display: flex;
@@ -707,10 +724,12 @@ button {
     margin-left: 20px; }
 
 .description {
-  margin-top: 60px; }
+  margin-top: 60px;
+  font-family: "Arial", sans-serif; }
 
 .specifications {
   border: 1px solid #717171;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-family: "Arial", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

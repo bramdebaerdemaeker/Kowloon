@@ -7,9 +7,13 @@
     margin-top: 20px;
   }
 
-  .indicator,
-  .circles,
   h2 {
+    margin: 0;
+    font-family: choplin-medium;
+  }
+
+  .indicator,
+  .circles {
     margin: 0;
   }
 
@@ -34,9 +38,11 @@
 
 .description {
   margin-top: 60px;
+  font-family: $font-family-main;
 }
 
 .specifications {
   border: 1px solid $specifications-border;
   margin-top: 20px;
+  font-family: $font-family-main;
 }

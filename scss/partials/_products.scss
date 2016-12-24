@@ -7,7 +7,8 @@
   margin-top: 50px;
   color: $white;
 
-  h1 {
+  h1,
+  h4 {
     font-family: Choplin-Medium;
   }
 
@@ -67,12 +68,45 @@
       width: 228px;
       height: 160px;
       opacity: .8;
-      background-color: $bg-hover-product;
       background-image: $img-hover-product;
       background-position: center;
       background-repeat: no-repeat;
   }
 
+  .overlay-dog {
+    @extend .overlay;
+    background-color: $bg-category-dog;
+  }
+
+  .overlay-cat {
+    @extend .overlay;
+    background-color: $bg-category-cat;
+  }
+
+  .overlay-fish {
+    @extend .overlay;
+    background-color: $bg-category-fish;
+  }
+
+  .overlay-bird {
+    @extend .overlay;
+    background-color: $bg-category-bird;
+  }
+
+  .overlay-hamster {
+    @extend .overlay;
+    background-color: $bg-category-hamster;
+  }
+
+  .overlay-grey {
+    @extend .overlay;
+    background-color: $bg-category-grey;
+  }
+}
+
+@keyframes overlay-product {
+  from {opacity: 0;}
+  to {opacity: .8;}
 }
 
 .product-big{
@@ -96,10 +130,7 @@
   }
 }
 
-@keyframes overlay-product {
-  from {opacity: 0;}
-  to {opacity: .8;}
-}
+
 
 .circles {
   position: absolute;
