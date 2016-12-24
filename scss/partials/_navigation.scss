@@ -27,17 +27,13 @@
   }
 
   .sidenav-text {
-    display: none;
+    opacity: 0;
     position: absolute;
     left: 75px;
     margin-top: -34px;
     white-space: nowrap;
   }
 }
-
-/*
- ** Kowloon logo **
- */
 
 .nav-bottom {
   position: absolute;
@@ -49,8 +45,8 @@
 
 
 /*
- ** sprite-image positioning **
- */
+ *
+ * sprite-image positioning */
 
 .nav-item {
   height: $nav-sprite-icon-height;
@@ -59,7 +55,7 @@
   background-repeat: no-repeat;
 }
 
-.hamburger {
+.nav-expend {
   background-position-y: -($nav-sprite-icon-height*0);
 }
 
@@ -98,8 +94,8 @@
 
 
 /*
- ** sprite-image positioning on hover and active status **
- */
+ *
+ * sprite-image positioning on hover and active status */
 
 .search,
 .faq,
@@ -121,8 +117,8 @@
 
 
 /*
- ** navbar expend **
- */
+ *
+ * navbar expend */
 
 .sidenav-big {
   @extend .sidenav;
@@ -130,8 +126,8 @@
   width: 220px;
 
   .sidenav-text {
-    @include transition(.5s);
-    display: inherit;
+    @include transition(1.5s);
+    opacity: 1;
   }
 
   .nav-bottom{

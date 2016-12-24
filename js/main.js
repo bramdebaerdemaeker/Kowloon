@@ -8,9 +8,7 @@ $(function() {
    *
    * navbar expend */
 
-
-  $("#hamburger").on('click', function(){
-    console.log('clicked hamburger');
+  $("#nav-expend").on('click', function(){
     $("#sidenav").toggleClass('sidenav-big');
   });
 
