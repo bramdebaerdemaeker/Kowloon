@@ -1,8 +1,8 @@
 $(function() {
 
   /*
-   *
-   * navbar expend */
+  *
+  * navbar expend */
 
   $("#nav-expend").on('click', function(){
     $("#sidenav").toggleClass('sidenav-big');
@@ -11,13 +11,50 @@ $(function() {
 
 
   // start state of search and faq overlay
-    $('#search-overlay').hide();
-    $('#faq-overlay').hide();
+  $('#search-overlay').hide();
+  $('#faq-overlay').hide();
+
+  function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
+
+  function validate() {
+    var email = $("#InputEmail").val();
+    var text = $("#Textarea").val();
+    if (validateEmail(email) && text) {
+      $("#InputEmail").css("border-color", "green");
+      console.log(text);
+    } else {
+      $("#InputEmail").css("border-color", "red");
+      alert('Er ging iets mis, gelieve een geldig email adres in te geven en een message');
+    }
+    return false;
+  }
+
+  $("#validate").bind("click", validate);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /*
-   *
-   * FAQ questions expend */
+  *
+  * FAQ questions expend */
 
   $("#rotate1").on('click', function(){
     $(this).toggleClass('rotateZ');
@@ -37,8 +74,8 @@ $(function() {
 
 
   /*
-   *
-   * search-overlay */
+  *
+  * search-overlay */
 
   $('#clear-overlay-input').on('click', function(){
     $('#search').val("");
@@ -57,8 +94,8 @@ $(function() {
   })
 
   /*
-   *
-   * price slider */
+  *
+  * price slider */
 
 
   $( "#slider-range" ).slider({

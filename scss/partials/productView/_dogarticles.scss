@@ -11,22 +11,35 @@
   position: absolute;
   left:60px;
   top: 5px;
-
 }
 
 .filter,
 .sort {
   color: $white;
+
+  h2 {
+    font-family: choplin-medium;
+  }
 }
 
 .filters {
   display: flex;
-  // margin-top: 10px;
   align-items: baseline;
+  padding-bottom: 30px;
 
   label {
     padding-right: 30px;
   }
+}
+
+.collection p {
+  font-size: 1.2em;
+}
+
+.range label {
+  padding-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: normal;;
 }
 
 

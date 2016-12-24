@@ -594,12 +594,24 @@ button {
 .filter,
 .sort {
   color: #ffffff; }
+  .filter h2,
+  .sort h2 {
+    font-family: choplin-medium; }
 
 .filters {
   display: flex;
-  align-items: baseline; }
+  align-items: baseline;
+  padding-bottom: 30px; }
   .filters label {
     padding-right: 30px; }
+
+.collection p {
+  font-size: 1.2em; }
+
+.range label {
+  padding-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: normal; }
 
 .ui-slider-handle {
   border-radius: 50%;
