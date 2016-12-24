@@ -51,6 +51,12 @@
 }
 
 .overlay-input {
+
+  h1 {
+    color: $bg-color-search;
+    font-family: choplin-medium;
+  }
+
   .wrap {
     margin: 100px 100px;
     position: relative;
@@ -61,7 +67,6 @@
   input[type="text"] {
     font-size: 45px;
     display: inline-block;
-    font-family: "Lato";
     border:none;
     border-bottom: 2px solid black;
     outline: none;
@@ -77,6 +82,12 @@
     &::-webkit-input-placeholder {
       color: $bg-color-search;
     }
+  }
+
+  .faq-search,
+  .faq-search::-webkit-input-placeholder {
+    color: #535353!important;
+    font-family: $font-family-main !important;
   }
 
   input[type="submit"] {

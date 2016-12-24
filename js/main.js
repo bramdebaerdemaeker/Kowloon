@@ -14,6 +14,11 @@ $(function() {
   $('#search-overlay').hide();
   $('#faq-overlay').hide();
 
+
+  /*
+  *
+  * about page validation */
+
   function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
@@ -33,22 +38,6 @@ $(function() {
   }
 
   $("#validate").bind("click", validate);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -75,10 +64,14 @@ $(function() {
 
   /*
   *
-  * search-overlay */
+  * search + faq overlay */
 
-  $('#clear-overlay-input').on('click', function(){
+  $('#clear-search-input').on('click', function(){
     $('#search').val("");
+  });
+
+  $('#clear-faq-input').on('click', function(){
+    $('#faq-search').val("");
   });
 
   $('#close-screen-overlay').on('click', function(){
@@ -87,11 +80,16 @@ $(function() {
 
   $('#nav-search').on('click', function(){
     $('#search-overlay').toggle();
-  })
+  });
 
   $('#nav-faq').on('click', function(){
     $('#faq-overlay').toggle();
-  })
+  });
+
+  $('#close-faq-overlay').on('click', function(){
+    console.log('clicked');
+    $('#faq-overlay').hide();
+  });
 
   /*
   *

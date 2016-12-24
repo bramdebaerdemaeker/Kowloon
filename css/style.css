@@ -310,6 +310,9 @@ body {
 .search-overlay-filter .ui-slider-handle {
   background-color: #000000; }
 
+.overlay-input h1 {
+  color: #e0751f;
+  font-family: choplin-medium; }
 .overlay-input .wrap {
   margin: 100px 100px;
   position: relative;
@@ -318,7 +321,6 @@ body {
 .overlay-input input[type="text"] {
   font-size: 45px;
   display: inline-block;
-  font-family: "Lato";
   border: none;
   border-bottom: 2px solid black;
   outline: none;
@@ -332,6 +334,10 @@ body {
   cursor: text; }
   .overlay-input input[type="text"]::-webkit-input-placeholder {
     color: #e0751f; }
+.overlay-input .faq-search,
+.overlay-input .faq-search::-webkit-input-placeholder {
+  color: #535353 !important;
+  font-family: "Arial", sans-serif !important; }
 .overlay-input input[type="submit"] {
   height: 67px;
   min-width: 63px;
