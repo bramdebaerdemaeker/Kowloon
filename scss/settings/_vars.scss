@@ -1,7 +1,6 @@
 /*
- ** Fonts **
- */
-
+*
+* Fonts */
 
 $font-family-main:'Arial', sans-serif;
 
@@ -9,8 +8,8 @@ $font-family-main:'Arial', sans-serif;
 
 
 /*
- ** main colors **
- */
+*
+* main colors */
 
 $bg-canvas: #444546;
 $white: #ffffff;
@@ -18,8 +17,8 @@ $black: #000000;
 
 
 /*
- ** navigation **
- */
+*
+* navigation */
 
 $bg-nav: #313233;
 $nav-sprite-image: url('/img/nav/nav-basic-sprite1.png');
@@ -29,8 +28,8 @@ $font-size-nav: 1.3em;
 
 
 /*
- ** home **
- */
+*
+* home */
 
 $border-category: 1px solid #616161;
 $category-sprite-image: url('/img/categories/category-sprite1.png');
@@ -40,8 +39,8 @@ $category-sprite-icon-width: 160px;
 
 
 /*
- ** carousel **
- */
+*
+* carousel */
 
 $border-carousel-indicator: #959595;
 $bg-carousel-indicator: #ffffff;
@@ -51,8 +50,8 @@ $img-slide1: url(/img/carousel/img_dog1.png);
 $img-slide2: url(/img/carousel/img_dog2.png);
 
 /*
- ** products - hot items **
- */
+*
+* products - hot items */
 
 $bg-product: #565656;
 $product-border: 1px solid #717171;
@@ -61,31 +60,33 @@ $img-hover-product: url('/img/hot_items/overlay.png');
 $bg-circle2: #2c2a2a;
 $bg-circle3: #2d4ca8;
 $border-circles: 1px solid #ffffff;
+
+
 /*
- ** newsletter **
- */
+*
+* newsletter */
 
 $bg-subscribe: #5f5f5f;
 $bg-button-newsletter: #323232;
 
 
 /*
- ** about form **
- */
+*
+* about form */
 
 $bg-button-message: #ff6493;
 
 
 /*
- ** breadcrumb **
- */
+*
+* breadcrumb */
 
 $bg-breadcrumb: #272727;
 
 
 /*
- ** sort by **
- */
+*
+* sort by */
 
 $color-text-active: #cecece;
 $color-text-non-active: #454545;
@@ -95,8 +96,8 @@ $bg-filter-slider: #9a9a9a;
 
 
 /*
- ** product detail
- */
+*
+* product detail */
 
 $specifications-border: #717171;
 $bg-obligatory: #828282;
@@ -107,27 +108,29 @@ $bg-color-search: #e0751f;
 
 
 /*
- ** mixins **
- */
+*
+* screen overlay */
 
- // @mixin border($border) {
- //   -webkit-border: $border;
- //      -moz-border: $border;
- //       -ms-border: $border;
- //           border: $border;
- // }
+$box-shadow-search-overlay: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$bg-search-overlay-icon: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
 
 
- @mixin transition($time) {
+
+/*
+** mixins **
+*/
+
+
+@mixin transition($time) {
   -webkit-transition: $time;
-     -moz-transition: $time;
-      -ms-transition: $time;
-          transition: $time;
+  -moz-transition: $time;
+  -ms-transition: $time;
+  transition: $time;
 }
 
 @mixin transform($transformation) {
- -webkit-transform: $transformation;
-    -moz-transform: $transformation;
-     -ms-transform: $transformation;
-         transform: $transformation;
+  -webkit-transform: $transformation;
+  -moz-transform: $transformation;
+  -ms-transform: $transformation;
+  transform: $transformation;
 }

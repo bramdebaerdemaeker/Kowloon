@@ -1,15 +1,23 @@
 $(function() {
 
+// start state of search and faq overlay
+  $('#search-overlay').hide();
+  $('#faq-overlay').hide();
 
   /*
-   ** navbar expend **
-   */
+   *
+   * navbar expend */
+
 
   $("#hamburger").on('click', function(){
     console.log('clicked hamburger');
     $("#sidenav").toggleClass('sidenav-big');
   });
 
+
+  /*
+   *
+   * FAQ questions expend */
 
   $("#rotate1").on('click', function(){
     $(this).toggleClass('rotateZ');
@@ -27,9 +35,31 @@ $(function() {
     $(this).toggleClass('rotateZ');
   });
 
+
   /*
-   ** price slider **
-   */
+   *
+   * search-overlay */
+
+  $('#clear-overlay-input').on('click', function(){
+    $('#search').val("");
+  });
+
+  $('#close-screen-overlay').on('click', function(){
+    $('#search-overlay').hide();
+  });
+
+  $('#nav-search').on('click', function(){
+    $('#search-overlay').toggle();
+  })
+
+  $('#nav-faq').on('click', function(){
+    $('#faq-overlay').toggle();
+  })
+
+  /*
+   *
+   * price slider */
+
 
   $( "#slider-range" ).slider({
     range: true,

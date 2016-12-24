@@ -14,8 +14,8 @@
   <!-- navbar -->
   <div class="sidenav" id="sidenav">
     <a id="hamburger"><div class="nav-item hamburger"></div></a>
-    <a href="#"><div class="nav-item search"></div><span class="sidenav-text">Search</span></a>
-    <a href="#"><div class="nav-item faq"></div><span class="uppercase sidenav-text">faq</span></a>
+    <a href="#" id="nav-search"><div class="nav-item search"></div><span class="sidenav-text">Search</span></a>
+    <a href="#" id="nav-faq"><div class="nav-item faq"></div><span class="uppercase sidenav-text">faq</span></a>
     <a href="about.html"><div class="nav-item contact"></div><span class="sidenav-text">Contact</span></a>
     <hr>
     <a href="dogarticles.html"><div class="nav-item dogarticle"></div><span class="sidenav-text">Dogs</span></a>
@@ -30,8 +30,13 @@
   </div>
 
   <!-- search overlay -->
-  <div class="search-overlay" id="search-overlay">
-    <div class="search-overlay-content">
+  <div class="screen-overlay" id="search-overlay">
+    <div class="screen-overlay-content">
+
+      <!-- close tag -->
+      <div class="close" id="close-screen-overlay">
+        <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+      </div>
 
       <!-- filter -->
       <div class="search-overlay-filter">
@@ -42,7 +47,7 @@
         </div>
 
         <div class="row">
-          <div id="filterCollapse" class="col-md-8 col-md-offset-1 centered collapse in">
+          <div id="filterCollapse" class="col-md-8 col-md-offset-1 centered collapse out">
             <div class="collection">
               <div class="row">
                 <div class="col-md-6">
@@ -100,7 +105,7 @@
       </div>
 
       <!-- search bar -->
-      <div class="search-overlay-input">
+      <div class="overlay-input">
         <div class="row">
           <div class="col-md-9 centered">
 
@@ -114,10 +119,10 @@
         </div>
         <div class="row">
           <div class="col-md-7 centered input-bar">
-            <div class="">
+            <div>
               3 items found for the word "Crafted"
             </div>
-            <div class="clear">
+            <div class="clear-overlay-input" id="clear-overlay-input">
               <i class="fa fa-window-close-o" aria-hidden="true"></i>Clear
             </div>
           </div>
@@ -139,6 +144,84 @@
           </div>
         </div>
       </div>
+
+      <!-- suggestions -->
+      <div class="suggestion">
+        <div class="row">
+          <div class="col-md-7 centered">
+            Try checking spelling or tweaking it. Maybe use fewer words or a more general search term. </br> If you still have no luck you can contact our <a href="#">Customer service</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- faq overlay -->
+  <div class="screen-overlay" id="faq-overlay">
+    <div class="screen-overlay-content">
+
+      <!-- close tag -->
+      <div class="close" id="close-screen-overlay">
+        <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+      </div>
+
+      <!-- search bar -->
+      <div class="overlay-input">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-1 centered uppercase">
+            <h1>frequently asked questions</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 centered">
+
+            <div class="wrap">
+              <form action="" autocomplete="on">
+                <input id="search" name="search" type="text" placeholder="Search on keyword"><input id="search_submit" value="Rechercher" type="submit">
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7 centered input-bar">
+            <div>
+
+            </div>
+            <div class="clear-overlay-input" id="clear-overlay-input">
+              <i class="fa fa-window-close-o" aria-hidden="true"></i>Clear
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- suggestions -->
+      <div class="suggestion">
+        <div class="row">
+          <div class="col-md-7 centered">
+            Try checking spelling or tweaking it. Maybe use fewer words or a more general search term. </br> If you still have no luck you can contact our <a href="#">Customer service</a>.
+          </div>
+        </div>
+      </div>
+
+      <!-- results -->
+      <div class="search-overlay-results">
+        <div class="row">
+          <div class="col-md-9 centered result">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 centered result">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 centered result">
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 

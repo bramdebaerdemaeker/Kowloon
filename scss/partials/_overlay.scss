@@ -1,99 +1,103 @@
-.search-overlay {
+.screen-overlay {
   position: absolute;
-  min-height: 100vh;
+  min-height: 100vmax;
   width: 96%;
   right:0;
   opacity: .97;
   background-color: $white;
-  z-index: 40;
-
-  .price-slider {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-
-    // input[type="text"] {
-    //   text-align: center;
-    // }
-  }
-
-  // price slider
-  .ui-slider-handle {
-    background-color: $black;
-  }
-
-
+  z-index: 16;
 }
 
-.search-overlay-content {
-  color: black;
+
+.screen-overlay-content {
   margin-top: 50px;
 
-  .search-overlay-input {
-    .wrap {
-      margin: 100px 100px;
-      position: relative;
-      height: 60px;
-      padding: 0;
-    }
-
-    input[type="text"] {
-      font-size: 45px;
-      display: inline-block;
-      font-family: "Lato";
-      border: none;
-      outline: none;
-      color: $bg-color-search;
-      padding: 3px;
-      padding-left: 80px;
-      width: 0px;
-      position: absolute;
-      background: none;
-      z-index: 3;
-      transition: width .7s cubic-bezier(0.000, 0.795, 0.000, 1.000);
-      cursor: pointer;
-
-      &::-webkit-input-placeholder {
-        color: $bg-color-search;
-      }
-
-      &:focus {
-        min-width: 830px;
-        z-index: 1;
-        border-bottom: 2px solid black;
-        cursor: text;
-      }
-    }
-
-    input[type="submit"] {
-      height: 67px;
-      min-width: 63px;
-      display: inline-block;
-      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
-      text-indent: -10000px;
-      border: none;
-      position: absolute;
-      z-index: 2;
-      cursor: pointer;
-      transition: opacity .4s ease;
-    }
-
-    .input-bar {
-      display: flex;
-      justify-content: space-between;
-      margin-top: -80px;
-
-      .clear {
-        cursor: pointer;
-      }
-    }
+  .close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
   }
 
   .result {
     height: 150px;
     width: 800px;
     margin-top: 30px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: $box-shadow-search-overlay;
   }
 
+  .suggestion {
+    margin-top: 20px;
+
+    a,
+    a:active {
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+
+}
+
+.search-overlay-filter {
+  .price-slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  // price slider bar
+  .ui-slider-handle {
+    background-color: $black;
+  }
+}
+
+.overlay-input {
+  .wrap {
+    margin: 100px 100px;
+    position: relative;
+    height: 60px;
+    padding: 0;
+  }
+
+  input[type="text"] {
+    font-size: 45px;
+    display: inline-block;
+    font-family: "Lato";
+    border:none;
+    border-bottom: 2px solid black;
+    outline: none;
+    color: $bg-color-search;
+    padding: 3px;
+    padding-left: 80px;
+    min-width: 830px;
+    position: absolute;
+    background: none;
+    z-index: 1;
+    cursor: text;
+
+    &::-webkit-input-placeholder {
+      color: $bg-color-search;
+    }
+  }
+
+  input[type="submit"] {
+    height: 67px;
+    min-width: 63px;
+    display: inline-block;
+    background: $bg-search-overlay-icon;
+    text-indent: -10000px;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .input-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+
+    .clear-overlay-input {
+      cursor: pointer
+    }
+  }
 }
