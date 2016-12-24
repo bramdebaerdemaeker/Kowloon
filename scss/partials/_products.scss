@@ -75,6 +75,27 @@
 
 }
 
+.product-big{
+  padding: 10px;
+  height: auto;
+  background-color: $bg-product;
+  color: $white;
+  border: $product-border;
+
+  img {
+    width: 100%;
+  }
+  .btn-big {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px !important;
+    border: none;
+    padding: 5px;
+    background-color: $bg-category-dog;
+  }
+}
+
 @keyframes overlay-product {
   from {opacity: 0;}
   to {opacity: .8;}
@@ -89,7 +110,6 @@
 }
 
 .circle {
-  background-color: green;
   width: 15px;
   height: 15px;
   margin: 2px;

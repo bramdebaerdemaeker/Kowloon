@@ -400,6 +400,23 @@ body {
     background-position: center;
     background-repeat: no-repeat; }
 
+.product-big {
+  padding: 10px;
+  height: auto;
+  background-color: #565656;
+  color: #ffffff;
+  border: 1px solid #717171; }
+  .product-big img {
+    width: 100%; }
+  .product-big .btn-big {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px !important;
+    border: none;
+    padding: 5px;
+    background-color: #fd719e; }
+
 @keyframes overlay-product {
   from {
     opacity: 0; }
@@ -413,7 +430,6 @@ body {
   margin-left: 5px; }
 
 .circle, .circle1, .circle2, .circle3 {
-  background-color: green;
   width: 15px;
   height: 15px;
   margin: 2px;
@@ -492,6 +508,33 @@ body {
       margin: 0; }
   .breadcrumb .tag2:before {
     left: 124px; }
+
+/*
+*
+* tag color in breadcrumb */
+.circle-category, .circle-category-dog, .circle-category-cat, .circle-category-fish, .circle-category-bird, .circle-category-hamster {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left: 60px;
+  top: 5px; }
+
+.circle-category-dog {
+  background-color: #fd719e; }
+
+.circle-category-cat {
+  background-color: #fd719e; }
+
+.circle-category-fish {
+  background-color: #fd719e; }
+
+.circle-category-bird {
+  background-color: #fd719e; }
+
+.circle-category-hamster {
+  background-color: #fd719e; }
 
 /*********************
  ** About page **
@@ -578,19 +621,6 @@ button {
   .questions .collapse {
     padding-bottom: 10px; }
 
-/*
- *
- * breadcrumb circle */
-.circle4 {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: none;
-  background-color: #fd719e;
-  position: absolute;
-  left: 60px;
-  top: 5px; }
-
 .filter,
 .sort {
   color: #ffffff; }
@@ -649,21 +679,6 @@ button {
   background-color: #616161;
   border: none;
   border-radius: 0px; }
-
-.product-big {
-  padding: 10px;
-  height: auto;
-  background-color: #565656;
-  color: #ffffff; }
-  .product-big img {
-    width: 100%; }
-  .product-big .btn-big {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 200px !important;
-    border: none;
-    padding: 5px; }
 
 .tet3 {
   padding: 0;

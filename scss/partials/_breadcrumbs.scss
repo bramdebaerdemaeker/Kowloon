@@ -37,6 +37,43 @@
     }
   }
 
+}
 
+/*
+*
+* tag color in breadcrumb */
 
+.circle-category {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left:60px;
+  top: 5px;
+}
+
+.circle-category-dog{
+  @extend .circle-category;
+  background-color: $bg-category-dog;
+}
+
+.circle-category-cat{
+  @extend .circle-category;
+  background-color: $bg-category-dog;
+}
+
+.circle-category-fish{
+  @extend .circle-category;
+  background-color: $bg-category-dog;
+}
+
+.circle-category-bird{
+  @extend .circle-category;
+  background-color: $bg-category-dog;
+}
+
+.circle-category-hamster{
+  @extend .circle-category;
+  background-color: $bg-category-dog;
 }
