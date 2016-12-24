@@ -1,3 +1,8 @@
+
+/*********************
+ ** About page **
+ *********************/
+
 .header {
   height: 50vh;
   width: 96%;
@@ -13,11 +18,6 @@
 
 .rotate {
   @include transform(rotateZ(-90deg));
-
-  // &:hover {
-  //   @include transform(rotateZ(1deg));
-  //   transition-duration: .5s;
-  // }
 }
 
 .rotateZ{
@@ -28,9 +28,14 @@
 .about {
   color: $white;
 
+  h2,
+  h4 {
+    font-family: choplin-medium;
+  }
+
   .contact {
-    border-left: 1px solid rgba(255,255,255,0.2);
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-left: $border-contact;
+    border-bottom: $border-contact;
 
     h4 {
       margin-left: 25px;
@@ -40,13 +45,21 @@
   .content {
     margin-top: 30px;
   }
-
 }
 
 .message {
   margin-top: 50px !important;
   min-height: 50px;
   color: $white;
+
+  label {
+    font-size: 1.2em;
+    font-weight: lighter;
+  }
+
+  h4{
+    font-family: choplin-medium;
+  }
 
   .email {
     width: 20%;
@@ -80,9 +93,16 @@ button {
   margin-bottom: 60px !important;
   color: $white;
 
+  .title {
+    h4  {
+      font-family: choplin-medium;
+    }
+  }
+
   .item {
     background-color: $bg-subscribe;
     margin-bottom: 15px;
+    font-family: $font-family-main;
 
     .split {
       display: flex;

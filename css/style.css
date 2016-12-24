@@ -47,7 +47,6 @@
  ** main settings for the whole site **
  */
 body {
-  font-family: "Arial", sans-serif;
   height: 100%; }
 
 /*
@@ -230,7 +229,8 @@ body {
 .intro {
   margin-top: 50px;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  font-family: "Arial", sans-serif; }
 
 /*
  *
@@ -493,6 +493,9 @@ body {
   .breadcrumb .tag2:before {
     left: 124px; }
 
+/*********************
+ ** About page **
+ *********************/
 .header {
   height: 50vh;
   width: 96%;
@@ -518,6 +521,9 @@ body {
 
 .about {
   color: #ffffff; }
+  .about h2,
+  .about h4 {
+    font-family: choplin-medium; }
   .about .contact {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
@@ -530,6 +536,11 @@ body {
   margin-top: 50px !important;
   min-height: 50px;
   color: #ffffff; }
+  .message label {
+    font-size: 1.2em;
+    font-weight: lighter; }
+  .message h4 {
+    font-family: choplin-medium; }
   .message .email {
     width: 20%;
     border-radius: 0; }
@@ -552,9 +563,12 @@ button {
   margin-top: 60px !important;
   margin-bottom: 60px !important;
   color: #ffffff; }
+  .questions .title h4 {
+    font-family: choplin-medium; }
   .questions .item {
     background-color: #5f5f5f;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-family: "Arial", sans-serif; }
     .questions .item .split {
       display: flex;
       justify-content: space-between;
