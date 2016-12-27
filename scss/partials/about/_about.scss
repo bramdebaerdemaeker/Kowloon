@@ -1,7 +1,7 @@
 
 /*********************
- ** About page **
- *********************/
+** About page **
+*********************/
 
 .header {
   height: 50vh;
@@ -10,11 +10,19 @@
   background-image: url(/img/about/about.png);
 }
 
+/*
+*
+* breadcrumb */
+
 .indicator {
   margin: 60px 0 40px 0;
   display: flex;
 
 }
+
+/*
+*
+* question dropdown animation */
 
 .rotate {
   @include transform(rotateZ(-90deg));
@@ -24,6 +32,7 @@
   @include transform(rotateZ(1deg));
   transition-duration: .5s;
 }
+
 
 .about {
   color: $white;
@@ -47,6 +56,10 @@
   }
 }
 
+
+/*
+*
+* form */
 .message {
   margin-top: 50px !important;
   min-height: 50px;
@@ -85,37 +98,5 @@ button {
 
   &:focus {
     outline: none !important;
-  }
-}
-
-.questions {
-  margin-top: 60px !important;
-  margin-bottom: 60px !important;
-  color: $white;
-
-  .title {
-    h4  {
-      font-family: choplin-medium;
-    }
-  }
-
-  .item {
-    background-color: $bg-subscribe;
-    margin-bottom: 15px;
-    font-family: $font-family-main;
-
-    .split {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    h4 {
-        margin-left: 15px;
-    }
-  }
-
-  .collapse {
-    padding-bottom: 10px;
   }
 }

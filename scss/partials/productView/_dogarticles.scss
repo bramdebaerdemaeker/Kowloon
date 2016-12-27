@@ -40,6 +40,20 @@
   background-color: $bg-filter-slider;
 }
 
+.price-slider-articles {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 10px;
+
+  input {
+    border: $border-price-slider-val;
+    color: $black;
+    font-weight: normal;
+    padding: 8px;
+    margin-top: -15px;
+  }
+}
 
 // sort by
 .bootstrap-select {

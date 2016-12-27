@@ -224,11 +224,11 @@ body {
   top: 7%; }
 
 /******************************************
- ** home page layout: intro + categories **
- ******************************************/
+** home page layout: intro + categories **
+******************************************/
 /*
- *
- * intro tekst */
+*
+* intro tekst */
 .intro {
   margin-top: 50px;
   color: #ffffff;
@@ -236,8 +236,8 @@ body {
   font-family: "Arial", sans-serif; }
 
 /*
- *
- * categories */
+*
+* categories */
 .categories {
   margin-left: 15%;
   margin-top: 50px; }
@@ -276,6 +276,9 @@ body {
   background-position-x: -800px;
   border: none; }
 
+/*
+ *
+ * sprite-image positioning on hover and active status */
 .screen-overlay {
   position: absolute;
   min-height: 100vmax;
@@ -292,8 +295,7 @@ body {
     top: 30px;
     right: 40px; }
   .screen-overlay-content .result {
-    height: 150px;
-    width: 800px;
+    padding: 20px;
     margin-top: 30px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   .screen-overlay-content .suggestion {
@@ -303,6 +305,8 @@ body {
       text-decoration: underline;
       color: #000000; }
 
+.search-overlay-filter h3 {
+  font-weight: normal; }
 .search-overlay-filter .price-slider {
   display: flex;
   justify-content: space-between;
@@ -314,7 +318,7 @@ body {
   color: #e0751f;
   font-family: choplin-medium; }
 .overlay-input .wrap {
-  margin: 100px 100px;
+  margin: 100px 0px;
   position: relative;
   height: 60px;
   padding: 0; }
@@ -327,7 +331,7 @@ body {
   color: #e0751f;
   padding: 3px;
   padding-left: 80px;
-  min-width: 830px;
+  width: 100%;
   position: absolute;
   background: none;
   z-index: 1;
@@ -557,19 +561,44 @@ body {
 .circle-category-hamster {
   background-color: #fd719e; }
 
+.questions {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+  color: #ffffff; }
+  .questions .title h4 {
+    font-family: choplin-medium; }
+  .questions .item {
+    background-color: #5f5f5f;
+    margin-bottom: 15px;
+    font-family: "Arial", sans-serif; }
+    .questions .item .split {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .questions .item h4 {
+      margin-left: 15px; }
+  .questions .collapse {
+    padding-bottom: 10px; }
+
 /*********************
- ** About page **
- *********************/
+** About page **
+*********************/
 .header {
   height: 50vh;
   width: 96%;
   float: right;
   background-image: url(/img/about/about.png); }
 
+/*
+*
+* breadcrumb */
 .indicator {
   margin: 60px 0 40px 0;
   display: flex; }
 
+/*
+*
+* question dropdown animation */
 .rotate {
   -webkit-transform: rotateZ(-90deg);
   -moz-transform: rotateZ(-90deg);
@@ -596,6 +625,9 @@ body {
   .about .content {
     margin-top: 30px; }
 
+/*
+*
+* form */
 .message {
   margin-top: 50px !important;
   min-height: 50px;
@@ -622,25 +654,6 @@ button {
     color: #ffffff !important; }
   button:focus {
     outline: none !important; }
-
-.questions {
-  margin-top: 60px !important;
-  margin-bottom: 60px !important;
-  color: #ffffff; }
-  .questions .title h4 {
-    font-family: choplin-medium; }
-  .questions .item {
-    background-color: #5f5f5f;
-    margin-bottom: 15px;
-    font-family: "Arial", sans-serif; }
-    .questions .item .split {
-      display: flex;
-      justify-content: space-between;
-      align-items: center; }
-    .questions .item h4 {
-      margin-left: 15px; }
-  .questions .collapse {
-    padding-bottom: 10px; }
 
 .filter,
 .sort {
@@ -672,6 +685,18 @@ button {
 .ui-widget-header {
   background-image: none;
   background-color: #9a9a9a; }
+
+.price-slider-articles {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 10px; }
+  .price-slider-articles input {
+    border: 1px solid #9a9a9a;
+    color: #000000;
+    font-weight: normal;
+    padding: 8px;
+    margin-top: -15px; }
 
 .bootstrap-select .btn-default,
 .bootstrap-select .btn-default:active {
