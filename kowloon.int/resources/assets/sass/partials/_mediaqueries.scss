@@ -1,0 +1,89 @@
+/*
+ *
+ * Media Queries
+ *
+ */
+
+/*
+ * Layout 01 & Layout 02 - - - 0px - 767px */
+@media all and (max-width: $layout-2) {
+
+}
+
+/*
+ * Layout 01 - - - 0px - 419px */
+@media all and (max-width: $layout-1) {
+
+}
+
+/*
+ * Layout 02 */
+ @media only screen
+ and (min-device-width : 768px)
+ and (max-device-width : 1024px)
+ and (orientation : portrait) {
+
+  .container {
+    width: 94% !important;
+  }
+
+  .fade-carousel{
+    height: 25vh;
+
+    .carousel-inner .item {
+      height: 25vh !important;
+    }
+  }
+}
+
+/*
+ * Layout 03 - - - 768px - 1024px */
+@media all and (min-width: ($layout-2 + 1px)) and (max-width: $layout-3) {
+
+  .row {
+    margin-right:0;
+  }
+
+  .categories {
+    margin-left: 0 !important;
+  }
+
+  .nomobile {
+    display: none;
+  }
+
+  .breadcrumb {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .price-slider-articles input {
+    width: 125px;
+    margin: 0px 30px 0px 30px;
+  }
+
+  .products img,
+  .products .overlay {
+    width: 148px;
+    height: 103px;
+  }
+
+  .products .col-md-6 {
+    padding-right: 5px !important;
+  }
+
+  .product-big img {
+    max-height: 150px;
+  }
+
+  .product-big-article {
+    height: 350px !important;
+  }
+
+}
+
+/*
+ * Layout 04 - - - 1024px - ... */
+@media all and (min-width: ($layout-3 + 1px)) {
+
+}

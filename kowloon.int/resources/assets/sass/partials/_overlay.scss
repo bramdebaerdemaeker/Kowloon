@@ -1,0 +1,119 @@
+.screen-overlay {
+  display: none;
+  position: absolute;
+  min-height: 100vmax;
+  width: 96%;
+  right:0;
+  opacity: .97;
+  background-color: $white;
+  z-index: 16;
+}
+
+
+.screen-overlay-content {
+  margin-top: 50px;
+
+  .close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+  }
+
+  .result {
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: $box-shadow-search-overlay;
+  }
+
+  .suggestion {
+    margin-top: 20px;
+
+    a,
+    a:active {
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+
+}
+
+.search-overlay-filter {
+
+  h3 {
+    font-weight: normal;
+  }
+
+  .price-slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  // price slider bar
+  .ui-slider-handle {
+    background-color: $black;
+  }
+}
+
+.overlay-input {
+
+  h1 {
+    color: $bg-color-search;
+    font-family: choplin-medium;
+  }
+
+  .wrap {
+    margin: 100px 0px;
+    position: relative;
+    height: 60px;
+    padding: 0;
+  }
+
+  input[type="text"] {
+    font-size: 45px;
+    display: inline-block;
+    border:none;
+    border-bottom: 2px solid black;
+    outline: none;
+    color: $bg-color-search;
+    padding: 3px;
+    padding-left: 80px;
+    width: 100%;
+    position: absolute;
+    background: none;
+    z-index: 1;
+    cursor: text;
+
+    &::-webkit-input-placeholder {
+      color: $bg-color-search;
+    }
+  }
+
+  .faq-search,
+  .faq-search::-webkit-input-placeholder {
+    color: #535353!important;
+    font-family: $font-family-main !important;
+  }
+
+  input[type="submit"] {
+    height: 67px;
+    min-width: 63px;
+    display: inline-block;
+    background: $bg-search-overlay-icon;
+    text-indent: -10000px;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .input-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+
+    .clear-overlay-input {
+      cursor: pointer
+    }
+  }
+}

@@ -1,0 +1,53 @@
+
+/*
+ ** main settings for the whole site **
+ */
+
+
+
+body {
+  // font-family: $font-family-main;
+  height: 100%;
+}
+
+/*
+ ** content container **
+ */
+
+.container {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 96%;
+  background-color: $bg-canvas;
+}
+
+/*
+ ** div in the center of the canvas**
+ */
+
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/*
+ ** text to uppercase **
+ */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/*
+ ** linkse inspringend
+ */
+
+// .offset-left-1 {
+//   margin-left: 25px;
+// }
+
+i {
+  cursor: pointer;
+}

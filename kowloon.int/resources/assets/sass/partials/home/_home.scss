@@ -1,0 +1,88 @@
+
+/******************************************
+** home page layout: intro + categories **
+******************************************/
+
+
+/*
+*
+* intro tekst */
+
+.intro {
+  margin-top: 50px;
+  color: $white;
+  text-align: center;
+  font-family: $font-family-main;
+}
+
+/*
+*
+* categories */
+
+.categories {
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.animal {
+  height: $category-sprite-icon-height;
+  width: $category-sprite-icon-width;
+  background: $category-sprite-image;
+  background-repeat: no-repeat;
+  border-right: $border-category;
+  text-align: center;
+
+  p {
+    font-family: choplin-light;
+    margin-top: 90px;
+    color: $white;
+    font-size: 1.2em;
+  }
+
+  // &:hover {
+  //   background-color: #323232;
+  // }
+}
+
+.dogcategory {
+  background-position-x: -($category-sprite-icon-width*0);
+}
+
+.catcategory {
+  background-position-x: -($category-sprite-icon-width*1);
+}
+
+.fishcategory {
+  background-position-x: -($category-sprite-icon-width*2);
+}
+
+.birdcategory {
+  background-position-x: -($category-sprite-icon-width*3);
+}
+
+.smallcategory {
+  background-position-x: -($category-sprite-icon-width*4);
+
+  p {
+    margin-top: 80px;
+  }
+}
+
+.othercategory {
+  background-position-x: -($category-sprite-icon-width*5);
+  border: none;
+}
+
+/*
+ *
+ * sprite-image positioning on hover and active status */
+
+// .dogcategory,
+// .catcategory,
+// .fishcategory,
+// .birdcategory,
+// .smallcategory{
+//   &:hover {
+//     background-position-y: -67px;
+//   }
+// }

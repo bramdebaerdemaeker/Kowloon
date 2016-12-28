@@ -1,0 +1,21 @@
+@import 'settings/vars';
+@import 'settings/main';
+@import "partials/mediaqueries";
+@import 'partials/navigation';
+@import 'partials/carousel';
+@import 'partials/home/home';
+@import 'partials/overlay';
+@import 'partials/products'; //hover
+@import 'partials/subscribe';
+@import 'partials/breadcrumbs';
+@import "partials/questions";
+@import 'partials/about/about'; //breadcrumbs, extend question icon turn
+@import 'partials/productView/dogarticles'; //amount characters limitation
+@import 'partials/productDetail/productDetail';
+
+
+
+//gulp checken
+//_reset.scss?
+//mixin / browser compatibility automate
+//idealiter atomic design volgen
