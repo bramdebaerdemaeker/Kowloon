@@ -81,7 +81,7 @@
 
         <!-- hot products -->
         <div class="row hot-products">
-            <div class="col-md-9 centered">
+            <div class="col-md-9 col-xs-10 centered">
 
                 <!-- title -->
                 <div class="row title">
@@ -103,7 +103,7 @@
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
-                    <div class="product">
+                    <div class="product col-md-4">
                         <div class="overlay-dog"></div>
                         <div class="circles">
                             <div class="circle1"></div>
@@ -114,7 +114,7 @@
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
-                    <div class="product">
+                    <div class="product col-md-4">
                         <div class="overlay-dog"></div>
                         <div class="circles">
                             <div class="circle1"></div>
@@ -125,7 +125,7 @@
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
-                    <div class="product">
+                    <div class="product col-md-4">
                         <div class="overlay-dog"></div>
                         <div class="circles">
                             <div class="circle1"></div>
@@ -147,13 +147,13 @@
 
         <!-- newsletter -->
         <div class="row newsletter">
-            <div class="col-lg-9 col-md-9 col-xs-11 col-xs-11-offset-1 centered">
+            <div class="col-lg-9 col-xs-9 centered">
                 <div class="row">
-                    <div class="col-lg-8 col-md-7 col-xs-5 adv">
+                    <div class="col-lg-8 col-md-6 col-xs-5 adv">
                         <h1>discover amazing </br>Kowloon deals!</h1>
                         <h4 class="uppercase">only in our newsletter</h4>
                     </div>
-                    <div class="col-lg-4 col-md-5 col-xs-7 subscribe">
+                    <div class="col-lg-4 col-md-6 col-xs-7 subscribe">
                         <h3>Subscribe to our newsletter</h3>
                         <span>Lorem ipsum dolor sit amet...</span>
 

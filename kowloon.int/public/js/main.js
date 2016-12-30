@@ -83,10 +83,12 @@ $(function() {
   });
 
   $('#nav-search').on('click', function(){
+    $('#faq-overlay').hide();
     $('#search-overlay').toggle();
   });
 
   $('#nav-faq').on('click', function(){
+    $('#search-overlay').hide();
     $('#faq-overlay').toggle();
   });
 

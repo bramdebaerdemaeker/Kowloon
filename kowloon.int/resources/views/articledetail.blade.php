@@ -14,7 +14,7 @@
         <!-- details product -->
         <div class="detail">
             <div class="row">
-                <div class="col-md-9 centered">
+                <div class="col-xs-9 centered">
 
                     <div class="row">
                         <div class="col-md-6 product-big product-big-article">
@@ -84,7 +84,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-9 centered specifications">
+                <div class="col-xs-9 centered specifications">
                     <h4>Specifications</h4>
                     <p class="uppercase">dimensions</p>
                     <p class="offset-left-1">
@@ -101,7 +101,7 @@
 
         <!-- related products -->
         <div class="row hot-products">
-            <div class="col-md-9 centered">
+            <div class="col-xs-9 centered">
 
                 <!-- title -->
                 <div class="row title">
@@ -167,22 +167,22 @@
 
         <!-- FAQ -->
         <div class="row">
-            <div class="col-md-9 centered questions">
+            <div class="col-xs-9 centered questions">
                 <div class="title">
                     <h4 class="uppercase">frequently asked questions</h4>
                 </div>
 
                 <div class="item">
                     <div class="row split">
-                        <div class="col-md-11">
+                        <div class="col-xs-11">
                             <h4>Dit is een vraag</h4>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-xs-1">
                             <i class="fa fa-sort-desc collapse rotate" id="rotate1" aria-hidden="true" data-toggle="collapse" data-target="#expend1"></i>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="expend1" class="collapse out col-md-9 col-md-offset-1">
+                        <div id="expend1" class="collapse out col-xs-9 col-xs-offset-1">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..
                         </div>
                     </div>
@@ -190,15 +190,15 @@
 
                 <div class="item">
                     <div class="row split">
-                        <div class="col-md-11">
+                        <div class="col-xs-11">
                             <h4>Dit is een vraag</h4>
                         </div>
-                        <div class="col-md-1 test1" data-icon="&#x25B6;">
+                        <div class="col-xs-1 test1" data-icon="&#x25B6;">
                             <i class="fa fa-sort-desc collapse rotate" id="rotate2" aria-hidden="true" data-toggle="collapse" data-target="#expend2"></i>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="expend2" class="collapse out col-md-9 col-md-offset-1">
+                        <div id="expend2" class="collapse out col-xs-9 col-xs-offset-1">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..
                         </div>
                     </div>
@@ -206,35 +206,32 @@
 
                 <div class="item">
                     <div class="row split">
-                        <div class="col-md-11">
+                        <div class="col-xs-11">
                             <h4>Dit is een vraag</h4>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-xs-1">
                             <i class="fa fa-sort-desc collapse rotate" id="rotate3" aria-hidden="true" data-toggle="collapse" data-target="#expend3"></i>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="expend3" class="collapse out col-md-9 col-md-offset-1">
+                        <div id="expend3" class="collapse out col-xs-9 col-md-offset-1">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..
                         </div>
                     </div>
                 </div>
 
-                <div class="link-to-more">
-                    <a href=""><u>More questions?</u></a>
-                </div>
             </div>
         </div>
 
         <!-- newsletter -->
         <div class="row newsletter">
-            <div class="col-md-9 centered">
+            <div class="col-lg-9 col-xs-9 centered">
                 <div class="row">
-                    <div class="col-md-8 adv">
+                    <div class="col-lg-8 col-md-6 col-xs-5 adv">
                         <h1>discover amazing </br>Kowloon deals!</h1>
                         <h4 class="uppercase">only in our newsletter</h4>
                     </div>
-                    <div class="col-md-4 subscribe">
+                    <div class="col-lg-4 col-md-6 col-xs-7 subscribe">
                         <h3>Subscribe to our newsletter</h3>
                         <span>Lorem ipsum dolor sit amet...</span>
 

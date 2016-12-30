@@ -63,7 +63,8 @@ body {
   padding: 0;
   float: right;
   width: 96%;
-  background-color: #444546; }
+  background-color: #444546;
+  min-height: 100vh; }
 
 /*
  ** div in the center of the canvas**
@@ -94,7 +95,7 @@ i {
 /*
  * Layout 01 - - - 0px - 419px */
 /*
- * Layout 02 */
+ * Layout 02 ipad portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 94% !important; }
@@ -102,7 +103,37 @@ i {
   .fade-carousel {
     height: 25vh; }
     .fade-carousel .carousel-inner .item {
-      height: 25vh !important; } }
+      height: 25vh !important; }
+
+  .animal {
+    width: 140px !important; }
+
+  .link-to-more {
+    display: none; }
+
+  .subscribe h3,
+  .subscribe span {
+    margin-left: 10%; }
+
+  .newsletter .form-subscribe input {
+    width: 60% !important;
+    margin-left: 10%; }
+
+  .header {
+    height: 25vh !important;
+    background-size: cover; }
+
+  .product-big {
+    display: none; }
+
+  .price-slider-articles {
+    margin-top: 30px; }
+    .price-slider-articles input[type="text"] {
+      margin-left: 0;
+      margin-right: 20px; }
+
+  .screen-overlay {
+    width: 94% !important; } }
 /*
  * Layout 03 - - - 768px - 1024px */
 @media all and (min-width: 768px) and (max-width: 1025px) {
@@ -123,22 +154,42 @@ i {
     width: 125px;
     margin: 0px 30px 0px 30px; }
 
-  .products img,
-  .products .overlay,
-  .products .product .overlay-dog,
-  .product .products .overlay-dog,
-  .products .product .overlay-cat,
-  .product .products .overlay-cat,
-  .products .product .overlay-fish,
-  .product .products .overlay-fish,
-  .products .product .overlay-bird,
-  .product .products .overlay-bird,
-  .products .product .overlay-hamster,
-  .product .products .overlay-hamster,
-  .products .product .overlay-grey,
-  .product .products .overlay-grey {
+  .dogarticle .products img,
+  .dogarticle .products .overlay,
+  .dogarticle .products .product .overlay-dog,
+  .product .dogarticle .products .overlay-dog,
+  .dogarticle .products .product .overlay-cat,
+  .product .dogarticle .products .overlay-cat,
+  .dogarticle .products .product .overlay-fish,
+  .product .dogarticle .products .overlay-fish,
+  .dogarticle .products .product .overlay-bird,
+  .product .dogarticle .products .overlay-bird,
+  .dogarticle .products .product .overlay-hamster,
+  .product .dogarticle .products .overlay-hamster,
+  .dogarticle .products .product .overlay-grey,
+  .product .dogarticle .products .overlay-grey {
     width: 148px;
     height: 103px; }
+
+  .hot-products .products img,
+  .hot-products .products .overlay,
+  .hot-products .products .product .overlay-dog,
+  .product .hot-products .products .overlay-dog,
+  .hot-products .products .product .overlay-cat,
+  .product .hot-products .products .overlay-cat,
+  .hot-products .products .product .overlay-fish,
+  .product .hot-products .products .overlay-fish,
+  .hot-products .products .product .overlay-bird,
+  .product .hot-products .products .overlay-bird,
+  .hot-products .products .product .overlay-hamster,
+  .product .hot-products .products .overlay-hamster,
+  .hot-products .products .product .overlay-grey,
+  .product .hot-products .products .overlay-grey {
+    width: 210px;
+    height: 135px; }
+
+  .hot-products .products .product {
+    margin-right: 10px !important; }
 
   .products .col-md-6 {
     padding-right: 5px !important; }
@@ -147,7 +198,13 @@ i {
     max-height: 150px; }
 
   .product-big-article {
-    height: 350px !important; } }
+    height: 350px !important; }
+
+  .screen-overlay {
+    width: 94% !important; }
+    .screen-overlay .overlay-input input[type="text"],
+    .screen-overlay .overlay-input input[type="submit"] {
+      font-size: 2.7em !important; } }
 /*
  * Layout 04 - - - 1024px - ... */
 /*********************
@@ -159,6 +216,7 @@ i {
   -ms-transition: 0.5s;
   transition: 0.5s;
   width: 60px;
+  min-height: 100vh;
   height: 100vmax;
   background-color: #313233;
   position: fixed;
@@ -447,6 +505,9 @@ i {
     font-family: choplin-medium;
     text-decoration: none;
     color: #ffffff; }
+
+.hot-products .product {
+  margin: 0px 15px 0px 15px; }
 
 .product {
   margin: 15px 0px 15px 0px;

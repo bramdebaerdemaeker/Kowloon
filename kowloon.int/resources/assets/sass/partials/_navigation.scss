@@ -6,6 +6,7 @@
 .sidenav {
   @include transition(.5s);
   width: 60px;
+  min-height: 100vh;
   height: 100vmax;
   background-color: $bg-nav;
   position: fixed;

@@ -8,6 +8,9 @@
   font-family: choplin-medium;
   src: url(fonts/Choplin-Medium.otf); }
 /*
+ *
+ * Define layouts */
+/*
 *
 * main colors */
 /*
@@ -55,11 +58,11 @@ body {
 /*
  ** content container **
  */
-.canvas {
-  width: 96%;
-  min-height: 100vh;
-  height: 100%;
+.container {
+  margin: 0;
+  padding: 0;
   float: right;
+  width: 96%;
   background-color: #444546; }
 
 /*
@@ -78,9 +81,77 @@ body {
 /*
  ** linkse inspringend
  */
-.offset-left-1 {
-  margin-left: 25px; }
+i {
+  cursor: pointer; }
 
+/*
+ *
+ * Media Queries
+ *
+ */
+/*
+ * Layout 01 & Layout 02 - - - 0px - 767px */
+/*
+ * Layout 01 - - - 0px - 419px */
+/*
+ * Layout 02 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .container {
+    width: 94% !important; }
+
+  .fade-carousel {
+    height: 25vh; }
+    .fade-carousel .carousel-inner .item {
+      height: 25vh !important; } }
+/*
+ * Layout 03 - - - 768px - 1024px */
+@media all and (min-width: 768px) and (max-width: 1025px) {
+  .row {
+    margin-right: 0; }
+
+  .categories {
+    margin-left: 0 !important; }
+
+  .nomobile {
+    display: none; }
+
+  .breadcrumb {
+    margin-bottom: 0;
+    padding: 0; }
+
+  .price-slider-articles input {
+    width: 125px;
+    margin: 0px 30px 0px 30px; }
+
+  .products img,
+  .products .overlay,
+  .products .product .overlay-dog,
+  .product .products .overlay-dog,
+  .products .product .overlay-cat,
+  .product .products .overlay-cat,
+  .products .product .overlay-fish,
+  .product .products .overlay-fish,
+  .products .product .overlay-bird,
+  .product .products .overlay-bird,
+  .products .product .overlay-hamster,
+  .product .products .overlay-hamster,
+  .products .product .overlay-grey,
+  .product .products .overlay-grey {
+    height: 103px; }
+
+  .products .product {
+    margin-right: 10px !important; }
+
+  .products .col-md-6 {
+    padding-right: 5px !important; }
+
+  .product-big img {
+    max-height: 150px; }
+
+  .product-big-article {
+    height: 350px !important; } }
+/*
+ * Layout 04 - - - 1024px - ... */
 /*********************
  ** Navigation menu **
  *********************/
@@ -90,7 +161,7 @@ body {
   -ms-transition: 0.5s;
   transition: 0.5s;
   width: 60px;
-  height: 100vh;
+  height: 100vmax;
   background-color: #313233;
   position: fixed;
   z-index: 10; }
@@ -192,9 +263,8 @@ body {
     width: 220px; }
 
 .fade-carousel {
-  height: 50vh;
-  width: 96%;
-  float: right; }
+  height: 50%;
+  width: 100%; }
   .fade-carousel .carousel-inner .item {
     height: 50vh; }
   .fade-carousel .carousel-indicators > li {
@@ -382,7 +452,7 @@ body {
 
 .product {
   margin: 15px 0px 15px 0px;
-  padding: 5px;
+  padding: 3px;
   border: 1px solid #717171;
   height: auto;
   background-color: #565656;
@@ -586,8 +656,7 @@ body {
 *********************/
 .header {
   height: 50vh;
-  width: 96%;
-  float: right;
+  width: 100%;
   background-image: url(/img/about/about.png); }
 
 /*
@@ -729,7 +798,8 @@ button {
 
 .tet3 {
   padding: 0;
-  margin-top: 15px; }
+  margin-top: 15px;
+  display: flex; }
 
 .detail {
   color: #ffffff;

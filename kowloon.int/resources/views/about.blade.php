@@ -16,7 +16,7 @@
 
         <!-- breadcrumbs -->
         <div class="row breadcrumb">
-            <div class="col-md-9 centered">
+            <div class="col-xs-9 centered">
 
                 <div class="indicator">
                     <div>
@@ -32,7 +32,7 @@
 
         <!-- about -->
         <div class="row">
-            <div class="col-md-9 centered about">
+            <div class="col-xs-9 centered about">
 
                 <div class="row">
                     <div class="col-md-12">
@@ -45,7 +45,7 @@
                 <div class="row content">
 
                     <!-- about us text -->
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-xs-8">
 
                         <h4 class="uppercase">kowloon</h4>
                         <p>Pet Concept, active since 1998, is developing, importing and exporting products for pets worldwide</p>
@@ -55,7 +55,7 @@
 
 
                     <!-- contact information -->
-                    <div class="col-md-3 col-md-offset-1">
+                    <div class="col-md-3 col-md-offset-1 col-xs-3">
                         <div class="contact">
                             <h4 class="uppercase">contact</h4>
                             <ul>
@@ -73,7 +73,7 @@
 
         <!-- leave a message -->
         <div class="row">
-            <div class="col-md-9 centered message">
+            <div class="col-xs-9 centered message">
 
                 <h4 class="uppercase">Leave us a message</h4>
 
@@ -100,22 +100,22 @@
 
         <!-- FAQ -->
         <div class="row">
-            <div class="col-md-9 centered questions">
+            <div class="col-xs-9 centered questions">
                 <div class="title">
                     <h4 class="uppercase">frequently asked questions</h4>
                 </div>
 
                 <div class="item">
                     <div class="row split">
-                        <div class="col-md-11">
+                        <div class="col-xs-11">
                             <h4>Dit is een vraag</h4>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-xs-1">
                             <i class="fa fa-sort-desc collapse rotate" id="rotate1" aria-hidden="true" data-toggle="collapse" data-target="#expend1"></i>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="expend1" class="collapse out col-md-9 col-md-offset-1">
+                        <div id="expend1" class="collapse out col-xs-9 col-xs-offset-1">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..
                         </div>
                     </div>
@@ -123,15 +123,15 @@
 
                 <div class="item">
                     <div class="row split">
-                        <div class="col-md-11">
+                        <div class="col-xs-11">
                             <h4>Dit is een vraag</h4>
                         </div>
-                        <div class="col-md-1 test1" data-icon="&#x25B6;">
+                        <div class="col-xs-1 test1" data-icon="&#x25B6;">
                             <i class="fa fa-sort-desc collapse rotate" id="rotate2" aria-hidden="true" data-toggle="collapse" data-target="#expend2"></i>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="expend2" class="collapse out col-md-9 col-md-offset-1">
+                        <div id="expend2" class="collapse out col-xs-9 col-xs-offset-1">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..
                         </div>
                     </div>
@@ -139,15 +139,15 @@
 
                 <div class="item">
                     <div class="row split">
-                        <div class="col-md-11">
+                        <div class="col-xs-11">
                             <h4>Dit is een vraag</h4>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-xs-1">
                             <i class="fa fa-sort-desc collapse rotate" id="rotate3" aria-hidden="true" data-toggle="collapse" data-target="#expend3"></i>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="expend3" class="collapse out col-md-9 col-md-offset-1">
+                        <div id="expend3" class="collapse out col-xs-9 col-md-offset-1">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..
                         </div>
                     </div>

@@ -35,7 +35,7 @@
 
         <!-- breadcrumbs -->
         <div class="row breadcrumb">
-            <div class="col-md-9 centered">
+            <div class="col-xs-9 centered">
 
                 <div class="indicator">
                     <div>
@@ -57,7 +57,7 @@
 
         <!-- filter -->
         <div class="row">
-            <div class="col-md-9 centered filter">
+            <div class="col-xs-9 centered filter">
 
                 <h2 class="uppercase">dog articles.</h2>
 
@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="row">
-                    <div id="filterCollapseArticle" class="col-md-10 col-md-offset-1 collapse out">
+                    <div id="filterCollapseArticle" class="col-xs-10 col-xs-offset-1 collapse out">
                         <div class="collection">
                             <div class="row">
                                 <div class="col-md-12">
@@ -104,10 +104,10 @@
                         <div class="range" id="price-slider">
                             <label for="amount">Price range</label>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-xs-10">
                                     <div id="slider-range-articles"></div>
                                 </div>
-                                <div class="col-md-5 price-slider-articles">
+                                <div class="col-md-5 col-xs-10 price-slider-articles">
                                     <input type="text" id="amount-min-articles" readonly>
                                     <p>-</p>
                                     <input type="text" id="amount-max-articles" readonly>
@@ -125,7 +125,7 @@
 
         <!-- sort by -->
         <div class="row">
-            <div class="col-md-9 centered">
+            <div class="col-xs-9 centered">
 
                 <div class="row sort">
 
@@ -150,13 +150,13 @@
 
         <!-- articles -->
         <div class="row">
-            <div class="col-md-9 centered">
+            <div class="col-xs-9 centered dogarticle">
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-12">
 
                         <div class="row products">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-xs-4">
                                 <div class="product">
                                     <div class="overlay-dog"></div>
                                     <div class="circles">
@@ -168,7 +168,7 @@
                                     <p>Cooling mat <span>€15,49</span></p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-xs-4">
                                 <div class="product">
                                     <div class="overlay-dog"></div>
                                     <div class="circles">
@@ -183,7 +183,7 @@
                         </div>
 
                         <div class="row products">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-xs-4">
                                 <div class="product">
                                     <div class="overlay-dog"></div>
                                     <div class="circles">
@@ -195,7 +195,7 @@
                                     <p>Cooling mat <span>€15,49</span></p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-xs-4">
                                 <div class="product">
                                     <div class="overlay-dog"></div>
                                     <div class="circles">

@@ -42,23 +42,23 @@
             <!-- filter -->
             <div class="search-overlay-filter">
                 <div class="row">
-                    <div class="col-md-9 centered">
+                    <div class="col-xs-9 centered">
                         <h3>Advanced filter &nbsp <i class="fa fa-sort-desc collapse rotate" aria-hidden="true" id="rotate4" data-toggle="collapse" data-target="#filterCollapse"></i></h3>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div id="filterCollapse" class="col-md-8 col-md-offset-1 centered collapse out">
+                    <div id="filterCollapse" class="col-xs-8 col-xs-offset-1 centered collapse out">
                         <div class="collection">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-xs-6">
                                     <p>Category</p>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <!-- checkbox filters -->
-                                <div class="col-md-6 filters">
+                                <div class="col-lg-6 col-md-8 filters">
                                     <div class="checkbox">
                                         <label><input type="checkbox">Dogs</label>
                                     </div>
@@ -81,7 +81,7 @@
                                 </div>
 
                                 <!-- price slider -->
-                                <div class="col-md-6">
+                                <div class="col-lg-6 col-md-8">
                                     <div id="price-slider">
                                         <label for="amount">Price range</label>
                                         <div class="row">
@@ -108,7 +108,7 @@
             <!-- search bar -->
             <div class="overlay-input">
                 <div class="row">
-                    <div class="col-md-9 centered">
+                    <div class="col-xs-9 centered">
 
                         <div class="wrap">
                             <form action="" autocomplete="on">
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9 centered input-bar">
+                    <div class="col-xs-9 centered input-bar">
                         <div>
                             3 items found for the word "Crafted"
                         </div>
@@ -133,15 +133,15 @@
             <!-- results -->
             <div class="search-overlay-results">
                 <div class="row">
-                    <div class="col-md-9 centered result">
+                    <div class="col-xs-9 centered result">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9 centered result">
+                    <div class="col-xs-9 centered result">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9 centered result">
+                    <div class="col-xs-9 centered result">
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@
             <!-- suggestions -->
             <div class="suggestion">
                 <div class="row">
-                    <div class="col-md-7 centered">
+                    <div class="col-xs-9 centered">
                         Try checking spelling or tweaking it. Maybe use fewer words or a more general search term. </br> If you still have no luck you can contact our <a href="#">Customer service</a>.
                     </div>
                 </div>
@@ -169,12 +169,12 @@
             <!-- search bar -->
             <div class="overlay-input">
                 <div class="row">
-                    <div class="col-md-9 centered uppercase">
+                    <div class="col-xs-9 centered uppercase">
                         <h1>frequently asked questions</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9 centered">
+                    <div class="col-xs-9 centered">
 
                         <div class="wrap">
                             <form action="" autocomplete="on">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-7 centered input-bar">
+                    <div class="col-xs-7 centered input-bar">
                         <div>
 
                         </div>
@@ -199,7 +199,7 @@
             <!-- suggestions -->
             <div class="suggestion">
                 <div class="row">
-                    <div class="col-md-9 centered">
+                    <div class="col-xs-9 centered">
                         Don’t find what you’re looking for? </br> You can always contact our <a href="#">customer service</a>. We’re happy to help you!
                     </div>
                 </div>
@@ -208,7 +208,7 @@
             <!-- results -->
             <div class="search-overlay-results">
                 <div class="row">
-                    <div class="col-md-9 centered result">
+                    <div class="col-xs-9 centered result">
                         <div class="row">
                             <div class="col-md-12">
                                 <h4>Dit is een vraag</h4>
@@ -222,7 +222,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9 centered result">
+                    <div class="col-xs-9 centered result">
                         <div class="row">
                             <div class="col-md-12">
                                 <h4>Dit is een vraag</h4>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9 centered result">
+                    <div class="col-xs-9 centered result">
                         <div class="row">
                             <div class="col-md-12">
                                 <h4>Dit is een vraag</h4>
