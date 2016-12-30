@@ -3,10 +3,10 @@
 * Fonts */
 @font-face {
   font-family: choplin-light;
-  src: url(fonts/Choplin-ExtraLight.otf); }
+  src: url(/fonts/Choplin-ExtraLight.otf); }
 @font-face {
   font-family: choplin-medium;
-  src: url(fonts/Choplin-Medium.otf); }
+  src: url(/fonts/Choplin-Medium.otf); }
 /*
  *
  * Define layouts */
@@ -105,6 +105,9 @@ i {
     .fade-carousel .carousel-inner .item {
       height: 25vh !important; }
 
+  .logo {
+    left: 30%; }
+
   .animal {
     width: 140px !important; }
 
@@ -142,6 +145,9 @@ i {
 
   .categories {
     margin-left: 0 !important; }
+
+  .logo {
+    left: 35% !important; }
 
   .nomobile {
     display: none; }
@@ -204,7 +210,13 @@ i {
     width: 94% !important; }
     .screen-overlay .overlay-input input[type="text"],
     .screen-overlay .overlay-input input[type="submit"] {
-      font-size: 2.7em !important; } }
+      font-size: 2.7em !important; }
+
+  .message .email {
+    width: 45% !important; }
+
+  .message .textarea {
+    width: 100% !important; } }
 /*
  * Layout 04 - - - 1024px - ... */
 /*********************
@@ -408,7 +420,7 @@ i {
 .screen-overlay {
   display: none;
   position: absolute;
-  min-height: 100vmax;
+  height: 100vmax;
   width: 96%;
   right: 0;
   opacity: .97;

@@ -55,7 +55,7 @@
 
 
                     <!-- contact information -->
-                    <div class="col-md-3 col-md-offset-1 col-xs-3">
+                    <div class="col-md-3 col-md-offset-1 col-xs-4">
                         <div class="contact">
                             <h4 class="uppercase">contact</h4>
                             <ul>

@@ -81,13 +81,13 @@
                                 </div>
 
                                 <!-- price slider -->
-                                <div class="col-lg-6 col-md-8">
+                                <div class="col-lg-6 col-xs-8">
                                     <div id="price-slider">
                                         <label for="amount">Price range</label>
                                         <div class="row">
-                                            <div class="col-md-12" id="slider-range"></div>
+                                            <div class="col-xs-12" id="slider-range"></div>
                                             <div class="row">
-                                                <div class="col-md-12 price-slider">
+                                                <div class="col-xs-12 price-slider">
                                                     <input type="text" id="amount-min" readonly style="border:1px solid black; color:#000000; font-weight:normal;">
                                                     -
                                                     <input type="text" id="amount-max" readonly style="border:1px solid black; color:#000000; font-weight:normal;">

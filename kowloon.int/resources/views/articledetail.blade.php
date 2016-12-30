@@ -6,7 +6,7 @@
         <div class="row">
 
             <div class="col-md-7 intro centered ">
-                <img src="img/carousel/logo.png" alt="Kowloon">
+                <a href="/"><img src="img/carousel/logo.png" alt="Kowloon"></a>
             </div>
 
         </div>
@@ -114,48 +114,28 @@
                 <div class="row products row-horizon">
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <div class="circles">
-                            <div class="circle1"></div>
-                            <div class="circle2"></div>
-                            <div class="circle3"></div>
-                        </div>
                         <img src="img/hot_items/product1.png">
-                        <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <div class="circles">
-                            <div class="circle1"></div>
-                            <div class="circle2"></div>
-                            <div class="circle3"></div>
-                        </div>
                         <img src="img/hot_items/product1.png">
-                        <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <div class="circles">
-                            <div class="circle1"></div>
-                            <div class="circle2"></div>
-                            <div class="circle3"></div>
-                        </div>
                         <img src="img/hot_items/product1.png">
-                        <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <div class="circles">
-                            <div class="circle1"></div>
-                            <div class="circle2"></div>
-                            <div class="circle3"></div>
-                        </div>
                         <img src="img/hot_items/product1.png">
-                        <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="img/hot_items/product1.png">
+                    </div>
                 </div>
 
                 <div class="link-to-more">
@@ -227,11 +207,11 @@
         <div class="row newsletter">
             <div class="col-lg-9 col-xs-9 centered">
                 <div class="row">
-                    <div class="col-lg-8 col-md-6 col-xs-5 adv">
+                    <div class="col-lg-8 col-md-6 col-xs-7 adv">
                         <h1>discover amazing </br>Kowloon deals!</h1>
                         <h4 class="uppercase">only in our newsletter</h4>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-7 subscribe">
+                    <div class="col-lg-4 col-md-6 col-xs-5 subscribe">
                         <h3>Subscribe to our newsletter</h3>
                         <span>Lorem ipsum dolor sit amet...</span>
 
