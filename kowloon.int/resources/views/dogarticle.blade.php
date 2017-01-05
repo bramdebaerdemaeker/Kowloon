@@ -212,7 +212,7 @@
                     </div>
 
                     <div class="col-md-6 tet3">
-                        <div class="product-big">
+                        <div class="product-big-article">
                             <img src="img/hot_items/product_big.png">
                             <h4>Cooling mat</h4>
                             <p>Hier komt een deel van de beschrijvende tekst die bij elk product hoort. Ook terug te vinden in het product detail. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius....</p>

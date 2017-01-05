@@ -17,7 +17,7 @@
                 <div class="col-xs-9 centered">
 
                     <div class="row">
-                        <div class="col-md-6 product-big product-big-article">
+                        <div class="col-md-6 product-big product-big">
                             <img src="img/hot_items/product_big.png">
                             <div class="row small-tumbs">
                                 <div class="col-md-4">

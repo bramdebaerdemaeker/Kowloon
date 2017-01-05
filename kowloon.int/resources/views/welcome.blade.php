@@ -125,7 +125,7 @@
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
-                    <div class="product col-md-4">
+                    <div class="product col-md-4 product-spread">
                         <div class="overlay-dog"></div>
                         <div class="circles">
                             <div class="circle1"></div>
