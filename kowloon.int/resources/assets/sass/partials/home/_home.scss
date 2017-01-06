@@ -1,7 +1,7 @@
 
-/******************************************
-** home page layout: intro + categories **
-******************************************/
+/*********************
+** home page layout **
+*********************/
 
 
 /*
@@ -20,7 +20,6 @@
 * categories */
 
 .categories {
-  margin-left: 15%;
   margin-top: 50px;
 }
 
@@ -38,10 +37,6 @@
     color: $white;
     font-size: 1.2em;
   }
-
-  // &:hover {
-  //   background-color: #323232;
-  // }
 }
 
 .dogcategory {
@@ -71,4 +66,41 @@
 .othercategory {
   background-position-x: -($category-sprite-icon-width*5);
   border: none;
+}
+
+
+/*
+*
+* hot products */
+
+.hot-products {
+  margin-top: 50px;
+  color: $white;
+
+  .product {
+    margin: 0px 5px 0px 5px;
+  }
+
+  h1,
+  h4 {
+    font-family: Choplin-Medium;
+  }
+
+  .products {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+
+    .product {
+      flex-grow: 1;
+
+      &:first-child {
+        margin-left: 0 !important;
+      }
+
+      &:last-child {
+        margin-right: 0 !important;
+      }
+    }
+  }
 }

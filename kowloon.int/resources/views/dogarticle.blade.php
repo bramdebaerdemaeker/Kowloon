@@ -152,109 +152,111 @@
         <div class="row">
             <div class="col-xs-9 centered dogarticle">
 
-                <!-- <div class="row">
-                    <div class="col-md-6 col-xs-12">
-
-                        <div class="row products">
-                            <div class="col-md-6 col-xs-4">
-                                <a href="articledetail">
-                                  <div class="product">
-                                      <div class="overlay-dog"></div>
-                                      <div class="circles">
-                                          <div class="circle1"></div>
-                                          <div class="circle2"></div>
-                                          <div class="circle3"></div>
-                                      </div>
-                                      <img src="img/hot_items/product1.png">
-                                      <p>Cooling mat <span>€15,49</span></p>
-                                  </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-xs-4">
-                              <a href="articledetail">
-                                <div class="product">
-                                    <div class="overlay-dog"></div>
-                                    <div class="circles">
-                                        <div class="circle1"></div>
-                                        <div class="circle2"></div>
-                                        <div class="circle3"></div>
-                                    </div>
-                                    <img src="img/hot_items/product1.png">
-                                    <p>Cooling mat <span>€15,49</span></p>
-                                </div>
-                              </a>
-                            </div>
-                        </div>
-
-                        <div class="row products">
-                            <div class="col-md-6 col-xs-4">
-                              <a href="articledetail">
-                                <div class="product">
-                                    <div class="overlay-dog"></div>
-                                    <div class="circles">
-                                        <div class="circle1"></div>
-                                        <div class="circle2"></div>
-                                        <div class="circle3"></div>
-                                    </div>
-                                    <img src="img/hot_items/product1.png">
-                                    <p>Cooling mat <span>€15,49</span></p>
-                                </div>
-                              </a>
-                            </div>
-                            <div class="col-md-6 col-xs-4">
-                                <a href="articledetail">
-                                  <div class="product product-spread">
-                                      <div class="overlay-dog"></div>
-                                      <div class="circles">
-                                          <div class="circle1"></div>
-                                          <div class="circle2"></div>
-                                          <div class="circle3"></div>
-                                      </div>
-                                      <img src="img/hot_items/product1.png">
-                                      <p>Cooling mat <span>€15,49</span></p>
-                                  </div>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6 tet3">
-                        <div class="product-big-article">
-                            <img src="img/hot_items/product_big.png">
-                            <h4>Cooling mat</h4>
-                            <p>Hier komt een deel van de beschrijvende tekst die bij elk product hoort. Ook terug te vinden in het product detail. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius....</p>
-                            <span>€15,49</span>
-                            <button type="submit" class="btn-big"><b>Want to know more?</b></button>
-                        </div>
-                    </div>
-                </div> -->
-
                 <div class="container container-articles">
                   <div class="links">
                     <div class="boven">
-                      <div class="bovenste-links">
-                        bovenste links
+                      <div class="bovenste-links product">
+                            <div class="overlay-dog"></div>
+                            <div class="circles">
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                                <div class="circle3"></div>
+                            </div>
+                            <img src="img/hot_items/product-dog.png">
+                            <p>Cooling mat <span>€15,49</span></p>
                       </div>
-                      <div class="bovenste-rechts">
-                        bovenste rechts
+                      <div class="bovenste-rechts product">
+                            <div class="overlay-dog"></div>
+                            <div class="circles">
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                                <div class="circle3"></div>
+                            </div>
+                            <img src="img/hot_items/product-dog.png">
+                            <p>Cooling mat <span>€15,49</span></p>
                       </div>
                     </div>
 
                     <div class="onder">
-                      <div class="onderste-links">
-                        onderste links
+                      <div class="onderste-links product">
+                            <div class="overlay-dog"></div>
+                            <div class="circles">
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                                <div class="circle3"></div>
+                            </div>
+                            <img src="img/hot_items/product-dog.png">
+                            <p>Cooling mat <span>€15,49</span></p>
                       </div>
-                      <div class="onderste-rechts">
-                        onderste rechts
+                      <div class="onderste-rechts product">
+                            <div class="overlay-dog"></div>
+                            <div class="circles">
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                                <div class="circle3"></div>
+                            </div>
+                            <img src="img/hot_items/product-dog.png">
+                            <p>Cooling mat <span>€15,49</span></p>
                       </div>
                     </div>
                   </div>
 
                   <div class="rechts">
-                    <div class="grote">
-                      grote
+                    <div class="product-big-article grote">
+                        <img src="img/hot_items/product_big.png">
+                        <h4>Cooling mat</h4>
+                        <p>Hier komt een deel van de beschrijvende tekst die bij elk product hoort. Ook terug te vinden in het product detail. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius....</p>
+                        <span>€15,49</span>
+                        <button type="submit" class="btn-big"><b>Want to know more?</b></button>
                     </div>
+                  </div>
+
+
+                  <div class="products">
+                      <div class="product nomobile">
+                          <div class="overlay-dog"></div>
+                          <div class="circles">
+                              <div class="circle1"></div>
+                              <div class="circle2"></div>
+                              <div class="circle3"></div>
+                          </div>
+                          <img src="img/hot_items/product-dog.png">
+                          <p>Cooling mat <span>€15,49</span></p>
+                      </div>
+
+                      <div class="product">
+                          <div class="overlay-dog"></div>
+                          <div class="circles">
+                              <div class="circle1"></div>
+                              <div class="circle2"></div>
+                              <div class="circle3"></div>
+                          </div>
+                          <img src="img/hot_items/product-dog.png">
+                          <p>Cooling mat <span>€15,49</span></p>
+                      </div>
+
+                      <div class="product">
+                          <div class="overlay-dog"></div>
+                          <div class="circles">
+                              <div class="circle1"></div>
+                              <div class="circle2"></div>
+                              <div class="circle3"></div>
+                          </div>
+                          <img src="img/hot_items/product-dog.png">
+                          <p>Cooling mat <span>€15,49</span></p>
+                      </div>
+
+                      <div class="product">
+                          <div class="overlay-dog"></div>
+                          <div class="circles">
+                              <div class="circle1"></div>
+                              <div class="circle2"></div>
+                              <div class="circle3"></div>
+                          </div>
+                          <img src="img/hot_items/product-dog.png">
+                          <p>Cooling mat <span>€15,49</span></p>
+                      </div>
+
                   </div>
 
                 </div>

@@ -114,27 +114,27 @@
                 <div class="row products row-horizon">
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                     </div>
                 </div>
 

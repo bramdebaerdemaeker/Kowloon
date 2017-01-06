@@ -81,11 +81,11 @@
 
         <!-- hot products -->
         <div class="row hot-products">
-            <div class="col-md-9  col-sm-11 centered">
+            <div class="col-md-9  col-sm-10 centered">
 
                 <!-- title -->
                 <div class="row title">
-                    <div class="col-sm-12 uppercase">
+                    <div class="uppercase">
                         <h1>hot items.</h1>
                     </div>
                 </div>
@@ -99,40 +99,40 @@
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
-                    <div class="product col-md-4">
+                    <div class="product">
                         <div class="overlay-dog"></div>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
-                    <div class="product col-md-4">
+                    <div class="product">
                         <div class="overlay-dog"></div>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
-                    <div class="product col-md-4 product-spread">
+                    <div class="product product-spread">
                         <div class="overlay-dog"></div>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product1.png">
+                        <img src="img/hot_items/product-dog.png">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
