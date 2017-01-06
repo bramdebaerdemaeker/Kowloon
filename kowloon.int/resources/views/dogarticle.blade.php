@@ -152,7 +152,7 @@
         <div class="row">
             <div class="col-xs-9 centered dogarticle">
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-6 col-xs-12">
 
                         <div class="row products">
@@ -228,6 +228,35 @@
                             <button type="submit" class="btn-big"><b>Want to know more?</b></button>
                         </div>
                     </div>
+                </div> -->
+
+                <div class="container container-articles">
+                  <div class="links">
+                    <div class="boven">
+                      <div class="bovenste-links">
+                        bovenste links
+                      </div>
+                      <div class="bovenste-rechts">
+                        bovenste rechts
+                      </div>
+                    </div>
+
+                    <div class="onder">
+                      <div class="onderste-links">
+                        onderste links
+                      </div>
+                      <div class="onderste-rechts">
+                        onderste rechts
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="rechts">
+                    <div class="grote">
+                      grote
+                    </div>
+                  </div>
+
                 </div>
 
             </div>
