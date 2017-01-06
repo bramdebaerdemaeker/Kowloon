@@ -8,49 +8,43 @@
  * Layout 01 & Layout 02 - - - 0px - 767px */
 @media all and (max-width: $layout-2) {
 
-  .fade-carousel{
+  .sidenav {
+    display: none;
+  }
+  .container,
+  .carousel-inner {
+    width: 100%;
+  }
+
+  .carousel-inner {
     height: 25vh;
-
-    .carousel-inner .item {
-      height: 25vh !important;
-    }
-
-    .carousel-indicators {
-      display: none;
-    }
-
-    .logo {
-      left: 15%;
-    }
-
-    // .slides {
-    //   height: 100%;
-    // }
   }
 
 }
 
-/*
- * Layout 01 - - - 0px - 419px */
-@media all and (max-width: $layout-1) {
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .sidenav {
+      display: none;
+    }
+    .container,
+    .carousel-inner {
+      width: 100%;
+    }
 
+    .carousel-inner {
+      height: 25vh;
+    }
 }
 
-// /*
-//  * Layout 02 - - - 420px - 767px */
-// @media all and (min-width: ($layout-1 + 1px)) and (max-width: $layout-2) {
-//   .container {
-//     width: 94% !important;
-//   }
-//
-//   .fade-carousel{
-//     height: 25vh;
-//
-//     .carousel-inner .item {
-//       height: 25vh !important;
-//     }
-//   }
-// }
+
+
+
+
+
+
 
 /*
  * Layout 02 ipad portrait */
@@ -61,7 +55,6 @@
 
   .container {
     width: 94% !important;
-    //padding-left: 15px;
   }
 
 // home screen
@@ -79,6 +72,10 @@
 
   .animal {
     width: 140px !important;
+  }
+
+  .hot-products .title {
+    margin-left: 15px;
   }
 
   .link-to-more {
@@ -122,6 +119,13 @@
     width: 94% !important;
   }
 }
+
+
+
+
+
+
+
 
 /*
  * Layout 03 - - - 768px - 1024px */
@@ -203,6 +207,13 @@
   }
 
 }
+
+
+
+
+
+
+
 
 /*
  * Layout 04 - - - 1024px - ... */

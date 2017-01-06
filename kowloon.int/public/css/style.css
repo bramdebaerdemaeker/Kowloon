@@ -93,16 +93,25 @@ i {
 /*
  * Layout 01 & Layout 02 - - - 0px - 767px */
 @media all and (max-width: 767px) {
-  .fade-carousel {
-    height: 25vh; }
-    .fade-carousel .carousel-inner .item {
-      height: 25vh !important; }
-    .fade-carousel .carousel-indicators {
-      display: none; }
-    .fade-carousel .logo {
-      left: 15%; } }
-/*
- * Layout 01 - - - 0px - 419px */
+  .sidenav, .sidenav-big {
+    display: none; }
+
+  .container,
+  .carousel-inner {
+    width: 100%; }
+
+  .carousel-inner {
+    height: 25vh; } }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .sidenav, .sidenav-big {
+    display: none; }
+
+  .container,
+  .carousel-inner {
+    width: 100%; }
+
+  .carousel-inner {
+    height: 25vh; } }
 /*
  * Layout 02 ipad portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -119,6 +128,9 @@ i {
 
   .animal {
     width: 140px !important; }
+
+  .hot-products .title {
+    margin-left: 15px; }
 
   .link-to-more {
     display: none; }

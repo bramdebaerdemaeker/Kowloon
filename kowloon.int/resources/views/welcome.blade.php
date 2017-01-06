@@ -36,7 +36,7 @@
         <!-- intro text -->
         <div class="row">
 
-            <div class="col-lg-7 col-md-10 col-xs-9  intro centered ">
+            <div class="col-lg-7 col-md-10 col-sm-9  intro centered ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
 
@@ -44,36 +44,36 @@
 
         <!-- categories -->
         <div class="row">
-            <div class="col-lg-9 col-xs-12 centered categories">
+            <div class="col-lg-9 col-sm-12 centered categories">
 
                 <!-- dogs -->
-                <a href="dogarticles"><div class="col-md-2 col-xs-1 animal dogcategory">
+                <a href="dogarticles"><div class="col-md-2 col-sm-1 animal dogcategory">
                         <p class="uppercase">dogs</p>
                     </div></a>
 
 
                 <!-- cats -->
-                <a href="#"><div class="col-md-2 col-xs-1 animal catcategory">
+                <a href="#"><div class="col-md-2 col-sm-1 animal catcategory">
                         <p class="uppercase">cats</p>
                     </div></a>
 
                 <!-- fish -->
-                <a href="#"><div class="col-md-2 col-xs-1 animal fishcategory">
+                <a href="#"><div class="col-md-2 col-sm-1 animal fishcategory">
                         <p class="uppercase">fish</p>
                     </div></a>
 
                 <!-- birds -->
-                <a href="#"><div class="col-md-2 col-xs-1 animal birdcategory">
+                <a href="#"><div class="col-md-2 col-sm-1 animal birdcategory">
                         <p class="uppercase">birds</p>
                     </div></a>
 
                 <!-- small animals -->
-                <a href="#"><div class="col-md-2 col-xs-1 animal smallcategory">
+                <a href="#"><div class="col-md-2 col-sm-1 animal smallcategory">
                         <p class="uppercase kek">small </br> animals</p>
                     </div></a>
 
                 <!-- extra -->
-                <a href="#"><div class="col-md-2 col-xs-1 animal othercategory">
+                <a href="#"><div class="col-md-2 col-sm-1 animal othercategory">
                         <p class="uppercase">other</p>
                     </div></a>
             </div>
@@ -81,11 +81,11 @@
 
         <!-- hot products -->
         <div class="row hot-products">
-            <div class="col-md-9 col-xs-10 centered">
+            <div class="col-md-9  col-sm-11 centered">
 
                 <!-- title -->
                 <div class="row title">
-                    <div class="col-md-12 uppercase">
+                    <div class="col-sm-12 uppercase">
                         <h1>hot items.</h1>
                     </div>
                 </div>
@@ -147,13 +147,13 @@
 
         <!-- newsletter -->
         <div class="row newsletter">
-            <div class="col-lg-9 col-xs-10 centered">
+            <div class="col-md-9 col-sm-10 centered">
                 <div class="row">
-                    <div class="col-lg-8 col-md-6 col-xs-7 adv">
+                    <div class="col-lg-8 col-md-6 col-sm-7 col-xs-12 adv">
                         <h1>discover amazing </br>Kowloon deals!</h1>
                         <h4 class="uppercase">only in our newsletter</h4>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-5 subscribe">
+                    <div class="col-lg-4 col-md-6 col-sm-5 col-xs-12 subscribe">
                         <h3>Subscribe to our newsletter</h3>
                         <span>Lorem ipsum dolor sit amet...</span>
 

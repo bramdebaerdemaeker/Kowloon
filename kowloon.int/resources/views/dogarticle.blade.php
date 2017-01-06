@@ -157,18 +157,21 @@
 
                         <div class="row products">
                             <div class="col-md-6 col-xs-4">
-                                <div class="product">
-                                    <div class="overlay-dog"></div>
-                                    <div class="circles">
-                                        <div class="circle1"></div>
-                                        <div class="circle2"></div>
-                                        <div class="circle3"></div>
-                                    </div>
-                                    <img src="img/hot_items/product1.png">
-                                    <p>Cooling mat <span>€15,49</span></p>
-                                </div>
+                                <a href="articledetail">
+                                  <div class="product">
+                                      <div class="overlay-dog"></div>
+                                      <div class="circles">
+                                          <div class="circle1"></div>
+                                          <div class="circle2"></div>
+                                          <div class="circle3"></div>
+                                      </div>
+                                      <img src="img/hot_items/product1.png">
+                                      <p>Cooling mat <span>€15,49</span></p>
+                                  </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-xs-4">
+                              <a href="articledetail">
                                 <div class="product">
                                     <div class="overlay-dog"></div>
                                     <div class="circles">
@@ -179,11 +182,13 @@
                                     <img src="img/hot_items/product1.png">
                                     <p>Cooling mat <span>€15,49</span></p>
                                 </div>
+                              </a>
                             </div>
                         </div>
 
                         <div class="row products">
                             <div class="col-md-6 col-xs-4">
+                              <a href="articledetail">
                                 <div class="product">
                                     <div class="overlay-dog"></div>
                                     <div class="circles">
@@ -194,18 +199,21 @@
                                     <img src="img/hot_items/product1.png">
                                     <p>Cooling mat <span>€15,49</span></p>
                                 </div>
+                              </a>
                             </div>
                             <div class="col-md-6 col-xs-4">
-                                <div class="product">
-                                    <div class="overlay-dog"></div>
-                                    <div class="circles">
-                                        <div class="circle1"></div>
-                                        <div class="circle2"></div>
-                                        <div class="circle3"></div>
-                                    </div>
-                                    <img src="img/hot_items/product1.png">
-                                    <p>Cooling mat <span>€15,49</span></p>
-                                </div>
+                                <a href="articledetail">
+                                  <div class="product product-spread">
+                                      <div class="overlay-dog"></div>
+                                      <div class="circles">
+                                          <div class="circle1"></div>
+                                          <div class="circle2"></div>
+                                          <div class="circle3"></div>
+                                      </div>
+                                      <img src="img/hot_items/product1.png">
+                                      <p>Cooling mat <span>€15,49</span></p>
+                                  </div>
+                                </a>
                             </div>
                         </div>
 
