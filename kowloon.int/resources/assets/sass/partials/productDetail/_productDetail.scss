@@ -47,9 +47,10 @@
   font-family: $font-family-main;
 }
 
-// .row-horizon {
-//   width: 100%;
-//   margin-right: 0;
-//   white-space: nowrap;
-//   overflow: auto;
-// }
+.row-horizon img {
+  height: 100%;
+}
+
+.row-horizon .product .overlay {
+  height: 97%;
+}

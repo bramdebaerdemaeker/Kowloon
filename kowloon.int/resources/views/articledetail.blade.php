@@ -105,7 +105,7 @@
 
                 <!-- title -->
                 <div class="row title">
-                    <div class="col-md-12 uppercase">
+                    <div class="uppercase">
                         <h4 class="uppercase">gerelateerde producten</h4>
                     </div>
                 </div>
@@ -132,10 +132,6 @@
                         <img src="img/hot_items/product-dog.png">
                     </div>
 
-                    <div class="product">
-                        <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
-                    </div>
                 </div>
 
                 <div class="link-to-more">

@@ -129,7 +129,7 @@
 
                 <div class="row sort">
 
-                    <div class="col-md-2">
+                    <div class="col-xs-2">
                         <select class="selectpicker">
                             <option selected="selected" >Sort by relevance</option>
                             <option>Price: low to high</option>
@@ -140,7 +140,7 @@
 
                     </div>
 
-                    <div class="col-md-2 col-md-offset-8">
+                    <div class="col-xs-2 col-xs-offset-8">
                         Dog items:
                     </div>
 
@@ -153,9 +153,9 @@
             <div class="col-xs-9 centered dogarticle">
 
                 <div class="container container-articles">
-                  <div class="links">
+                  <div class="left">
                     <div class="boven">
-                      <div class="bovenste-links product">
+                      <div class="bovenste-left product">
                             <div class="overlay-dog"></div>
                             <div class="circles">
                                 <div class="circle1"></div>
@@ -178,7 +178,7 @@
                     </div>
 
                     <div class="onder">
-                      <div class="onderste-links product">
+                      <div class="onderste-left product">
                             <div class="overlay-dog"></div>
                             <div class="circles">
                                 <div class="circle1"></div>
@@ -213,7 +213,7 @@
 
 
                   <div class="products">
-                      <div class="product nomobile">
+                      <div class="product">
                           <div class="overlay-dog"></div>
                           <div class="circles">
                               <div class="circle1"></div>

@@ -123,9 +123,6 @@ i {
     .fade-carousel .carousel-inner .item {
       height: 25vh !important; }
 
-  .logo {
-    left: 30%; }
-
   .animal {
     width: 140px !important; }
 
@@ -143,6 +140,8 @@ i {
   .header {
     height: 25vh !important;
     background-size: cover; }
+    .header .logo {
+      top: 4%; }
 
   .product-big-article {
     display: none; }
@@ -154,12 +153,33 @@ i {
       margin-right: 20px; }
 
   .screen-overlay {
-    width: 94% !important; } }
+    width: 94% !important; }
+
+  .container-articles .links {
+    width: 100% !important;
+    flex-direction: row !important; }
+
+  .container-articles .bovenste-links,
+  .container-articles .products .product:first-child {
+    display: none; }
+
+  .container-articles .bovenste-rechts {
+    width: 100% !important; }
+
+  .container-articles .onderste-links,
+  .container-articles .bovenste-rechts {
+    margin-left: 7px !important; } }
 /*
  * Layout 03 - - - 767px - 1025px */
 @media all and (min-width: 768px) and (max-width: 1025px) {
   .nomobile {
-    display: none; } }
+    display: none; }
+
+  .logo {
+    left: 35% !important; }
+
+  .breadcrumb {
+    width: 100%; } }
 /*
  * Layout 04 - - - 1024px - ... */
 /*********************
@@ -860,23 +880,23 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start; }
-  .container-articles .links {
+  .container-articles .left {
     height: 50%;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
-    .container-articles .links .boven,
-    .container-articles .links .onder {
+    .container-articles .left .boven,
+    .container-articles .left .onder {
       height: 50%;
       display: flex; }
-    .container-articles .links .bovenste-links,
-    .container-articles .links .onderste-links {
+    .container-articles .left .bovenste-left,
+    .container-articles .left .onderste-left {
       width: 50%;
       margin: 5px;
       margin-left: 0; }
-    .container-articles .links .bovenste-rechts,
-    .container-articles .links .onderste-rechts {
+    .container-articles .left .bovenste-rechts,
+    .container-articles .left .onderste-rechts {
       width: 50%;
       margin: 5px; }
   .container-articles .rechts {
@@ -931,5 +951,11 @@ button {
   border: 1px solid #717171;
   margin-top: 20px;
   font-family: "Arial", sans-serif; }
+
+.row-horizon img {
+  height: 100%; }
+
+.row-horizon .product .overlay, .row-horizon .product .overlay-dog, .row-horizon .product .overlay-cat, .row-horizon .product .overlay-fish, .row-horizon .product .overlay-bird, .row-horizon .product .overlay-hamster, .row-horizon .product .overlay-grey {
+  height: 97%; }
 
 /*# sourceMappingURL=style.css.map */

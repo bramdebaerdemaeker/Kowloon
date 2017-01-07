@@ -66,10 +66,6 @@
     }
   }
 
-  .logo {
-    left: 30%;
-  }
-
   .animal {
     width: 140px !important;
   }
@@ -93,7 +89,12 @@
   .header {
     height: 25vh !important;
     background-size: cover;
+
+    .logo {
+      top: 4%;
+    }
   }
+
 
 
   //dogarticle
@@ -114,6 +115,25 @@
   .screen-overlay {
     width: 94% !important;
   }
+
+  .container-articles .links {
+    width: 100% !important;
+    flex-direction: row !important;
+  }
+
+  .container-articles .bovenste-links,
+  .container-articles .products .product:first-child {
+    display: none;
+  }
+
+  .container-articles .bovenste-rechts{
+    width: 100% !important;
+  }
+
+  .container-articles .onderste-links,
+  .container-articles .bovenste-rechts{
+    margin-left: 7px !important;
+  }
 }
 
 
@@ -129,6 +149,14 @@
 
   .nomobile {
     display: none;
+  }
+
+  .logo {
+    left: 35% !important;
+  }
+
+  .breadcrumb {
+    width: 100%;
   }
   //
   // .categories {
