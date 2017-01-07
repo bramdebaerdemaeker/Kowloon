@@ -716,7 +716,9 @@ i {
 .questions {
   margin-top: 60px !important;
   margin-bottom: 60px !important;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-left: 0;
+  padding-right: 0; }
   .questions .title h4 {
     font-family: choplin-medium; }
   .questions .item {
