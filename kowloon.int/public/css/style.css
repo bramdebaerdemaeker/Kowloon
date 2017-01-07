@@ -217,7 +217,7 @@ i {
 
 .nav-bottom {
   position: absolute;
-  bottom: 15px;
+  top: 95vh;
   left: 17px;
   width: 21px;
   overflow: hidden; }
