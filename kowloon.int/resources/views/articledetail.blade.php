@@ -2,7 +2,7 @@
 
 @section('content')
 
-        <!-- intro logo -->
+        <!-- logo -->
         <div class="row">
 
             <div class="col-md-7 intro centered ">
@@ -12,95 +12,99 @@
         </div>
 
         <!-- details product -->
-        <div class="detail">
-            <div class="row">
-                <div class="col-xs-9 centered">
 
-                    <div class="row">
-                        <div class="col-md-6 product-big product-big">
-                            <img src="img/hot_items/product_big.png">
-                            <div class="row small-tumbs">
-                                <div class="col-md-4">
-                                    <img src="img/hot_items/product_big.png" class="test">
-                                    woordje tekst
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="img/hot_items/product_big.png">
-                                    woordje tekst
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="overlay-grey"></div>
-                                    <img src="img/hot_items/product_big.png">
-                                    woordje tekst
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row breadcrumb">
-                                <div class="col-md-12">
-                                    <div class="indicator">
-                                        <div>
-                                            <a href="/"><img src="img/about/k.png"></a>
-                                        </div>
-                                        <div class="tag">
-                                            <div class="circle-category-dog"></div>
-                                            <p>Dogs</p>
-                                        </div>
-                                        <div class="tag2">
-                                            <p>Splash 'n fun</p>
-                                        </div>
+        <div class="row">
+          <div class="col-md-9 centered">
 
-                                    </div>
+            <div class="container-article-detail">
 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="uppercase">cooling mat</h2>
-                                    <span>€ 15, 49</span>
-                                    <div class="colors">
-                                        <p>Colors</p>
-                                        <div class="circles">
-                                            <div class="circle1"></div>
-                                            <div class="circle2"></div>
-                                            <div class="circle3"></div>
-                                        </div>
-                                    </div>
-                                    <div class="description">
-                                        <h4>Description</h4>
-                                        <p>Hier komt een de volledige beschrijvende tekst met een max. aantal karakters. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea clit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat consectetur.</p>
-                                    </div>
-                                    <div class="obligatory">
-                                        <div class="o-square"></div>
-                                        <div class="o-circle"></div>
-                                        <div class="o-triangle"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+              <div class="container-article-detail-left">
+                <div class="image-big">
+                  <img src="img/hot_items/product_big.png">
                 </div>
+                <div class="images-small">
+                  <div class="image-left">
+                    <img src="img/hot_items/product_big.png">
+                    <p>woordje tekst</p>
+                  </div>
+                  <div class="image-center">
+                    <img src="img/hot_items/product_big.png">
+                    <p>woordje tekst</p>
+                  </div>
+                  <div class="image-right">
+                    <img src="img/hot_items/product_big.png">
+                    <p>woordje tekst</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container-article-detail-right">
+                <div class="breadcrumb">
+                          <div class="indicator">
+                              <div>
+                                  <a href="/"><img src="img/about/k.png"></a>
+                              </div>
+                              <div class="tag">
+                                  <div class="circle-category-dog"></div>
+                                  <p>Dogs</p>
+                              </div>
+                              <div class="tag2">
+                                  <p>Splash 'n fun</p>
+                              </div>
+                          </div>
+                  </div>
+
+                <div class="article-specifications">
+                  <div class="title">
+                    <h2 class="uppercase">cooling mat</h2>
+                  </div>
+                  <div class="price">
+                    <span>€ 15, 49</span>
+                  </div>
+                  <div class="colors">
+                      <p>Colors</p>
+                      <div class="circles">
+                          <div class="circle1"></div>
+                          <div class="circle2"></div>
+                          <div class="circle3"></div>
+                      </div>
+                  </div>
+                  <div class="description">
+                    <h4>Description</h4>
+                    <p>Hier komt een de volledige beschrijvende tekst met een max. aantal karakters. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea clit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat consectetur.</p>
+                  </div>
+                </div>
+                <div class="obligatory">
+                  <div class="o-square"></div>
+                  <div class="o-circle"></div>
+                  <div class="o-triangle"></div>
+                </div>
+              </div>
+
             </div>
 
-            <div class="row">
-                <div class="col-xs-9 centered specifications">
-                    <h4>Specifications</h4>
-                    <p class="uppercase">dimensions</p>
-                    <p class="offset-left-1">
-                        <span class="dimensions">S - Ø 53x18cm </span>
-                        <span class="dimensions">M - Ø 53x18cm</span>
-                        <span class="dimensions">L - Ø 53x18cm</span>
-                    </p>
-                    <p class="uppercase">titel</p>
-                    <p class="offset-left-1">$-Hier komt technische tekst</p>
-                </div>
-            </div>
+          </div>
 
         </div>
 
+        <!-- specifications -->
+        <div class="row">
+            <div class="col-md-9 centered dimentions">
+                <h4>Specifications</h4>
+                <p class="uppercase">dimensions</p>
+                <p class="offset-left-1">
+                    <span class="dimensions">S - Ø 53x18cm </span>
+                    <span class="dimensions">M - Ø 53x18cm</span>
+                    <span class="dimensions">L - Ø 53x18cm</span>
+                </p>
+                <p class="uppercase">titel</p>
+                <p class="offset-left-1">$-Hier komt technische tekst</p>
+            </div>
+        </div>
+
+
         <!-- related products -->
-        <div class="row hot-products">
+        <div class="row hot-products side-scroll-container">
             <div class="col-xs-9 centered">
 
                 <!-- title -->
@@ -109,9 +113,11 @@
                         <h4 class="uppercase">gerelateerde producten</h4>
                     </div>
                 </div>
+                <div class="left-arrow" id="arrowL"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></div>
+                <div class="right-arrow" id="arrowR"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></div>
 
                 <!-- products -->
-                <div class="row products row-horizon">
+                <div class="row products row-horizon products-container">
                     <div class="product">
                         <div class="overlay-dog"></div>
                         <img src="img/hot_items/product-dog.png">
@@ -132,6 +138,34 @@
                         <img src="img/hot_items/product-dog.png">
                     </div>
 
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="img/hot_items/product-dog.png">
+                    </div>
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="img/hot_items/product-dog.png">
+                    </div>
+
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="img/hot_items/product-dog.png">
+                    </div>
+
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="img/hot_items/product-dog.png">
+                    </div>
+
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="img/hot_items/product-dog.png">
+                    </div>
+
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="img/hot_items/product-dog.png">
+                    </div>
                 </div>
 
                 <div class="link-to-more">
