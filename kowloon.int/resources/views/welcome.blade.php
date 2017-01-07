@@ -93,7 +93,7 @@
                 <!-- products -->
                 <div class="row products">
                     <div class="product nomobile">
-                        <div class="overlay-dog"></div>
+                        <a href="articledetail"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="product">
-                        <div class="overlay-dog"></div>
+                        <a href="articledetail"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
@@ -115,7 +115,7 @@
                     </div>
 
                     <div class="product">
-                        <div class="overlay-dog"></div>
+                        <a href="articledetail"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
@@ -126,7 +126,7 @@
                     </div>
 
                     <div class="product product-spread">
-                        <div class="overlay-dog"></div>
+                        <a href="articledetail"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>

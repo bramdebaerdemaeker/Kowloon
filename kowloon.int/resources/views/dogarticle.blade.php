@@ -156,7 +156,7 @@
                   <div class="left">
                     <div class="boven">
                       <div class="bovenste-left product">
-                            <div class="overlay-dog"></div>
+                            <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
@@ -166,7 +166,7 @@
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
                       <div class="bovenste-rechts product">
-                            <div class="overlay-dog"></div>
+                            <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
@@ -179,7 +179,7 @@
 
                     <div class="onder">
                       <div class="onderste-left product">
-                            <div class="overlay-dog"></div>
+                            <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
@@ -189,7 +189,7 @@
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
                       <div class="onderste-rechts product">
-                            <div class="overlay-dog"></div>
+                            <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
@@ -214,7 +214,7 @@
 
                   <div class="products">
                       <div class="product">
-                          <div class="overlay-dog"></div>
+                          <a href="articledetail"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
@@ -225,7 +225,7 @@
                       </div>
 
                       <div class="product">
-                          <div class="overlay-dog"></div>
+                          <a href="articledetail"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
@@ -236,7 +236,7 @@
                       </div>
 
                       <div class="product">
-                          <div class="overlay-dog"></div>
+                          <a href="articledetail"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
@@ -247,7 +247,7 @@
                       </div>
 
                       <div class="product">
-                          <div class="overlay-dog"></div>
+                          <a href="articledetail"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
