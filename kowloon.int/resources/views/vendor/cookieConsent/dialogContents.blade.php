@@ -6,7 +6,7 @@
       </div>
 
       <!-- close tag -->
-      <div class="cookie-close-tag cookie-close" id="close-cookie-overlay">
+      <div class="cookie-close-tag js-cookie-consent-agree" id="close-cookie-overlay">
           <i class="fa fa-times fa" aria-hidden="true"></i>
       </div>
 

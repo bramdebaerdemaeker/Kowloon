@@ -102,9 +102,11 @@ i {
   transform: translate(-50%, -50%); }
   .cookie-consent .cookie-content {
     margin-top: 30px;
-    padding: 35px 70px; }
+    padding: 35px 70px;
+    font-family: 'Arial', sans-serif; }
     .cookie-consent .cookie-content h1 {
-      color: #e27500; }
+      color: #e27500;
+      font-family: choplin-medium; }
   .cookie-consent .cookie-image {
     position: absolute;
     left: -50px;
@@ -113,8 +115,9 @@ i {
     width: 100%;
     padding: 15px;
     background-color: #e27500;
+    font-size: 1.3em;
     border: none;
-    margin-top: 10px; }
+    margin-top: 30px; }
   .cookie-consent .cookie-close-tag {
     color: #e27500;
     position: absolute;
@@ -606,12 +609,15 @@ i {
   .product-big-article img,
   .product-big img {
     width: 100%; }
-  .product-big-article .btn-big,
-  .product-big .btn-big {
+  .product-big-article .btn-big, .product-big-article .btn-big-dog,
+  .product-big .btn-big,
+  .product-big .btn-big-dog {
     width: 200px !important;
     float: right;
     border: none;
-    padding: 5px;
+    padding: 5px; }
+  .product-big-article .btn-big-dog,
+  .product-big .btn-big-dog {
     background-color: #fd719e; }
   .product-big-article h4,
   .product-big-article p,

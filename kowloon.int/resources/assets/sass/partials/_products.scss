@@ -151,6 +151,10 @@
     float: right;
     border: none;
     padding: 5px;
+  }
+
+  .btn-big-dog{
+    @extend .btn-big;
     background-color: $bg-category-dog;
   }
 

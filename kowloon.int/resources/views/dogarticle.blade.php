@@ -207,7 +207,7 @@
                         <h4>Cooling mat</h4>
                         <p>Hier komt een deel van de beschrijvende tekst die bij elk product hoort. Ook terug te vinden in het product detail. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius....</p>
                         <span>€15,49</span>
-                        <button type="submit" class="btn-big"><b>Want to know more?</b></button>
+                        <button type="submit" class="btn-big-dog"><b>Want to know more?</b></button>
                     </div>
                   </div>
 
