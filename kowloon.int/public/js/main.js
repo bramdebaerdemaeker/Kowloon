@@ -96,11 +96,11 @@ $(function() {
     console.log('clicked');
     $('#faq-overlay').hide();
   });
-
-  $('.cookie-close').on('click', function(){
-    console.log('clicked');
-    $('.cookie-screen-overlay').hide();
-  });
+  // 
+  // $('.cookie-close').on('click', function(){
+  //   console.log('clicked');
+  //   $('.cookie-screen-overlay').hide();
+  // });
 
   /*
   *

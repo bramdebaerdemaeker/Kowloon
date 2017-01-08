@@ -7,7 +7,7 @@
 }
 
 
-.cookie-overlay {
+.cookie-consent {
   background-color: $bg-cookie-overlay;
   position: absolute;
   z-index: 100;
@@ -31,7 +31,7 @@
     top: -20px;
   }
 
-  .cookie-button {
+  .cookie-consent__agree {
     width: 100%;
     padding: 15px;
     background-color: $cookie-accent-color;

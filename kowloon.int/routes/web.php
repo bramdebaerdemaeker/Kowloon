@@ -11,19 +11,25 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/', 'HomeController@home');
+Route::get('about', 'HomeController@about');
+Route::get('dogarticles', 'HomeController@productList');
+Route::get('articledetail', 'HomeController@productDetail');
 
-Route::get('/dogarticles', function () {
-    return view('dogarticle');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/articledetail', function () {
-    return view('articledetail');
-});
+// Route::get('/about', function () {
+//     return view('about');
+// });
+//
+// Route::get('/dogarticles', function () {
+//     return view('dogarticle');
+// });
+//
+// Route::get('/articledetail', function () {
+//     return view('articledetail');
+// });

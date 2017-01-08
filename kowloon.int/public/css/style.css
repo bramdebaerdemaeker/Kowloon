@@ -92,7 +92,7 @@ i {
   height: 100vmax;
   background-color: rgba(0, 0, 0, 0.7); }
 
-.cookie-overlay {
+.cookie-consent {
   background-color: #f7eade;
   position: absolute;
   z-index: 100;
@@ -100,22 +100,22 @@ i {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%); }
-  .cookie-overlay .cookie-content {
+  .cookie-consent .cookie-content {
     margin-top: 30px;
     padding: 35px 70px; }
-    .cookie-overlay .cookie-content h1 {
+    .cookie-consent .cookie-content h1 {
       color: #e27500; }
-  .cookie-overlay .cookie-image {
+  .cookie-consent .cookie-image {
     position: absolute;
     left: -50px;
     top: -20px; }
-  .cookie-overlay .cookie-button {
+  .cookie-consent .cookie-consent__agree {
     width: 100%;
     padding: 15px;
     background-color: #e27500;
     border: none;
     margin-top: 10px; }
-  .cookie-overlay .cookie-close-tag {
+  .cookie-consent .cookie-close-tag {
     color: #e27500;
     position: absolute;
     font-size: 1.5em;
