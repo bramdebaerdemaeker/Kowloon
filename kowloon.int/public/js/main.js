@@ -97,6 +97,11 @@ $(function() {
     $('#faq-overlay').hide();
   });
 
+  $('.cookie-close').on('click', function(){
+    console.log('clicked');
+    $('.cookie-screen-overlay').hide();
+  });
+
   /*
   *
   * price slider */
