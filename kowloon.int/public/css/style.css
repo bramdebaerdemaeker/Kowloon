@@ -45,7 +45,7 @@
 * product detail */
 /*
 *
-* screen overlay */
+* screen overlays */
 /*
 ** mixins **
 */
@@ -85,6 +85,43 @@ body {
 i {
   cursor: pointer; }
 
+.cookie-screen-overlay {
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  height: 100vmax;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.cookie-overlay {
+  background-color: #f7eade;
+  position: absolute;
+  z-index: 100;
+  width: 29%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .cookie-overlay .cookie-content {
+    margin-top: 30px;
+    padding: 35px 70px; }
+    .cookie-overlay .cookie-content h1 {
+      color: #e27500; }
+  .cookie-overlay .cookie-image {
+    position: absolute;
+    left: -50px;
+    top: -20px; }
+  .cookie-overlay .cookie-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #e27500;
+    border: none;
+    margin-top: 10px; }
+  .cookie-overlay .cookie-close {
+    color: #e27500;
+    position: absolute;
+    font-size: 1.5em;
+    top: 10px;
+    right: 20px; }
+
 /*
  *
  * Media Queries
@@ -93,25 +130,10 @@ i {
 /*
  * Layout 01 & Layout 02 - - - 0px - 767px */
 @media all and (max-width: 767px) {
-  .sidenav, .sidenav-big {
-    display: none; }
-
   .container,
   .carousel-inner {
-    width: 100%; }
-
-  .carousel-inner {
-    height: 25vh; } }
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .sidenav, .sidenav-big {
-    display: none; }
-
-  .container,
-  .carousel-inner {
-    width: 100%; }
-
-  .carousel-inner {
-    height: 25vh; } }
+    width: 100%;
+    height: 25vh !important; } }
 /*
  * Layout 02 ipad portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -155,18 +177,18 @@ i {
   .screen-overlay {
     width: 94% !important; }
 
-  .container-articles .links {
+  .container-articles .left {
     width: 100% !important;
     flex-direction: row !important; }
 
-  .container-articles .bovenste-links,
+  .container-articles .bovenste-left,
   .container-articles .products .product:first-child {
     display: none; }
 
   .container-articles .bovenste-rechts {
     width: 100% !important; }
 
-  .container-articles .onderste-links,
+  .container-articles .onderste-left,
   .container-articles .bovenste-rechts {
     margin-left: 7px !important; } }
 /*
