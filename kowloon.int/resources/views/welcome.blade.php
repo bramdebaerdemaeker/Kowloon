@@ -157,7 +157,8 @@
                         <h3>Subscribe to our newsletter</h3>
                         <span>Lorem ipsum dolor sit amet...</span>
 
-                        <form class="form-subscribe">
+                        <form class="form-subscribe" method="POST" action="{{ url('/email') }}">
+                          {{ csrf_field() }}
                             <input type="text" name="email" placeholder="Your e-mail">
                             <button type="button" name="submit">OK</button>
                         </form>

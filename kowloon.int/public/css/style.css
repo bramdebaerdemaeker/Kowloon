@@ -671,7 +671,8 @@ i {
     .newsletter .subscribe span {
       opacity: .6; }
   .newsletter .form-subscribe {
-    margin: 25px 0 25px 0; }
+    margin: 25px 0 25px 0;
+    color: #000000; }
     .newsletter .form-subscribe button {
       background-color: #323232;
       color: #ffffff;

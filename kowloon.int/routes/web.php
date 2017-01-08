@@ -17,6 +17,7 @@ Route::get('/', 'HomeController@home');
 Route::get('about', 'HomeController@about');
 Route::get('dogarticles', 'HomeController@productList');
 Route::get('articledetail', 'HomeController@productDetail');
+Route::post('email', 'HomeController@store');
 
 // Route::get('/', function () {
 //     return view('welcome');

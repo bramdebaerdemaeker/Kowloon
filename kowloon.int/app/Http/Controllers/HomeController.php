@@ -1,23 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\User;
 use Illuminate\Http\Request;
-use Illuminate\Cookie\CookieJar;
+
 
 class HomeController extends Controller
 {
-  // CookieJar $cookieJar, Request $request
     public function home()
     {
       return view ('welcome');
-      // if($request->referrer)
-      // {
-      //   $cookieJar->queue(cookie('referrer', $request->referrer, 45000));
-      //
-      // }
-
-
     }
 
     public function about()
@@ -36,5 +28,17 @@ class HomeController extends Controller
     {
 
       return view ('articledetail');
+    }
+
+    public function store(Request $request)
+    {
+
+      // return $request->all();
+
+      $user = new User;
+      $user -> email = $request->email;
+      $user->save();
+
+      return redirect('/');
     }
 }
