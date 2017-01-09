@@ -3,7 +3,6 @@
  ** product **
  **************/
 
-
 .product {
   position: relative;
   margin: 15px 0px 15px 0px;
@@ -96,6 +95,9 @@
 .product-spread {
   position: relative !important;
   z-index: 4 !important;
+  // width: 100%;
+  // height: 75%;
+  // flex-basis: 0;
 
   &:after {
     content: '';
@@ -156,6 +158,26 @@
   .btn-big-dog{
     @extend .btn-big;
     background-color: $bg-category-dog;
+  }
+
+  .btn-big-cat{
+    @extend .btn-big;
+    background-color: $bg-category-cat;
+  }
+
+  .btn-big-fish{
+    @extend .btn-big;
+    background-color: $bg-category-fish;
+  }
+
+  .btn-big-bird{
+    @extend .btn-big;
+    background-color: $bg-category-bird;
+  }
+
+  .btn-big-hamster{
+    @extend .btn-big;
+    background-color: $bg-category-hamster;
   }
 
   h4,

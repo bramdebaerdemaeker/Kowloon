@@ -2,7 +2,6 @@
 *
 * Fonts */
 
-//import
 @font-face {
   font-family: choplin-light;
   src: url(/fonts/Choplin-ExtraLight.otf);
@@ -18,7 +17,7 @@ $font-family-main:'Arial', sans-serif;
 
 /*
  *
- * Define layouts */
+ * Define layouts for mediaqueries*/
 $layout-1:			419px;
 $layout-2:			767px;
 $layout-3:			1025px;

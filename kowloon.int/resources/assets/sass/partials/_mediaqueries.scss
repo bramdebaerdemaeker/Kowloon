@@ -7,7 +7,7 @@
 /*
  * Layout 01 & Layout 02 - - - 0px - 767px */
 @media all and (max-width: $layout-2) {
-  .container,
+  // .container,
   .carousel-inner {
     width: 100%;
     height: 25vh !important;
@@ -47,9 +47,9 @@
  and (max-device-width : 1024px)
  and (orientation : portrait) {
 
-  .container {
-    width: 94% !important;
-  }
+  // .container {
+  //   width: 94% !important;
+  // }
 
 // home screen
   .fade-carousel{
@@ -128,6 +128,7 @@
   .container-articles .bovenste-rechts{
     margin-left: 7px !important;
   }
+
 }
 
 
@@ -156,6 +157,26 @@
   .obligatory {
     width: 100%;
 
+  }
+
+  .container-article-detail-left {
+    width:40% !important;
+  }
+
+  .container-article-detail-right {
+    width:60% !important;
+
+    .obligatory {
+      display: none !important;
+    }
+
+    .description {
+      // position: absolute;
+    }
+
+    h2 {
+      margin: 0px
+    }
   }
 
 }

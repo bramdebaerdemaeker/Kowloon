@@ -5,7 +5,7 @@
     <!-- header image -->
     <div class="header">
         <div class="logo">
-            <a href="index.html"><img src="img/carousel/logo.png" alt=""></a>
+            <a href="/"><img src="img/carousel/logo.png" alt=""></a>
         </div>
     </div>
 

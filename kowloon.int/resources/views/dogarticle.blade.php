@@ -7,7 +7,7 @@
 
 
         <div class="logo">
-            <a href="index.html"><img src="img/carousel/logo.png" alt="Kowloon"></a>
+            <a href="/"><img src="img/carousel/logo.png" alt="Kowloon"></a>
         </div>
         <!-- Indicators -->
         <ol class="carousel-indicators">

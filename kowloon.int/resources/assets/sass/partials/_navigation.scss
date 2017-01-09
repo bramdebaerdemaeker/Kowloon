@@ -17,12 +17,12 @@
     font-size: $font-size-nav;
     color: $white;
 
-    // &:first-child{
-    //   background-color: #252525
-    // }
-
     &:nth-child(-n+4) {
       opacity: .5;
+    }
+
+    span {
+      pointer-events: none;
     }
   }
 
@@ -138,5 +138,9 @@
   .nav-bottom{
     @include transition(.5s);
     width: 220px;
+  }
+
+  span {
+    pointer-events: auto;
   }
 }

@@ -79,28 +79,27 @@ $(function() {
   });
 
   $('#close-screen-overlay').on('click', function(){
+    $('.search').removeClass('active');
     $('#search-overlay').hide();
   });
 
   $('#nav-search').on('click', function(){
+    $('.search').toggleClass('active');
     $('#faq-overlay').hide();
     $('#search-overlay').toggle();
   });
 
   $('#nav-faq').on('click', function(){
+    $('.faq').toggleClass('active');
     $('#search-overlay').hide();
     $('#faq-overlay').toggle();
   });
 
   $('#close-faq-overlay').on('click', function(){
+    $('.faq').removeClass('active');
     console.log('clicked');
     $('#faq-overlay').hide();
   });
-  // 
-  // $('.cookie-close').on('click', function(){
-  //   console.log('clicked');
-  //   $('.cookie-screen-overlay').hide();
-  // });
 
   /*
   *
@@ -141,7 +140,9 @@ $(function() {
   $( "#amount-max-articles" ).val( "€ " + $( "#slider-range-articles" ).slider( "values", 1 ));
 
 
-
+/*
+*
+* side scroller */
 
   var $item = $('div.product'), //Cache your DOM selector
         visible = 2, //Set the number of items that will be visible
@@ -161,4 +162,14 @@ $(function() {
           $item.animate({'left':'+=600px'});
         }
     });
+
+
+/*
+*
+* endless scroll */
+// $('.search-overlay-results').jscroll({
+//   autoTrigger: true,
+//   nextSelector: 'a.jscroll-next:last',
+//   contentSelector: 'div.row-result'
+// });
 })();

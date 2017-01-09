@@ -2,7 +2,7 @@
   display: none;
   position: absolute;
   height: 100vmax;
-  width: 96%;
+  width: calc(100% - 60px);
   right:0;
   opacity: .97;
   background-color: $white;

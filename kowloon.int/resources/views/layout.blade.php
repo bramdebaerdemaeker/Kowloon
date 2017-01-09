@@ -17,13 +17,13 @@
         <a id="nav-expend"><div class="nav-item nav-expend"></div></a>
         <a href="#" id="nav-search"><div class="nav-item search"></div><span class="sidenav-text">Search</span></a>
         <a href="#" id="nav-faq"><div class="nav-item faq"></div><span class="sidenav-text uppercase">faq</span></a>
-        <a href="/about"><div class="nav-item contact"></div><span class="sidenav-text">Contact</span></a>
+        <a href="/about"><div class="nav-item contact {{ isActiveURL('/about') }}"></div><span class="sidenav-text">Contact</span></a>
         <hr>
-        <a href="dogarticles"><div class="nav-item dogarticle"></div><span class="sidenav-text">Dogs</span></a>
-        <a href="#"><div class="nav-item catarticle"></div><span class="sidenav-text">Cats</span></a>
-        <a href="#"><div class="nav-item fisharticle"></div><span class="sidenav-text">Fish</span></a>
-        <a href="#"><div class="nav-item birdarticle"></div><span class="sidenav-text">Birds</span></a>
-        <a href="#"><div class="nav-item smallarticle"></div><span class="sidenav-text">Small animals</span></a>
+        <a href="dogarticles"><div class="nav-item dogarticle {{ isActiveURL('/dogarticles') }}"></div><span class="sidenav-text">Dogs</span></a>
+        <a href="#"><div class="nav-item catarticle {{ isActiveURL('/catarticles') }}"></div><span class="sidenav-text">Cats</span></a>
+        <a href="#"><div class="nav-item fisharticle {{ isActiveURL('/fisharticles') }}"></div><span class="sidenav-text">Fish</span></a>
+        <a href="#"><div class="nav-item birdarticle {{ isActiveURL('/birdarticles') }}"></div><span class="sidenav-text">Birds</span></a>
+        <a href="#"><div class="nav-item smallarticle {{ isActiveURL('/smallarticles') }}"></div><span class="sidenav-text">Small animals</span></a>
 
         <div class="nav-bottom">
             <a href="/"><img src="img/nav/k-big.png"></a>
@@ -270,6 +270,7 @@
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jscroll.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
