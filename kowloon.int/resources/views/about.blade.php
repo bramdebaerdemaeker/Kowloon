@@ -77,8 +77,8 @@
 
                 <h4 class="uppercase">Leave us a message</h4>
 
-                <form method="post">
-
+                <form method="POST" action="{{ url('/about') }}">
+                  {{ csrf_field() }}
                     <!-- email group -->
                     <div class="form-group">
                         <label for="InputEmail">E-mail</label>
@@ -92,7 +92,7 @@
                     </div>
 
                     <!-- button -->
-                    <button type="submit" class="btn" id="validate"><b>Send</b></button>
+                    <button type="button" name="submit" class="btn" id="validateMessage1"><b>Send</b></button>
 
                 </form>
             </div>

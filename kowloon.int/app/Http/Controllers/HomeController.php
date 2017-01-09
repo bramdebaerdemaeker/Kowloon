@@ -34,6 +34,9 @@ class HomeController extends Controller
     {
 
       // return $request->all();
+      $this->validate($request, [
+        'email' => 'required|email|unique:users',
+    ]);
 
       $user = new User;
       $user -> email = $request->email;

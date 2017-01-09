@@ -1,221 +1,200 @@
-
 /**************
  ** product **
  **************/
-
 .product {
-  position: relative;
-  margin: 15px 0px 15px 0px;
-  padding: 3px;
-  border: $product-border;
-  background-color: $bg-product;
-  color: $white;
+    position: relative;
+    margin: 15px 0;
+    padding: 3px;
+    border: $product-border;
+    background-color: $bg-product;
+    color: $white;
 
-  img {
-    width: 100%;
-    height: 85%;
-  }
-
-  &:hover {
-    .overlay {
-      animation-name: overlay-product;
-      animation-duration: .9s;
-      visibility: inherit;
+    img {
+        width: 100%;
+        height: 85%;
     }
-  }
 
-  p {
-    position: relative;
-    margin-left: 7px;
-    font-weight: bold;
-    margin-top: 4px;
-    z-index: 30;
-  }
+    &:hover .overlay {
+            animation-name: overlay-product;
+            animation-duration: 0.9s;
+            visibility: inherit;
+    }
 
-  span {
-    position: relative;
-    float: right;
-    margin-right: 7px;
-    font-weight: normal;
-    z-index: 30;
-  }
+    p {
+        position: relative;
+        margin-left: 7px;
+        font-weight: bold;
+        margin-top: 4px;
+        z-index: 30;
+    }
 
-  .overlay {
-      z-index: 2;
-      visibility: hidden;
-      position: absolute;
-      width: 98%;
-      height: 83%;
-      opacity: .8;
-      background-image: $img-hover-product;
-      background-position: center;
-      background-repeat: no-repeat;
-  }
+    span {
+        position: relative;
+        float: right;
+        margin-right: 7px;
+        font-weight: normal;
+        z-index: 30;
+    }
 
-  .overlay-dog {
-    @extend .overlay;
-    background-color: $bg-category-dog;
-  }
+    .overlay {
+        z-index: 2;
+        visibility: hidden;
+        position: absolute;
+        width: 98%;
+        height: 83%;
+        background: $img-hover-product no-repeat center;
+    }
 
-  .overlay-cat {
-    @extend .overlay;
-    background-color: $bg-category-cat;
-  }
+    .overlay-dog {
+        @extend .overlay;
+        background-color: $bg-category-dog;
+    }
 
-  .overlay-fish {
-    @extend .overlay;
-    background-color: $bg-category-fish;
-  }
+    .overlay-cat {
+        @extend .overlay;
+        background-color: $bg-category-cat;
+    }
 
-  .overlay-bird {
-    @extend .overlay;
-    background-color: $bg-category-bird;
-  }
+    .overlay-fish {
+        @extend .overlay;
+        background-color: $bg-category-fish;
+    }
 
-  .overlay-hamster {
-    @extend .overlay;
-    background-color: $bg-category-hamster;
-  }
+    .overlay-bird {
+        @extend .overlay;
+        background-color: $bg-category-bird;
+    }
 
-  .overlay-grey {
-    @extend .overlay;
-    background-color: $bg-category-grey;
-  }
+    .overlay-hamster {
+        @extend .overlay;
+        background-color: $bg-category-hamster;
+    }
+
+    .overlay-grey {
+        @extend .overlay;
+        background-color: $bg-category-grey;
+    }
 }
-
 @keyframes overlay-product {
-  from {opacity: 0;}
-  to {opacity: .8;}
-}
+    from {
+        opacity: 0;
+    }
 
+    to {
+        opacity: 0.8;
+    }
+}
 /*
 *
 * product-spread */
-
 .product-spread {
-  position: relative !important;
-  z-index: 4 !important;
-  // width: 100%;
-  // height: 75%;
-  // flex-basis: 0;
+    position: relative ;
+    z-index: 4 !important;
 
-  &:after {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: 8px;
-    right: -8px;
-    bottom: 0px;
-    border-top: $extra-img-1;
-    border-right: $extra-img-1;
-    z-index: -1;
-  }
+    &:after {
+        content: '';
+        position: absolute;
+        top: -8px;
+        left: 8px;
+        right: -8px;
+        bottom: 0;
+        border-top: $extra-img-1;
+        border-right: $extra-img-1;
+        z-index: -1;
+    }
 
-  &:before {
-    content: '';
-    position: absolute;
-    top: -15px;
-    left: 15px;
-    right: -15px;
-    bottom: 0px;
-    border-top: $extra-img-2;
-    border-right: $extra-img-2;
-    z-index: -1;
-  }
+    &:before {
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: 15px;
+        right: -15px;
+        bottom: 0;
+        border-top: $extra-img-2;
+        border-right: $extra-img-2;
+        z-index: -1;
+    }
 }
 
 
-.link-to-more {
-  margin-top: 10px;
-  float: right;
-
-  a {
-    font-family: choplin-medium;
-    text-decoration: none;
+.product-big,
+.product-big-article {
+    padding: 3px;
+    height: auto;
+    max-height: 515px !important;
+    background-color: $bg-product;
     color: $white;
-  }
+
+    img {
+        width: 100%;
+    }
+
+    .btn-big {
+        width: 200px !important;
+        float: right;
+        border: none;
+        padding: 5px;
+    }
+
+    .btn-big-dog {
+        @extend .btn-big;
+        background-color: $bg-category-dog;
+    }
+
+    .btn-big-cat {
+        @extend .btn-big;
+        background-color: $bg-category-cat;
+    }
+
+    .btn-big-fish {
+        @extend .btn-big;
+        background-color: $bg-category-fish;
+    }
+
+    .btn-big-bird {
+        @extend .btn-big;
+        background-color: $bg-category-bird;
+    }
+
+    .btn-big-hamster {
+        @extend .btn-big;
+        background-color: $bg-category-hamster;
+    }
+
+    h4,
+    p,
+    span {
+        margin-left: 15px;
+    }
 }
-
-
-.product-big-article,
-.product-big{
-  padding: 3px;
-  height: auto;
-  max-height: 515px !important;
-  background-color: $bg-product;
-  color: $white;
-
-  img {
-    width: 100%;
-  }
-  .btn-big {
-    width: 200px !important;
-    float: right;
-    border: none;
-    padding: 5px;
-  }
-
-  .btn-big-dog{
-    @extend .btn-big;
-    background-color: $bg-category-dog;
-  }
-
-  .btn-big-cat{
-    @extend .btn-big;
-    background-color: $bg-category-cat;
-  }
-
-  .btn-big-fish{
-    @extend .btn-big;
-    background-color: $bg-category-fish;
-  }
-
-  .btn-big-bird{
-    @extend .btn-big;
-    background-color: $bg-category-bird;
-  }
-
-  .btn-big-hamster{
-    @extend .btn-big;
-    background-color: $bg-category-hamster;
-  }
-
-  h4,
-  p,
-  span {
-    margin-left: 15px;
-  }
-}
-
-
 
 .circles {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  margin-top: 5px;
-  margin-left: 5px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .circle {
-  width: 15px;
-  height: 15px;
-  margin: 2px;
-  border: $border-circles;
-  border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border: $border-circles;
+    border-radius: 50%;
 }
 
 .circle1 {
-  @extend .circle;
-  background-color: $white;
+    @extend .circle;
+    background-color: $white;
 }
 
 .circle2 {
-  @extend .circle;
-  background-color: $bg-circle2;
+    @extend .circle;
+    background-color: $bg-circle2;
 }
 
 .circle3 {
-  @extend .circle;
-  background-color: $bg-circle3;
+    @extend .circle;
+    background-color: $bg-circle3;
 }

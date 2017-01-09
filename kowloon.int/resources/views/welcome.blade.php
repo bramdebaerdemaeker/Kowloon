@@ -159,12 +159,22 @@
 
                         <form class="form-subscribe" method="POST" action="{{ url('/email') }}">
                           {{ csrf_field() }}
-                            <input type="text" name="email" placeholder="Your e-mail">
+                            <input type="text" name="email" placeholder="Your e-mail" id="newsletterInput">
                             <button type="button" name="submit">OK</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+
+        @if (count($errors) > 0)
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
 
 @stop

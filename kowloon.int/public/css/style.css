@@ -39,6 +39,9 @@
 * breadcrumb */
 /*
 *
+* price slider */
+/*
+*
 * sort by */
 /*
 *
@@ -47,17 +50,17 @@
 *
 * screen overlays */
 /*
-** mixins **
-*/
+*
+* mixins */
 /*
- ** main settings for the whole site **
- */
+*
+* main settings */
 body {
   height: 100%; }
 
 /*
- ** content container **
- */
+*
+* content container */
 .container {
   margin: 0;
   padding: 0;
@@ -67,24 +70,38 @@ body {
   min-height: 100vh; }
 
 /*
- ** div in the center of the canvas**
- */
+*
+* center div*/
 .centered {
   float: none;
   margin: 0 auto; }
 
 /*
- ** text to uppercase **
- */
+*
+* text to uppercase */
 .uppercase {
   text-transform: uppercase; }
 
-/*
- ** linkse inspringend
- */
 i {
   cursor: pointer; }
 
+.logo {
+  position: absolute;
+  z-index: 3;
+  left: 40%;
+  top: 7%; }
+
+.link-to-more {
+  margin-top: 10px;
+  float: right; }
+  .link-to-more a {
+    font-family: choplin-medium;
+    text-decoration: none;
+    color: #ffffff; }
+
+/*****************
+* cookie styling *
+******************/
 .cookie-screen-overlay {
   position: absolute;
   z-index: 50;
@@ -216,9 +233,9 @@ i {
       margin: 0px; } }
 /*
  * Layout 04 - - - 1024px - ... */
-/*********************
- ** Navigation menu **
- *********************/
+/*******************
+ * Navigation menu *
+ *******************/
 .sidenav, .sidenav-big {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -235,12 +252,12 @@ i {
     font-size: 1.3em;
     color: #ffffff; }
     .sidenav a:nth-child(-n+4), .sidenav-big a:nth-child(-n+4) {
-      opacity: .5; }
+      opacity: 0.5; }
     .sidenav a span, .sidenav-big a span {
       pointer-events: none; }
   .sidenav hr, .sidenav-big hr {
     width: 80%;
-    opacity: .3; }
+    opacity: 0.3; }
   .sidenav .sidenav-text, .sidenav-big .sidenav-text {
     opacity: 0;
     position: absolute;
@@ -294,13 +311,13 @@ i {
 /*
  *
  * sprite-image positioning on hover and active status */
-.search:hover,
-.faq:hover,
+.birdarticle:hover,
+.catarticle:hover,
 .contact:hover,
 .dogarticle:hover,
-.catarticle:hover,
+.faq:hover,
 .fisharticle:hover,
-.birdarticle:hover,
+.search:hover,
 .smallarticle:hover {
   background-position-x: -60px; }
 
@@ -331,6 +348,9 @@ i {
   .sidenav-big span {
     pointer-events: auto; }
 
+/************
+ * Carousel *
+ ************/
 .fade-carousel {
   height: 50%;
   width: 100%; }
@@ -356,18 +376,9 @@ i {
   background-color: #323232;
   opacity: 1; }
 
-.logo {
-  position: absolute;
-  z-index: 3;
-  left: 40%;
-  top: 7%; }
-
 /*********************
-** home page layout **
+* home page layout *
 *********************/
-/*
-*
-* intro tekst */
 .intro {
   margin-top: 50px;
   color: #ffffff;
@@ -423,7 +434,7 @@ i {
   margin-top: 50px;
   color: #ffffff; }
   .hot-products .product {
-    margin: 0px 5px 0px 5px; }
+    margin: 0 5px; }
   .hot-products h1,
   .hot-products h4 {
     font-family: Choplin-Medium; }
@@ -438,13 +449,16 @@ i {
       .hot-products .products .product:last-child {
         margin-right: 0 !important; }
 
+/***********************
+* search + faq overlay *
+************************/
 .screen-overlay {
   display: none;
   position: absolute;
   height: 100vmax;
   width: calc(100% - 60px);
   right: 0;
-  opacity: .97;
+  opacity: 0.97;
   background-color: #ffffff;
   z-index: 16; }
 
@@ -478,7 +492,7 @@ i {
   color: #e0751f;
   font-family: choplin-medium; }
 .overlay-input .wrap {
-  margin: 100px 0px;
+  margin: 100px 0;
   position: relative;
   height: 60px;
   padding: 0; }
@@ -489,8 +503,7 @@ i {
   border-bottom: 2px solid black;
   outline: none;
   color: #e0751f;
-  padding: 3px;
-  padding-left: 80px;
+  padding: 3px 3px 3px 80px;
   width: 100%;
   position: absolute;
   background: none;
@@ -524,7 +537,7 @@ i {
  **************/
 .product {
   position: relative;
-  margin: 15px 0px 15px 0px;
+  margin: 15px 0;
   padding: 3px;
   border: 1px solid #717171;
   background-color: #565656;
@@ -534,7 +547,7 @@ i {
     height: 85%; }
   .product:hover .overlay, .product:hover .overlay-dog, .product:hover .overlay-cat, .product:hover .overlay-fish, .product:hover .overlay-bird, .product:hover .overlay-hamster, .product:hover .overlay-grey {
     animation-name: overlay-product;
-    animation-duration: .9s;
+    animation-duration: 0.9s;
     visibility: inherit; }
   .product p {
     position: relative;
@@ -554,10 +567,7 @@ i {
     position: absolute;
     width: 98%;
     height: 83%;
-    opacity: .8;
-    background-image: url("/img/hot_items/overlay.png");
-    background-position: center;
-    background-repeat: no-repeat; }
+    background: url("/img/hot_items/overlay.png") no-repeat center; }
   .product .overlay-dog {
     background-color: #fd719e; }
   .product .overlay-cat {
@@ -575,12 +585,12 @@ i {
   from {
     opacity: 0; }
   to {
-    opacity: .8; } }
+    opacity: 0.8; } }
 /*
 *
 * product-spread */
 .product-spread {
-  position: relative !important;
+  position: relative;
   z-index: 4 !important; }
   .product-spread:after {
     content: '';
@@ -588,7 +598,7 @@ i {
     top: -8px;
     left: 8px;
     right: -8px;
-    bottom: 0px;
+    bottom: 0;
     border-top: 5px solid #808182;
     border-right: 5px solid #808182;
     z-index: -1; }
@@ -598,61 +608,53 @@ i {
     top: -15px;
     left: 15px;
     right: -15px;
-    bottom: 0px;
+    bottom: 0;
     border-top: 5px solid #cfd0d1;
     border-right: 5px solid #cfd0d1;
     z-index: -1; }
 
-.link-to-more {
-  margin-top: 10px;
-  float: right; }
-  .link-to-more a {
-    font-family: choplin-medium;
-    text-decoration: none;
-    color: #ffffff; }
-
-.product-big-article,
-.product-big {
+.product-big,
+.product-big-article {
   padding: 3px;
   height: auto;
   max-height: 515px !important;
   background-color: #565656;
   color: #ffffff; }
-  .product-big-article img,
-  .product-big img {
+  .product-big img,
+  .product-big-article img {
     width: 100%; }
-  .product-big-article .btn-big, .product-big-article .btn-big-dog, .product-big-article .btn-big-cat, .product-big-article .btn-big-fish, .product-big-article .btn-big-bird, .product-big-article .btn-big-hamster,
-  .product-big .btn-big,
-  .product-big .btn-big-dog,
-  .product-big .btn-big-cat,
-  .product-big .btn-big-fish,
-  .product-big .btn-big-bird,
-  .product-big .btn-big-hamster {
+  .product-big .btn-big, .product-big .btn-big-dog, .product-big .btn-big-cat, .product-big .btn-big-fish, .product-big .btn-big-bird, .product-big .btn-big-hamster,
+  .product-big-article .btn-big,
+  .product-big-article .btn-big-dog,
+  .product-big-article .btn-big-cat,
+  .product-big-article .btn-big-fish,
+  .product-big-article .btn-big-bird,
+  .product-big-article .btn-big-hamster {
     width: 200px !important;
     float: right;
     border: none;
     padding: 5px; }
-  .product-big-article .btn-big-dog,
-  .product-big .btn-big-dog {
+  .product-big .btn-big-dog,
+  .product-big-article .btn-big-dog {
     background-color: #fd719e; }
-  .product-big-article .btn-big-cat,
-  .product-big .btn-big-cat {
+  .product-big .btn-big-cat,
+  .product-big-article .btn-big-cat {
     background-color: #888afc; }
-  .product-big-article .btn-big-fish,
-  .product-big .btn-big-fish {
+  .product-big .btn-big-fish,
+  .product-big-article .btn-big-fish {
     background-color: #fdb84c; }
-  .product-big-article .btn-big-bird,
-  .product-big .btn-big-bird {
+  .product-big .btn-big-bird,
+  .product-big-article .btn-big-bird {
     background-color: #80fd87; }
-  .product-big-article .btn-big-hamster,
-  .product-big .btn-big-hamster {
+  .product-big .btn-big-hamster,
+  .product-big-article .btn-big-hamster {
     background-color: #7fe5fd; }
-  .product-big-article h4,
-  .product-big-article p,
-  .product-big-article span,
   .product-big h4,
   .product-big p,
-  .product-big span {
+  .product-big span,
+  .product-big-article h4,
+  .product-big-article p,
+  .product-big-article span {
     margin-left: 15px; }
 
 .circles {
@@ -863,7 +865,8 @@ button {
     background-color: #ff6493;
     color: #ffffff !important; }
   button:focus {
-    outline: none !important; }
+    outline: none !important;
+    color: #ffffff !important; }
 
 .filter,
 .sort {

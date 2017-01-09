@@ -18,19 +18,3 @@ Route::get('about', 'HomeController@about');
 Route::get('dogarticles', 'HomeController@productList');
 Route::get('articledetail', 'HomeController@productDetail');
 Route::post('email', 'HomeController@store');
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Route::get('/about', function () {
-//     return view('about');
-// });
-//
-// Route::get('/dogarticles', function () {
-//     return view('dogarticle');
-// });
-//
-// Route::get('/articledetail', function () {
-//     return view('articledetail');
-// });

@@ -1,4 +1,6 @@
-
+/************
+ * Carousel *
+ ************/
 .fade-carousel {
     height: 50%;
     width: 100%;
@@ -14,34 +16,26 @@
     }
 
     .slides {
-      height: 100vh;
-      background-size: contain;
-      background-position: top;
-      background-repeat: no-repeat;
+        height: 100vh;
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
     }
 
     .slide-1 {
-      @extend .slides;
-      background-image: $img-slide1;
+        @extend .slides;
+        background-image: $img-slide1;
     }
 
     .slide-2 {
-      @extend .slides;
-      background-image: $img-slide2;
+        @extend .slides;
+        background-image: $img-slide2;
     }
-
 }
 
 .fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
-  background-color: $bg-carousel-indicator-active;
-  opacity: 1;
-}
-
-.logo {
-  position: absolute;
-  z-index: 3;
-  left: 40%;
-  top: 7%;
+    width: 10px;
+    height: 10px;
+    background-color: $bg-carousel-indicator-active;
+    opacity: 1;
 }

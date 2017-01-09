@@ -24,20 +24,37 @@ $(function() {
     return re.test(email);
   }
 
-  function validate() {
+  function validateMessage2(){
     var email = $("#InputEmail").val();
     var text = $("#Textarea").val();
-    if (validateEmail(email) && text) {
-      $("#InputEmail").css("border-color", "green");
-      console.log(text);
-    } else {
-      $("#InputEmail").css("border-color", "red");
-      alert('Er ging iets mis, gelieve een geldig email adres in te geven en een message');
+
+    if(validateEmail(email)) {
+      if(text) {
+        $("#Textarea").css("border-color", "green");
+        window.location.replace("/about");
+      }
+      else {
+        $("#Textarea").css("border-color", "red");
+        alert('Please fill in the message field');
+      }
+    }
+    else {
+      if(text) {
+        $("#Textarea").css("border-color", "green");
+        alert('Please fill in the email field');
+      }
+      else {
+        $("#Textarea").css("border-color", "red");
+        $("#InputEmail").css("border-color", "red");
+        alert('Please fill in the email and the message field');
+      }
     }
     return false;
   }
 
-  $("#validate").bind("click", validate);
+
+
+  $("#validateMessage1").bind("click", validateMessage2);
 
 
 
