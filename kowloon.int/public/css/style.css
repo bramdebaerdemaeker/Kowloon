@@ -33,7 +33,7 @@
 * newsletter */
 /*
 *
-* about form */
+* about */
 /*
 *
 * breadcrumb */
@@ -680,16 +680,15 @@ i {
 .circle3 {
   background-color: #2d4ca8; }
 
-/****************
-** Newsletter **
-****************/
+/**************
+* Newsletter *
+**************/
 .newsletter {
   margin-top: 50px;
   margin-bottom: 150px; }
   .newsletter .adv {
     height: 200px;
-    background-color: green;
-    background-image: url(/img/newsletter/discover.png);
+    background-image: url("/img/newsletter/discover.png");
     text-align: center;
     color: #ffffff;
     font-family: choplin-medium; }
@@ -705,9 +704,9 @@ i {
     .newsletter .subscribe h3 {
       margin-top: 35px; }
     .newsletter .subscribe span {
-      opacity: .6; }
+      opacity: 0.6; }
   .newsletter .form-subscribe {
-    margin: 25px 0 25px 0;
+    margin: 25px 0;
     color: #000000; }
     .newsletter .form-subscribe button {
       background-color: #323232;
@@ -719,12 +718,15 @@ i {
       height: 2.9em;
       width: 80%; }
 
+/**************
+* Breadcrumbs *
+***************/
 .breadcrumb {
   background-color: inherit;
   color: #ffffff;
   padding-left: 0; }
   .breadcrumb a {
-    padding: 5px 10px 5px 0px;
+    padding: 5px 10px 5px 0;
     text-decoration: none; }
   .breadcrumb .tag, .breadcrumb .tag2 {
     margin-left: 10px;
@@ -772,6 +774,9 @@ i {
 .circle-category-hamster {
   background-color: #fd719e; }
 
+/****************
+* FAQ questions *
+*****************/
 .questions {
   margin-top: 60px !important;
   margin-bottom: 60px !important;
@@ -793,19 +798,19 @@ i {
   .questions .collapse {
     padding-bottom: 10px; }
 
-/*********************
-** About page **
-*********************/
+/*************
+* About page *
+**************/
 .header {
   height: 50vh;
   width: 100%;
-  background-image: url(/img/about/about.png); }
+  background-image: url("/img/about/about.png"); }
 
 /*
 *
 * breadcrumb */
 .indicator {
-  margin: 60px 0 40px 0;
+  margin: 60px 0 40px;
   display: flex; }
 
 /*
@@ -822,7 +827,7 @@ i {
   -moz-transform: rotateZ(1deg);
   -ms-transform: rotateZ(1deg);
   transform: rotateZ(1deg);
-  transition-duration: .5s; }
+  transition-duration: 0.5s; }
 
 .about {
   color: #ffffff; }
@@ -857,7 +862,7 @@ i {
     border-radius: 0; }
 
 button {
-  border-radius: 0px !important;
+  border-radius: 0 !important;
   width: 20%;
   background-color: #ff6493;
   color: #ffffff; }
@@ -868,6 +873,9 @@ button {
     outline: none !important;
     color: #ffffff !important; }
 
+/**************
+* dogarticles *
+***************/
 .filter,
 .sort {
   color: #ffffff; }
@@ -916,14 +924,14 @@ button {
   color: #cecece;
   background-color: #616161;
   border: none;
-  border-radius: 0px; }
+  border-radius: 0; }
 .bootstrap-select .btn-default:focus,
 .bootstrap-select a:focus {
   outline: none !important; }
 .bootstrap-select .dropdown-menu {
   border: none;
   background-color: #ffffff;
-  border-radius: 0px;
+  border-radius: 0;
   color: #454545; }
   .bootstrap-select .dropdown-menu li a {
     color: #454545;
@@ -937,7 +945,7 @@ button {
   color: #cecece;
   background-color: #616161;
   border: none;
-  border-radius: 0px; }
+  border-radius: 0; }
 
 .container-articles {
   float: none;
@@ -958,8 +966,7 @@ button {
     .container-articles .left .bovenste-left,
     .container-articles .left .onderste-left {
       width: 50%;
-      margin: 5px;
-      margin-left: 0; }
+      margin: 5px 5px 5px 0; }
     .container-articles .left .bovenste-rechts,
     .container-articles .left .onderste-rechts {
       width: 50%;
@@ -978,7 +985,7 @@ button {
     z-index: 2; }
     .container-articles .products .product {
       flex-grow: 1;
-      margin: 0px 5px 0px 5px; }
+      margin: 0 5px; }
       .container-articles .products .product:first-child {
         margin-left: 0 !important; }
       .container-articles .products .product:last-child {
@@ -1018,7 +1025,7 @@ button {
         max-height: 100%; }
       .container-article-detail .container-article-detail-left .images-small .image-margin, .container-article-detail .container-article-detail-left .images-small .image-left, .container-article-detail .container-article-detail-left .images-small .image-center,
       .container-article-detail .container-article-detail-left .images-small .image-right {
-        margin: 5px 5px 0 5px; }
+        margin: 5px 5px 0; }
       .container-article-detail .container-article-detail-left .images-small .image-left img {
         border: 1px solid #ffffff; }
       .container-article-detail .container-article-detail-left .images-small .image-center,

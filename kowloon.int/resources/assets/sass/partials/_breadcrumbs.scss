@@ -1,79 +1,80 @@
+/**************
+* Breadcrumbs *
+***************/
 .breadcrumb {
-  background-color: inherit;
-  color: $white;
-  padding-left: 0;
+    background-color: inherit;
+    color: $white;
+    padding-left: 0;
 
-  a {
-    padding: 5px 10px 5px 0px;
-    text-decoration: none;
-  }
-
-  .tag {
-    margin-left: 10px;
-    background-color: $bg-breadcrumb;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 5px;
-
-    &:before{
-      content:"";
-      position:absolute;
-      border-right:11px solid $bg-breadcrumb;
-      border-top:11px solid transparent;
-      border-bottom:11px solid transparent;
-      left:51px;
-      top:0;
+    a {
+        padding: 5px 10px 5px 0;
+        text-decoration: none;
     }
 
-    p {
-      margin: 0;
-    }
-  }
+    .tag {
+        margin-left: 10px;
+        background-color: $bg-breadcrumb;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
 
-  .tag2 {
-    @extend .tag;
-    &:before {
-      left: 124px;
-    }
-  }
+        &:before {
+            content: "";
+            position: absolute;
+            border-right: 11px solid $bg-breadcrumb;
+            border-top: 11px solid transparent;
+            border-bottom: 11px solid transparent;
+            left: 51px;
+            top: 0;
+        }
 
+        p {
+            margin: 0;
+        }
+    }
+
+    .tag2 {
+        @extend .tag;
+
+        &:before {
+            left: 124px;
+        }
+    }
 }
-
 /*
 *
 * tag color in breadcrumb */
-
 .circle-category {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: none;
-  position: absolute;
-  left:60px;
-  top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    left: 60px;
+    top: 5px;
 }
 
-.circle-category-dog{
-  @extend .circle-category;
-  background-color: $bg-category-dog;
+.circle-category-dog {
+    @extend .circle-category;
+    background-color: $bg-category-dog;
 }
 
-.circle-category-cat{
-  @extend .circle-category;
-  background-color: $bg-category-dog;
+.circle-category-cat {
+    @extend .circle-category;
+    background-color: $bg-category-dog;
 }
 
-.circle-category-fish{
-  @extend .circle-category;
-  background-color: $bg-category-dog;
+.circle-category-fish {
+    @extend .circle-category;
+    background-color: $bg-category-dog;
 }
 
-.circle-category-bird{
-  @extend .circle-category;
-  background-color: $bg-category-dog;
+.circle-category-bird {
+    @extend .circle-category;
+    background-color: $bg-category-dog;
 }
 
-.circle-category-hamster{
-  @extend .circle-category;
-  background-color: $bg-category-dog;
+.circle-category-hamster {
+    @extend .circle-category;
+    background-color: $bg-category-dog;
 }

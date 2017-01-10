@@ -1,33 +1,36 @@
+/****************
+* FAQ questions *
+*****************/
 .questions {
-  margin-top: 60px !important;
-  margin-bottom: 60px !important;
-  color: $white;
-  padding-left: 0;
-  padding-right: 0;
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+    color: $white;
+    padding-left: 0;
+    padding-right: 0;
 
-  .title {
-    h4  {
-      font-family: choplin-medium;
-    }
-  }
-
-  .item {
-    background-color: $bg-subscribe;
-    margin-bottom: 15px;
-    font-family: $font-family-main;
-
-    .split {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .title {
+        h4 {
+            font-family: choplin-medium;
+        }
     }
 
-    h4 {
-      margin-left: 15px;
-    }
-  }
+    .item {
+        background-color: $bg-subscribe;
+        margin-bottom: 15px;
+        font-family: $font-family-main;
 
-  .collapse {
-    padding-bottom: 10px;
-  }
+        .split {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h4 {
+            margin-left: 15px;
+        }
+    }
+
+    .collapse {
+        padding-bottom: 10px;
+    }
 }

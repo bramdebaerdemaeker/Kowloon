@@ -1,60 +1,56 @@
-
-/****************
-** Newsletter **
-****************/
-
+/**************
+* Newsletter *
+**************/
 .newsletter {
-  margin-top: 50px;
-  margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 150px;
 
-  .adv {
-    height: 200px;
-    background-color: green;
-    background-image: url(/img/newsletter/discover.png);
-    text-align: center;
-    color: $white;
-    font-family: choplin-medium;
+    .adv {
+        height: 200px;
+        background-image: $bg-adv;
+        text-align: center;
+        color: $white;
+        font-family: choplin-medium;
 
-    h1 {
-      margin-top: 20px;
+        h1 {
+            margin-top: 20px;
+        }
+
+        h4 {
+            line-height: 120px;
+            vertical-align: bottom;
+        }
     }
 
-    h4 {
-      line-height: 120px;
-      vertical-align: bottom;
-    }
-  }
+    .subscribe {
+        height: 200px;
+        background-color: $bg-subscribe;
+        color: $white;
 
+        h3 {
+            margin-top: 35px;
+        }
 
-  .subscribe {
-    height: 200px;
-    background-color: $bg-subscribe;
-    color: $white;
-
-    h3 {
-      margin-top: 35px;
+        span {
+            opacity: 0.6;
+        }
     }
 
-    span {
-      opacity: .6;
-    }
-  }
+    .form-subscribe {
+        margin: 25px 0;
+        color: $black;
 
-  .form-subscribe {
-    margin: 25px 0 25px 0;
-    color: $black;
+        button {
+            background-color: $bg-button-newsletter;
+            color: $white;
+            border: none;
+            height: 3em;
+            width: 3em;
+        }
 
-    button {
-      background-color: $bg-button-newsletter;
-      color: $white;
-      border: none;
-      height: 3em;
-      width: 3em;
+        input {
+            height: 2.9em;
+            width: 80%;
+        }
     }
-
-    input {
-      height: 2.9em;
-      width: 80%;
-    }
-  }
 }
