@@ -959,23 +959,23 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
-    .container-articles .left .boven,
-    .container-articles .left .onder {
+    .container-articles .left .upper,
+    .container-articles .left .under {
       height: 50%;
       display: flex; }
-    .container-articles .left .bovenste-left,
-    .container-articles .left .onderste-left {
+    .container-articles .left .upper-left,
+    .container-articles .left .under-left {
       width: 50%;
       margin: 5px 5px 5px 0; }
-    .container-articles .left .bovenste-rechts,
-    .container-articles .left .onderste-rechts {
+    .container-articles .left .upper-right,
+    .container-articles .left .under-right {
       width: 50%;
       margin: 5px; }
-  .container-articles .rechts {
+  .container-articles .right {
     height: 50%;
     width: 50%;
     display: flex; }
-    .container-articles .rechts .grote {
+    .container-articles .right .grote {
       margin: 5px;
       width: 100%;
       margin-right: 0; }

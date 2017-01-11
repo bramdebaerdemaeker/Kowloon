@@ -154,8 +154,8 @@
 
                 <div class="container container-articles">
                   <div class="left">
-                    <div class="boven">
-                      <div class="bovenste-left product">
+                    <div class="upper">
+                      <div class="upper-left product">
                             <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
@@ -165,7 +165,7 @@
                             <img src="img/hot_items/product-dog.png">
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
-                      <div class="bovenste-rechts product">
+                      <div class="upper-right product">
                             <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
@@ -177,8 +177,8 @@
                       </div>
                     </div>
 
-                    <div class="onder">
-                      <div class="onderste-left product">
+                    <div class="under">
+                      <div class="under-left product">
                             <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
@@ -188,7 +188,7 @@
                             <img src="img/hot_items/product-dog.png">
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
-                      <div class="onderste-rechts product">
+                      <div class="under-right product">
                             <a href="articledetail"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
@@ -201,7 +201,7 @@
                     </div>
                   </div>
 
-                  <div class="rechts">
+                  <div class="right">
                     <div class="product-big-article grote">
                         <img src="img/hot_items/product_big.png">
                         <h4>Cooling mat</h4>

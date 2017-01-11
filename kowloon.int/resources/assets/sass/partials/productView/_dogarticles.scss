@@ -110,26 +110,26 @@
         flex-direction: column;
         justify-content: space-between;
 
-        .boven,
-        .onder {
+        .upper,
+        .under {
             height: 50%;
             display: flex;
         }
 
-        .bovenste-left,
-        .onderste-left {
+        .upper-left,
+        .under-left {
             width: 50%;
             margin: 5px 5px 5px 0;
         }
 
-        .bovenste-rechts,
-        .onderste-rechts {
+        .upper-right,
+        .under-right {
             width: 50%;
             margin: 5px;
         }
     }
 
-    .rechts {
+    .right {
         height: 50%;
         width: 50%;
         display: flex;
