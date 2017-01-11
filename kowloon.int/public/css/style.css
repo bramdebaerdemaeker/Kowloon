@@ -67,7 +67,8 @@ body {
   float: right;
   width: calc(100% - 60px) !important;
   background-color: #444546;
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow: scroll; }
 
 /*
 *
@@ -149,7 +150,7 @@ i {
  */
 /*
  * Layout 01 & Layout 02 - - - 0px - 767px */
-@media all and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .fade-carousel {
     height: 25vh !important; }
     .fade-carousel .carousel-inner .item {
@@ -508,9 +509,12 @@ i {
   height: 100vmax;
   width: calc(100% - 60px);
   right: 0;
+  top: 0;
+  bottom: 0;
   opacity: 0.97;
   background-color: #ffffff;
-  z-index: 16; }
+  z-index: 100;
+  overflow-y: scroll; }
 
 .screen-overlay-content {
   margin-top: 50px; }
@@ -521,7 +525,9 @@ i {
   .screen-overlay-content .result {
     padding: 20px;
     margin-top: 30px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: relative;
+    z-index: 50; }
   .screen-overlay-content .suggestion {
     margin-top: 20px; }
     .screen-overlay-content .suggestion a,
@@ -1005,7 +1011,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  width: 100% !important; }
+  width: 100% !important;
+  overflow-y: scroll; }
   .container-articles .left {
     width: 50%;
     display: flex;

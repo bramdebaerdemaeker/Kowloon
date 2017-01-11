@@ -103,6 +103,7 @@
     flex-wrap: wrap;
     align-content: flex-start;
     width: 100% !important;
+    overflow-y: scroll;
 
     .left {
         width: 50%;

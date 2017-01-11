@@ -208,8 +208,8 @@
             </div>
 
             <!-- results -->
-            <div class="search-overlay-results">
-                <div class="row">
+            <div class="search-overlay-results" id="scrollArea">
+                <div class="row scrollAppend">
                     <div class="col-xs-9 centered result">
                         <div class="row">
                             <div class="col-md-12">
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row scrollAppend">
                     <div class="col-xs-9 centered result">
                         <div class="row">
                             <div class="col-md-12">
@@ -237,7 +237,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row scrollAppend">
                     <div class="col-xs-9 centered result">
                         <div class="row">
                             <div class="col-md-12">
@@ -253,7 +253,9 @@
                 </div>
             </div>
 
-
+            <div class="loadMore">
+              load more
+            </div>
         </div>
     </div>
 

@@ -6,7 +6,7 @@
 
 /*
  * Layout 01 & Layout 02 - - - 0px - 767px */
-@media all and (max-width: $layout-2) {
+@media only screen and (max-width: $layout-2) {
   .fade-carousel{
     height: 25vh !important;
 
