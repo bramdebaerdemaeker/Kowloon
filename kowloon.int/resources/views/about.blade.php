@@ -1,5 +1,14 @@
 @extends('layout')
 
+@section('title')
+  Kowloon - You supplier of animal products
+@stop
+
+
+@section('meta')
+  <META NAME="Description" CONTENT="Find the most common questions and why we are so good in what we do">
+@stop
+
 @section('header')
 
     <!-- header image -->

@@ -13,23 +13,56 @@
 * categories */
 .categories {
     margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+}
+
+.category-space {
+  border-right: $border-category;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 5px;
+
+  p {
+      font-family: choplin-light;
+      position: absolute;
+      color: $white;
+      font-size: 1.2em;
+      bottom: 0px;
+      text-align: center;
+  }
+
+  .except {
+    bottom: -15px !important;
+  }
+
+  &:hover {
+    background-color: $bg-category-hover;
+
+    .dogcategory,
+    .catcategory,
+    .fishcategory,
+    .birdcategory,
+    .smallcategory,
+    .othercategory {
+        background-position-y: -($nav-sprite-icon-height + 14px);
+    }
+  }
+
 }
 
 .animal {
     height: $category-sprite-icon-height;
-    width: $category-sprite-icon-width;
+    min-width: $category-sprite-icon-width;
     background: $category-sprite-image;
     background-repeat: no-repeat;
-    border-right: $border-category;
     text-align: center;
 
-    p {
-        font-family: choplin-light;
-        margin-top: 90px;
-        color: $white;
-        font-size: 1.2em;
+    &:hover {
+      background-color: $bg-category-hover;
+
+      p {
+        background-color:  $bg-category-hover;
+      }
     }
 }
 
@@ -52,15 +85,12 @@
 .smallcategory {
     background-position-x: -($category-sprite-icon-width*4);
 
-    p {
-        margin-top: 80px;
-    }
 }
 
 .othercategory {
     background-position-x: -($category-sprite-icon-width*5);
-    border: none;
 }
+
 
 /*
 *

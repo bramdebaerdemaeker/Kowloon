@@ -389,43 +389,61 @@ i {
 *
 * categories */
 .categories {
-  margin-top: 50px;
+  margin-top: 50px; }
+
+.category-space {
+  border-right: 1px solid #616161;
   display: flex;
-  justify-content: space-around; }
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 5px; }
+  .category-space p {
+    font-family: choplin-light;
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.2em;
+    bottom: 0px;
+    text-align: center; }
+  .category-space .except {
+    bottom: -15px !important; }
+  .category-space:hover {
+    background-color: #313233; }
+    .category-space:hover .dogcategory,
+    .category-space:hover .catcategory,
+    .category-space:hover .fishcategory,
+    .category-space:hover .birdcategory,
+    .category-space:hover .smallcategory,
+    .category-space:hover .othercategory {
+      background-position-y: -66px; }
 
 .animal {
-  height: 105px;
-  width: 160px;
-  background: url("/img/categories/category-sprite1.png");
+  height: 66px;
+  min-width: 161px;
+  background: url("/img/categories/category-sprite4.png");
   background-repeat: no-repeat;
-  border-right: 1px solid #616161;
   text-align: center; }
-  .animal p {
-    font-family: choplin-light;
-    margin-top: 90px;
-    color: #ffffff;
-    font-size: 1.2em; }
+  .animal:hover {
+    background-color: #313233; }
+    .animal:hover p {
+      background-color: #313233; }
 
 .dogcategory {
   background-position-x: 0px; }
 
 .catcategory {
-  background-position-x: -160px; }
+  background-position-x: -161px; }
 
 .fishcategory {
-  background-position-x: -320px; }
+  background-position-x: -322px; }
 
 .birdcategory {
-  background-position-x: -480px; }
+  background-position-x: -483px; }
 
 .smallcategory {
-  background-position-x: -640px; }
-  .smallcategory p {
-    margin-top: 80px; }
+  background-position-x: -644px; }
 
 .othercategory {
-  background-position-x: -800px;
-  border: none; }
+  background-position-x: -805px; }
 
 /*
 *
@@ -1098,5 +1116,23 @@ button {
     overflow: hidden; }
     .side-scroll-container .products-container .product {
       min-width: 27%; }
+
+.error-title {
+  font-family: choplin-light;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px; }
+  .error-title a {
+    color: #ffffff;
+    text-decoration: underline; }
+
+.error-img {
+  width: 100%;
+  height: 95vh;
+  background-image: url("/img/error.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

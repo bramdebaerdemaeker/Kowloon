@@ -1,12 +1,22 @@
 @extends('layout')
 
+
+@section('title')
+  Kowloon - Cooling mat
+@stop
+
+
+@section('meta')
+  <meta name="Description" content="Category: dog articles - Splash 'n fun, Price: €15,49, Dimensions: 53x53x53">
+@stop
+
 @section('content')
 
         <!-- logo -->
         <div class="row">
 
             <div class="col-md-7 intro centered ">
-                <a href="/"><img src="img/carousel/logo.png" alt="Kowloon"></a>
+                <a href="/"><img src="/img/carousel/logo.png" alt="Kowloon"></a>
             </div>
 
         </div>
@@ -20,19 +30,19 @@
 
               <div class="container-article-detail-left">
                 <div class="image-big">
-                  <img src="img/hot_items/product_big.png">
+                  <img src="/img/hot_items/product_big.png" alt="cooling mat">
                 </div>
                 <div class="images-small">
                   <div class="image-left">
-                    <img src="img/hot_items/product_big.png">
+                    <img src="/img/hot_items/product_big.png" alt="cooling mat">
                     <p>woordje tekst</p>
                   </div>
                   <div class="image-center">
-                    <img src="img/hot_items/product_big.png">
+                    <img src="/img/hot_items/product_big.png" alt="cooling mat">
                     <p>woordje tekst</p>
                   </div>
                   <div class="image-right">
-                    <img src="img/hot_items/product_big.png">
+                    <img src="/img/hot_items/product_big.png" alt="cooling mat">
                     <p>woordje tekst</p>
                   </div>
                 </div>
@@ -42,7 +52,7 @@
                 <div class="breadcrumb">
                           <div class="indicator">
                               <div>
-                                  <a href="/"><img src="img/about/k.png"></a>
+                                  <a href="/"><img src="/img/about/k.png"></a>
                               </div>
                               <div class="tag">
                                   <div class="circle-category-dog"></div>
@@ -120,51 +130,51 @@
                 <div class="row products row-horizon products-container">
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
-                    </div>
-
-                    <div class="product">
-                        <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
 
                     <div class="product">
                         <div class="overlay-dog"></div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
+                    </div>
+
+                    <div class="product">
+                        <div class="overlay-dog"></div>
+                        <img src="/img/hot_items/product-dog.png" alt="cooling mat">
                     </div>
                 </div>
 

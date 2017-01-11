@@ -16,5 +16,5 @@
 Route::get('/', 'HomeController@home');
 Route::get('about', 'HomeController@about');
 Route::get('dogarticles', 'HomeController@productList');
-Route::get('articledetail', 'HomeController@productDetail');
+Route::get('dogarticles/cooling-mat', 'HomeController@productDetail');
 Route::post('email', 'HomeController@store');

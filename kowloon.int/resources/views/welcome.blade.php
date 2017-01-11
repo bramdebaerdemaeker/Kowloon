@@ -1,5 +1,13 @@
 @extends('layout')
 
+@section('title')
+  Kowloon - You supplier of animal products
+@stop
+
+@section('meta')
+  <META NAME="Description" CONTENT="Kowloon is een leverancier van kwaliteitsvolle producten voor dierenwinkels. We hebben verkooppunten in heel België!">
+@stop
+
 @section('header')
 
     <!-- carousel -->
@@ -47,35 +55,62 @@
             <div class="col-lg-9 col-sm-12 centered categories">
 
                 <!-- dogs -->
-                <a href="dogarticles"><div class="col-md-2 col-sm-1 animal dogcategory">
-                        <p class="uppercase">dogs</p>
-                    </div></a>
+                <a href="dogarticles" title="All dog articles">
+                  <div class="category-space col-md-2 col-sm-1">
+                    <div class=" animal dogcategory">
+                      </div>
+                      <p class="uppercase">dogs</p>
+                  </div>
+                </a>
 
 
                 <!-- cats -->
-                <a href="#"><div class="col-md-2 col-sm-1 animal catcategory">
-                        <p class="uppercase">cats</p>
-                    </div></a>
+                <a href="#" title="All cat articles">
+                  <div class="category-space col-md-2 col-sm-1">
+                    <div class=" animal catcategory">
+
+                      </div>
+                      <p class="uppercase">cats</p>
+                  </div>
+                </a>
 
                 <!-- fish -->
-                <a href="#"><div class="col-md-2 col-sm-1 animal fishcategory">
-                        <p class="uppercase">fish</p>
-                    </div></a>
+                <a href="#" title="All fish articles">
+                  <div class="category-space col-md-2 col-sm-1">
+                    <div class=" animal fishcategory">
+
+                      </div>
+                      <p class="uppercase">fish</p>
+                  </div>
+                </a>
 
                 <!-- birds -->
-                <a href="#"><div class="col-md-2 col-sm-1 animal birdcategory">
-                        <p class="uppercase">birds</p>
-                    </div></a>
+                <a href="#" title="All bird articles">
+                  <div class="category-space col-md-2 col-sm-1 ">
+                    <div class="animal birdcategory">
+
+                      </div>
+                      <p class="uppercase">birds</p>
+                  </div>
+                </a>
 
                 <!-- small animals -->
-                <a href="#"><div class="col-md-2 col-sm-1 animal smallcategory">
-                        <p class="uppercase kek">small </br> animals</p>
-                    </div></a>
+                <a href="#" title="All small animal articles">
+                  <div class="category-space col-md-2 col-sm-1">
+                    <div class=" animal smallcategory">
+
+                      </div>
+                      <p class="uppercase except">small </br> animals</p>
+                  </div>
+                </a>
 
                 <!-- extra -->
-                <a href="#"><div class="col-md-2 col-sm-1 animal othercategory">
-                        <p class="uppercase">other</p>
-                    </div></a>
+                <a href="#" title="All other articles">
+                <div class="category-space col-md-2 col-sm-1">
+                  <div class=" animal othercategory"></div>
+                    <p class="uppercase">other</p>
+                </div>
+                </a>
             </div>
         </div>
 
@@ -93,46 +128,46 @@
                 <!-- products -->
                 <div class="row products">
                     <div class="product nomobile">
-                        <a href="articledetail"><div class="overlay-dog"></div></a>
+                        <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="img/hot_items/product-dog.png" alt="cooling mat">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
                     <div class="product">
-                        <a href="articledetail"><div class="overlay-dog"></div></a>
+                        <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="img/hot_items/product-dog.png" alt="cooling mat">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
                     <div class="product">
-                        <a href="articledetail"><div class="overlay-dog"></div></a>
+                        <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="img/hot_items/product-dog.png" alt="cooling mat">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 
                     <div class="product product-spread">
-                        <a href="articledetail"><div class="overlay-dog"></div></a>
+                        <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                         <div class="circles">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                             <div class="circle3"></div>
                         </div>
-                        <img src="img/hot_items/product-dog.png">
+                        <img src="img/hot_items/product-dog.png" alt="cooling mat">
                         <p>Cooling mat <span>€15,49</span></p>
                     </div>
 

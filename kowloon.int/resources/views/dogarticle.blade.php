@@ -1,5 +1,17 @@
 @extends('layout')
 
+@section('title')
+  Kowloon - Dog products
+@stop
+
+@section('meta')
+
+  <META NAME="Description" CONTENT="Ontdek de grote verscheidenheid aan producten en wat hen zo goed maakt!">
+
+@stop
+
+
+
 @section('header')
 
     <!-- carousel -->
@@ -156,46 +168,46 @@
                   <div class="left">
                     <div class="upper">
                       <div class="upper-left product">
-                            <a href="articledetail"><div class="overlay-dog"></div></a>
+                            <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
                                 <div class="circle3"></div>
                             </div>
-                            <img src="img/hot_items/product-dog.png">
+                            <img src="img/hot_items/product-dog.png" alt="cooling mat">
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
                       <div class="upper-right product">
-                            <a href="articledetail"><div class="overlay-dog"></div></a>
+                            <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
                                 <div class="circle3"></div>
                             </div>
-                            <img src="img/hot_items/product-dog.png">
+                            <img src="img/hot_items/product-dog.png" alt="cooling mat">
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
                     </div>
 
                     <div class="under">
                       <div class="under-left product">
-                            <a href="articledetail"><div class="overlay-dog"></div></a>
+                            <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
                                 <div class="circle3"></div>
                             </div>
-                            <img src="img/hot_items/product-dog.png">
+                            <img src="img/hot_items/product-dog.png" alt="cooling mat">
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
                       <div class="under-right product">
-                            <a href="articledetail"><div class="overlay-dog"></div></a>
+                            <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
                                 <div class="circle3"></div>
                             </div>
-                            <img src="img/hot_items/product-dog.png">
+                            <img src="img/hot_items/product-dog.png" alt="cooling mat">
                             <p>Cooling mat <span>€15,49</span></p>
                       </div>
                     </div>
@@ -203,7 +215,7 @@
 
                   <div class="right">
                     <div class="product-big-article grote">
-                        <img src="img/hot_items/product_big.png">
+                        <img src="img/hot_items/product_big.png" alt="cooling mat">
                         <h4>Cooling mat</h4>
                         <p>Hier komt een deel van de beschrijvende tekst die bij elk product hoort. Ook terug te vinden in het product detail. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius....</p>
                         <span>€15,49</span>
@@ -214,46 +226,46 @@
 
                   <div class="products">
                       <div class="product">
-                          <a href="articledetail"><div class="overlay-dog"></div></a>
+                          <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
                               <div class="circle3"></div>
                           </div>
-                          <img src="img/hot_items/product-dog.png">
+                          <img src="img/hot_items/product-dog.png" alt="cooling mat">
                           <p>Cooling mat <span>€15,49</span></p>
                       </div>
 
                       <div class="product">
-                          <a href="articledetail"><div class="overlay-dog"></div></a>
+                          <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
                               <div class="circle3"></div>
                           </div>
-                          <img src="img/hot_items/product-dog.png">
+                          <img src="img/hot_items/product-dog.png" alt="cooling mat">
                           <p>Cooling mat <span>€15,49</span></p>
                       </div>
 
                       <div class="product">
-                          <a href="articledetail"><div class="overlay-dog"></div></a>
+                          <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
                               <div class="circle3"></div>
                           </div>
-                          <img src="img/hot_items/product-dog.png">
+                          <img src="img/hot_items/product-dog.png" alt="cooling mat">
                           <p>Cooling mat <span>€15,49</span></p>
                       </div>
 
                       <div class="product">
-                          <a href="articledetail"><div class="overlay-dog"></div></a>
+                          <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                           <div class="circles">
                               <div class="circle1"></div>
                               <div class="circle2"></div>
                               <div class="circle3"></div>
                           </div>
-                          <img src="img/hot_items/product-dog.png">
+                          <img src="img/hot_items/product-dog.png" alt="cooling mat">
                           <p>Cooling mat <span>€15,49</span></p>
                       </div>
 
