@@ -52,11 +52,11 @@
 
         <!-- categories -->
         <div class="row">
-            <div class="col-lg-9 col-sm-12 centered categories">
+            <div class="col-md-9 col-sm-12 centered categories">
 
                 <!-- dogs -->
                 <a href="dogarticles" title="All dog articles">
-                  <div class="category-space col-md-2 col-sm-1">
+                  <div class="category-space col-xs-2">
                     <div class=" animal dogcategory">
                       </div>
                       <p class="uppercase">dogs</p>
@@ -66,7 +66,7 @@
 
                 <!-- cats -->
                 <a href="#" title="All cat articles">
-                  <div class="category-space col-md-2 col-sm-1">
+                  <div class="category-space col-xs-2">
                     <div class=" animal catcategory">
 
                       </div>
@@ -76,7 +76,7 @@
 
                 <!-- fish -->
                 <a href="#" title="All fish articles">
-                  <div class="category-space col-md-2 col-sm-1">
+                  <div class="category-space col-xs-2">
                     <div class=" animal fishcategory">
 
                       </div>
@@ -86,7 +86,7 @@
 
                 <!-- birds -->
                 <a href="#" title="All bird articles">
-                  <div class="category-space col-md-2 col-sm-1 ">
+                  <div class="category-space col-xs-2">
                     <div class="animal birdcategory">
 
                       </div>
@@ -96,7 +96,7 @@
 
                 <!-- small animals -->
                 <a href="#" title="All small animal articles">
-                  <div class="category-space col-md-2 col-sm-1">
+                  <div class="category-space col-xs-2">
                     <div class=" animal smallcategory">
 
                       </div>
@@ -106,7 +106,7 @@
 
                 <!-- extra -->
                 <a href="#" title="All other articles">
-                <div class="category-space col-md-2 col-sm-1 no-border">
+                <div class="category-space col-xs-2 no-border">
                   <div class=" animal othercategory"></div>
                     <p class="uppercase">other</p>
                 </div>

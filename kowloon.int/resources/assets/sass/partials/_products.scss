@@ -121,17 +121,19 @@
 .product-big-article {
     padding: 3px;
     height: auto;
-    max-height: 515px !important;
     background-color: $bg-product;
     color: $white;
+    position: relative;
 
     img {
         width: 100%;
     }
 
     .btn-big {
+        position: absolute;
         width: 200px !important;
-        float: right;
+        right: 0;
+        bottom: 0;
         border: none;
         padding: 5px;
     }

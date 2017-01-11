@@ -7,50 +7,23 @@
 /*
  * Layout 01 & Layout 02 - - - 0px - 767px */
 @media all and (max-width: $layout-2) {
-  // .container,
-  .carousel-inner {
-    width: 100%;
+  .fade-carousel{
     height: 25vh !important;
+
+    .carousel-inner .item {
+      height: 25vh !important;
+    }
   }
 
 
 }
 
-// @media only screen
-//   and (min-device-width: 414px)
-//   and (max-device-width: 736px)
-//   and (-webkit-min-device-pixel-ratio: 3) {
-//     .sidenav {
-//       display: none;
-//     }
-//     .container,
-//     .carousel-inner {
-//       width: 100%;
-//     }
-//
-//     .carousel-inner {
-//       height: 25vh;
-//     }
-// }
-
-
-
-
-
-
-
-
 /*
- * Layout 02 ipad portrait */
+ * Layout 02 tablet portrait */
  @media only screen
  and (min-device-width : 768px)
  and (max-device-width : 1024px)
  and (orientation : portrait) {
-
-  // .container {
-  //   width: 94% !important;
-  // }
-
 // home screen
   .fade-carousel{
     height: 25vh;
@@ -112,21 +85,68 @@
 
   .container-articles .left {
     width: 100% !important;
+    height: 50%;
     flex-direction: row !important;
   }
 
-  .container-articles .bovenste-left,
+  .container-articles .upper-left,
   .container-articles .products .product:first-child {
     display: none;
   }
 
-  .container-articles .bovenste-rechts{
+  .container-articles .upper-right{
     width: 100% !important;
   }
 
-  .container-articles .onderste-left,
-  .container-articles .bovenste-rechts{
+  .container-articles .under-left,
+  .container-articles .upper-right{
     margin-left: 7px !important;
+  }
+
+  //articledetail
+  .container-article-detail {
+    flex-direction: column;
+
+    .container-article-detail-left {
+      width: 100% !important;
+      flex-direction: row !important;
+
+      .image-big {
+        width: 80%;
+      }
+
+      .images-small {
+        flex-direction: column-reverse !important;
+        height: 100%;
+
+        img {
+          max-height: 80px !important;
+        }
+
+      }
+    }
+
+    .container-article-detail-right {
+      height: auto !important;
+      width: 100% !important;
+      position: relative;
+      margin-left: 0 !important;
+
+      .breadcrumb {
+        position: absolute;
+        top: -400px;
+      }
+
+      .article-specifications {
+        margin-top: 40px;
+      }
+
+      .colors {
+        position: absolute;
+        right: 0;
+        top: 40px;
+      }
+    }
   }
 
 }
@@ -159,19 +179,16 @@
 
   }
 
-  .container-article-detail-left {
-    width:40% !important;
+  .container-articles {
+    // width: 100% !important;
+    margin-right: 0 !important;
   }
 
   .container-article-detail-right {
-    width:60% !important;
+    height: auto !important;
 
     .obligatory {
       display: none !important;
-    }
-
-    .description {
-      // position: absolute;
     }
 
     h2 {

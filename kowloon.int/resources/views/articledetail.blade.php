@@ -24,7 +24,7 @@
         <!-- details product -->
 
         <div class="row">
-          <div class="col-md-9 centered">
+          <div class="col-md-10 col-xs-10 col-lg-9 centered">
 
             <div class="container-article-detail">
 
@@ -99,7 +99,7 @@
 
         <!-- specifications -->
         <div class="row">
-            <div class="col-md-9 centered dimentions">
+            <div class="col-xs-10 col-lg-9 centered dimentions">
                 <h4>Specifications</h4>
                 <p class="uppercase">dimensions</p>
                 <p class="offset-left-1">
@@ -115,7 +115,7 @@
 
         <!-- related products -->
         <div class="row hot-products side-scroll-container">
-            <div class="col-xs-9 centered">
+            <div class="col-xs-10 col-lg-9 centered">
 
                 <!-- title -->
                 <div class="row title">
@@ -187,7 +187,7 @@
 
         <!-- FAQ -->
         <div class="row">
-            <div class="col-xs-9 centered questions">
+            <div class="col-xs-10 col-lg-9 centered questions">
                 <div class="title">
                     <h4 class="uppercase">frequently asked questions</h4>
                 </div>
@@ -245,7 +245,7 @@
 
         <!-- newsletter -->
         <div class="row newsletter">
-            <div class="col-lg-9 col-xs-9 centered">
+            <div class="col-lg-9 col-xs-10 centered">
                 <div class="row">
                     <div class="col-lg-8 col-md-6 col-xs-7 adv">
                         <h1>discover amazing </br>Kowloon deals!</h1>

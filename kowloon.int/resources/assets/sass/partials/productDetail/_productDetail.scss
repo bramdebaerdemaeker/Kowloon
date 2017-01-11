@@ -60,6 +60,7 @@
     }
 
     .container-article-detail-right {
+        position: relative;
         margin-left: 20px;
         width: 50%;
         height: 50vh;
@@ -67,12 +68,24 @@
         flex-direction: column;
         justify-content: space-between;
 
-        .breadcrumb {
-            margin-bottom: 0;
-        }
 
         .indicator {
             margin: 0;
+
+            .circle-category-dog {
+              left: 44px;
+              top: 13px;
+            }
+
+            .tag::before {
+              left: 35px;
+              top: auto;
+            }
+
+            .tag2::before {
+              left: 108px;
+              top: auto;
+            }
         }
 
         .article-specifications {
