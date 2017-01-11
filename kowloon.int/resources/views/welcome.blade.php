@@ -106,7 +106,7 @@
 
                 <!-- extra -->
                 <a href="#" title="All other articles">
-                <div class="category-space col-md-2 col-sm-1">
+                <div class="category-space col-md-2 col-sm-1 no-border">
                   <div class=" animal othercategory"></div>
                     <p class="uppercase">other</p>
                 </div>

@@ -15,6 +15,10 @@
     margin-top: 50px;
 }
 
+.no-border {
+  border: none !important;
+}
+
 .category-space {
   border-right: $border-category;
   display: flex;
