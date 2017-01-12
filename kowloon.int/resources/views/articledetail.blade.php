@@ -69,7 +69,7 @@
                     <h2 class="uppercase">cooling mat</h2>
                   </div>
                   <div class="price">
-                    <span>€ 15, 49</span>
+                    <b>€ 15, 49</b>
                   </div>
                   <div class="colors">
                       <p>Colors</p>
@@ -238,6 +238,9 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..
                         </div>
                     </div>
+                </div>
+                <div class="link-to-more">
+                    <a href=""><u>More questions?</u></a>
                 </div>
 
             </div>

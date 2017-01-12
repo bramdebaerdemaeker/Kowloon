@@ -58,24 +58,7 @@ $(function() {
     /*
      *
      * FAQ questions expend */
-
-    $("#rotate1").on('click', function() {
-        $(this).toggleClass('rotateZ');
-    });
-
-    $("#rotate2").on('click', function() {
-        $(this).toggleClass('rotateZ');
-    });
-
-    $("#rotate3").on('click', function() {
-        $(this).toggleClass('rotateZ');
-    });
-
-    $("#rotate4").on('click', function() {
-        $(this).toggleClass('rotateZ');
-    });
-
-    $("#rotate5").on('click', function() {
+    $('.rotate').on('click', function() {
         $(this).toggleClass('rotateZ');
     });
 
@@ -83,7 +66,6 @@ $(function() {
     /*
      *
      * search + faq overlay */
-
     $('#clear-search-input').on('click', function() {
         $('#search').val("");
     });
@@ -99,12 +81,14 @@ $(function() {
 
     $('#nav-search').on('click', function() {
         $('.search').toggleClass('active');
+        $('.faq').removeClass('active');
         $('#faq-overlay').hide();
         $('#search-overlay').toggle();
     });
 
     $('#nav-faq').on('click', function() {
         $('.faq').toggleClass('active');
+        $('.search').removeClass('active');
         $('#search-overlay').hide();
         $('#faq-overlay').toggle();
     });
@@ -118,8 +102,6 @@ $(function() {
     /*
      *
      * price slider */
-
-
     $("#slider-range").slider({
         range: true,
         min: 8,
@@ -157,7 +139,6 @@ $(function() {
     /*
      *
      * side scroller */
-
     var $item = $('div.product'), //Cache your DOM selector
         visible = 2, //Set the number of items that will be visible
         index = 0, //Starting index
@@ -182,7 +163,9 @@ $(function() {
     });
 
 
-
+    /*
+     *
+     * endless scroll */
     $(window).scroll(function() {
         scrollPosition = $(this).scrollTop();
         scrollposDiv = $('.container-articles').innerHeight();
@@ -202,6 +185,8 @@ $(function() {
     $('.loadMore').on('click', function() {
         $('#scrollArea .scrollAppend:last-child').clone().appendTo('#scrollArea');
     });
+
+
 
 
 

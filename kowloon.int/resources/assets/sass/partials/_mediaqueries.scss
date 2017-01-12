@@ -27,7 +27,8 @@
     background: none !important;
 
     a:not(:first-child),
-    hr{
+    hr,
+    .nav-bottom{
       display: none;
     }
   }
@@ -37,13 +38,39 @@
     z-index: 99 !important;
     background-color: $bg-nav !important;
     a:not(:first-child),
-    hr{
+    hr,
+    .nav-bottom{
       display: inherit;
     }
   }
 
   .categories .col-sm-2{
     width: 50%;
+  }
+
+  .category-space {
+    margin-top: 16px;
+  }
+
+  .link-to-more {
+    float: left;
+  }
+
+  .questions .link-to-more {
+    float: none;
+    text-align: center;
+  }
+
+  .message .email,
+  .message .textarea,
+  .message .btn {
+    width: 100% !important;
+  }
+
+  .filter .filters {
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
   }
 
   .adv,

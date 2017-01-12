@@ -138,22 +138,21 @@
         <!-- sort by -->
         <div class="row">
             <div class="col-sm-9 col-xs-12 centered">
-
                 <div class="row sort">
 
                     <div class="col-sm-2">
                         <select class="selectpicker">
                             <option selected="selected" >Sort by relevance</option>
-                            <option>Price: low to high</option>
-                            <option>Price: high to low</option>
-                            <option>Latest</option>
-                            <option>Oldest</option>
+                            <option class="price-high">Price: low to high</option>
+                            <option class="price-low">Price: high to low</option>
+                            <option class="lates">Latest</option>
+                            <option class="oldest">Oldest</option>
                         </select>
 
                     </div>
 
                     <div class="col-xs-2 col-xs-offset-8 nomobile">
-                        Dog items:
+                        Dog items: <b>5 of 56</b>
                     </div>
 
                 </div>
@@ -164,10 +163,10 @@
         <div class="row">
             <div class="col-xs-9 centered dogarticle">
 
-                <div class="container container-articles">
+                <div class="container container-articles grid">
                   <div class="left">
                     <div class="upper">
-                      <div class="upper-left product">
+                      <div class="upper-left product grid-item">
                             <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
                             <div class="circles">
                                 <div class="circle1"></div>
@@ -175,7 +174,7 @@
                                 <div class="circle3"></div>
                             </div>
                             <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                            <p>Cooling mat <span>€15,49</span></p>
+                            <p>Cooling mat <span >€17,49</span></p>
                       </div>
                       <div class="upper-right product">
                             <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
@@ -185,7 +184,7 @@
                                 <div class="circle3"></div>
                             </div>
                             <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                            <p>Cooling mat <span>€15,49</span></p>
+                            <p>Cooling mat <span >€15,49</span></p>
                       </div>
                     </div>
 
@@ -198,7 +197,7 @@
                                 <div class="circle3"></div>
                             </div>
                             <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                            <p>Cooling mat <span>€15,49</span></p>
+                            <p>Cooling mat <span>€11,49</span></p>
                       </div>
                       <div class="under-right product">
                             <a href="dogarticles/cooling-mat"><div class="overlay-dog"></div></a>
@@ -208,7 +207,7 @@
                                 <div class="circle3"></div>
                             </div>
                             <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                            <p>Cooling mat <span>€15,49</span></p>
+                            <p>Cooling mat <span >€19,49</span></p>
                       </div>
                     </div>
                   </div>
@@ -233,7 +232,7 @@
                               <div class="circle3"></div>
                           </div>
                           <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                          <p>Cooling mat <span>€15,49</span></p>
+                          <p>Cooling mat <span >€15,49</span></p>
                       </div>
 
                       <div class="product">
@@ -244,7 +243,7 @@
                               <div class="circle3"></div>
                           </div>
                           <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                          <p>Cooling mat <span>€15,49</span></p>
+                          <p>Cooling mat <span >€15,49</span></p>
                       </div>
 
                       <div class="product">
@@ -255,7 +254,7 @@
                               <div class="circle3"></div>
                           </div>
                           <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                          <p>Cooling mat <span>€15,49</span></p>
+                          <p>Cooling mat <span >€15,49</span></p>
                       </div>
 
                       <div class="product">
@@ -266,7 +265,7 @@
                               <div class="circle3"></div>
                           </div>
                           <img src="img/hot_items/product-dog.png" alt="cooling mat">
-                          <p>Cooling mat <span>€15,49</span></p>
+                          <p>Cooling mat <span >€15,49</span></p>
                       </div>
 
                   </div>

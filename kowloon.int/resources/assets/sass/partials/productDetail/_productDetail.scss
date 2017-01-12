@@ -102,6 +102,9 @@
                 position: relative;
                 margin-left: 0;
             }
+            .price {
+              font-size: 1.2em;
+            }
         }
 
         .obligatory {
@@ -171,7 +174,7 @@
         overflow: hidden;
 
         .product {
-            min-width: 27%;
+            min-width: 21%;
         }
     }
 }

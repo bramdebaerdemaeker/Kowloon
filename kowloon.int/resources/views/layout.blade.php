@@ -114,7 +114,7 @@
 
                         <div class="wrap">
                             <form action="" autocomplete="on">
-                                <input id="search" name="search" type="text" placeholder="Just start typing and hit ... to search"><input id="search_submit" value="Rechercher" type="submit">
+                                <input id="search" name="search" type="text" placeholder="Just start typing and hit enter to search" autofocus><input id="search_submit" value="Rechercher" type="submit">
                             </form>
                         </div>
 
@@ -275,6 +275,7 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
     <script type="text/javascript" src="/js/jquery.jscroll.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
