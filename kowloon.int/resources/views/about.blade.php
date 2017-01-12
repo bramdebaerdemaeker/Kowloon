@@ -54,7 +54,7 @@
                 <div class="row content">
 
                     <!-- about us text -->
-                    <div class="col-md-8 col-xs-8">
+                    <div class="col-md-8 col-sm-8">
 
                         <h4 class="uppercase">kowloon</h4>
                         <p>Pet Concept, active since 1998, is developing, importing and exporting products for pets worldwide</p>
@@ -64,7 +64,7 @@
 
 
                     <!-- contact information -->
-                    <div class="col-md-3 col-md-offset-1 col-xs-4">
+                    <div class="col-md-3 col-md-offset-1 col-sm-4">
                         <div class="contact">
                             <h4 class="uppercase">contact</h4>
                             <ul>

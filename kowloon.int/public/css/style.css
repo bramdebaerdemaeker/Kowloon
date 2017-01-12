@@ -65,7 +65,7 @@ body {
   margin: 0;
   padding: 0;
   float: right;
-  width: calc(100% - 60px) !important;
+  width: calc(100% - 60px);
   background-color: #444546;
   min-height: 100vh;
   overflow: scroll; }
@@ -150,11 +150,91 @@ i {
  */
 /*
  * Layout 01 & Layout 02 - - - 0px - 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-device-width: 767px) {
   .fade-carousel {
-    height: 25vh !important; }
+    height: 15%; }
     .fade-carousel .carousel-inner .item {
-      height: 25vh !important; } }
+      height: 20vh !important; }
+
+  .header {
+    height: 25vh !important; }
+
+  .container {
+    width: 100% !important; }
+
+  .sidenav, .sidenav-big {
+    background: none !important; }
+    .sidenav a:not(:first-child), .sidenav-big a:not(:first-child),
+    .sidenav hr,
+    .sidenav-big hr {
+      display: none; }
+
+  .sidenav-big {
+    position: fixed;
+    z-index: 99 !important;
+    background-color: #313233 !important; }
+    .sidenav-big a:not(:first-child),
+    .sidenav-big hr {
+      display: inherit; }
+
+  .categories .col-sm-2 {
+    width: 50%; }
+
+  .adv,
+  .subscribe {
+    width: 100%; }
+
+  .about .content > div {
+    width: 100%; }
+
+  .product-big-article {
+    display: none; }
+
+  .product .overlay-dog {
+    width: 100% !important;
+    height: 92% !important; }
+
+  .left,
+  .upper-left,
+  .upper-right,
+  .under-right,
+  .under-left {
+    width: 100% !important; }
+
+  .left .upper,
+  .left .under {
+    flex-direction: column; }
+
+  .bootstrap-select {
+    width: 42vh !important; }
+
+  .price-slider-articles {
+    margin-top: 40px; }
+
+  .container-article-detail {
+    flex-direction: column; }
+    .container-article-detail .container-article-detail-left,
+    .container-article-detail .container-article-detail-right {
+      width: 100% !important;
+      margin-left: 0 !important;
+      position: inherit !important; }
+    .container-article-detail .breadcrumb,
+    .container-article-detail .article-specifications .title,
+    .container-article-detail .article-specifications .price {
+      position: absolute;
+      top: 0; }
+    .container-article-detail .article-specifications .title {
+      top: 60px; }
+    .container-article-detail .article-specifications .price {
+      top: 100px; }
+
+  .container-article-detail-left {
+    margin-top: 150px;
+    margin-bottom: 20px; }
+
+  .container-articles .products {
+    display: flex;
+    flex-direction: column; } }
 /*
  * Layout 02 tablet portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -1098,6 +1178,8 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+    .container-article-detail .container-article-detail-right h2 {
+      font-family: choplin-medium; }
     .container-article-detail .container-article-detail-right .indicator {
       margin: 0; }
       .container-article-detail .container-article-detail-right .indicator .circle-category-dog {

@@ -185,9 +185,10 @@ $(function() {
 
 $(window).scroll(function() {
   scrollPosition = $(this).scrollTop();
-  scrollposDiv = $('.container-articles').innerHeight() -50;
+  scrollposDiv = $('.container-articles').innerHeight();
+  console.log(scrollPosition);
 
-  if(scrollPosition >= scrollposDiv) {
+  if(scrollPosition >= 666) {
     $('.container-articles .products:last-child').clone().appendTo('.container-articles');
   }
 });

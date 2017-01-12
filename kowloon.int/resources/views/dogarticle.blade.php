@@ -116,10 +116,10 @@
                         <div class="range" id="price-slider">
                             <label for="amount">Price range</label>
                             <div class="row">
-                                <div class="col-md-6 col-xs-10">
+                                <div class="col-md-6 col-xs-12">
                                     <div id="slider-range-articles"></div>
                                 </div>
-                                <div class="col-md-5 col-xs-10 price-slider-articles">
+                                <div class="col-md-5 col-xs-12 price-slider-articles">
                                     <input type="text" id="amount-min-articles" readonly>
                                     <p>-</p>
                                     <input type="text" id="amount-max-articles" readonly>
@@ -137,11 +137,11 @@
 
         <!-- sort by -->
         <div class="row">
-            <div class="col-xs-9 centered">
+            <div class="col-sm-9 col-xs-12 centered">
 
                 <div class="row sort">
 
-                    <div class="col-xs-2">
+                    <div class="col-sm-2">
                         <select class="selectpicker">
                             <option selected="selected" >Sort by relevance</option>
                             <option>Price: low to high</option>
@@ -152,7 +152,7 @@
 
                     </div>
 
-                    <div class="col-xs-2 col-xs-offset-8">
+                    <div class="col-xs-2 col-xs-offset-8 nomobile">
                         Dog items:
                     </div>
 

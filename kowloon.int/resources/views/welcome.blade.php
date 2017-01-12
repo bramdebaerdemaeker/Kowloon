@@ -44,7 +44,7 @@
         <!-- intro text -->
         <div class="row">
 
-            <div class="col-lg-7 col-md-10 col-sm-9  intro centered ">
+            <div class="col-lg-7 col-md-10 col-sm-9 col-xs-12 intro centered ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
 
@@ -52,13 +52,12 @@
 
         <!-- categories -->
         <div class="row">
-            <div class="col-md-9 col-sm-12 centered categories">
+            <div class="col-md-9 col-sm-12 col-xs-12 centered categories">
 
                 <!-- dogs -->
                 <a href="dogarticles" title="All dog articles">
-                  <div class="category-space col-xs-2">
-                    <div class=" animal dogcategory">
-                      </div>
+                  <div class="category-space col-sm-2">
+                    <div class=" animal dogcategory"></div>
                       <p class="uppercase">dogs</p>
                   </div>
                 </a>
@@ -66,47 +65,39 @@
 
                 <!-- cats -->
                 <a href="#" title="All cat articles">
-                  <div class="category-space col-xs-2">
-                    <div class=" animal catcategory">
-
-                      </div>
+                  <div class="category-space col-sm-2">
+                    <div class=" animal catcategory"></div>
                       <p class="uppercase">cats</p>
                   </div>
                 </a>
 
                 <!-- fish -->
                 <a href="#" title="All fish articles">
-                  <div class="category-space col-xs-2">
-                    <div class=" animal fishcategory">
-
-                      </div>
+                  <div class="category-space col-sm-2">
+                    <div class=" animal fishcategory"></div>
                       <p class="uppercase">fish</p>
                   </div>
                 </a>
 
                 <!-- birds -->
                 <a href="#" title="All bird articles">
-                  <div class="category-space col-xs-2">
-                    <div class="animal birdcategory">
-
-                      </div>
+                  <div class="category-space col-sm-2">
+                    <div class="animal birdcategory"></div>
                       <p class="uppercase">birds</p>
                   </div>
                 </a>
 
                 <!-- small animals -->
                 <a href="#" title="All small animal articles">
-                  <div class="category-space col-xs-2">
-                    <div class=" animal smallcategory">
-
-                      </div>
+                  <div class="category-space col-sm-2">
+                    <div class=" animal smallcategory"></div>
                       <p class="uppercase except">small </br> animals</p>
                   </div>
                 </a>
 
                 <!-- extra -->
                 <a href="#" title="All other articles">
-                <div class="category-space col-xs-2 no-border">
+                <div class="category-space col-sm-2 no-border">
                   <div class=" animal othercategory"></div>
                     <p class="uppercase">other</p>
                 </div>
