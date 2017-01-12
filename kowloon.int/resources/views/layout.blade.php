@@ -253,8 +253,8 @@
                 </div>
             </div>
 
-            <div class="loadMore">
-              load more
+            <div class="loadMore centered">
+              <i class="fa fa-plus-circle fa-3x" aria-hidden="true"></i>
             </div>
         </div>
     </div>

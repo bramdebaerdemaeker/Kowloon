@@ -185,7 +185,7 @@
 
                         <form class="form-subscribe" method="POST" action="{{ url('/email') }}">
                           {{ csrf_field() }}
-                            <input type="text" name="email" placeholder="Your e-mail" id="newsletterInput">
+                            <input type="text" name="email" placeholder="Domain@name.com" id="newsletterInput">
                             <button type="submit" name="submit">OK</button>
                         </form>
                     </div>

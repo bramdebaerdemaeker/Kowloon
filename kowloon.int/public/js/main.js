@@ -3,14 +3,14 @@ $(function() {
     /*
      *
      * navbar expend */
-
     $("#nav-expend").on('click', function() {
         $("#sidenav").toggleClass('sidenav-big');
     });
 
 
-
-    // start state of search and faq overlay
+    /*
+     *
+     * start state of search and faq overlay */
     $('#search-overlay').hide();
     $('#faq-overlay').hide();
 
@@ -183,25 +183,25 @@ $(function() {
 
 
 
-$(window).scroll(function() {
-  scrollPosition = $(this).scrollTop();
-  scrollposDiv = $('.container-articles').innerHeight();
-  console.log(scrollPosition);
+    $(window).scroll(function() {
+        scrollPosition = $(this).scrollTop();
+        scrollposDiv = $('.container-articles').innerHeight();
+        console.log(scrollPosition);
 
-  if(scrollPosition >= 666) {
-    $('.container-articles .products:last-child').clone().appendTo('.container-articles');
-  }
-});
+        if (scrollPosition >= 666) {
+            $('.container-articles .products:last-child').clone().appendTo('.container-articles');
+        }
+    });
 
-$('#faq-overlay').scroll(function(){
-  scrollPositionF = $(this).scrollTop();
-  console.log(scrollPositionF);
-});
+    $('#faq-overlay').scroll(function() {
+        scrollPositionF = $(this).scrollTop();
+        console.log(scrollPositionF);
+    });
 
 
-$('.loadMore').on('click', function(){
-  $('#scrollArea .scrollAppend:last-child').clone().appendTo('#scrollArea');
-});
+    $('.loadMore').on('click', function() {
+        $('#scrollArea .scrollAppend:last-child').clone().appendTo('#scrollArea');
+    });
 
 
 

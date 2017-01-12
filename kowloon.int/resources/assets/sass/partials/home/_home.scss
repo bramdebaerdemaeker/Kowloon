@@ -23,7 +23,7 @@
   border-right: $border-category;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 65px;
   padding-top: 5px;
 
   p {
@@ -31,12 +31,12 @@
       position: absolute;
       color: $white;
       font-size: 1.2em;
-      bottom: 0px;
+      bottom: 10px;
       text-align: center;
   }
 
   .except {
-    bottom: -15px !important;
+    bottom: -5px !important;
   }
 
   &:hover {

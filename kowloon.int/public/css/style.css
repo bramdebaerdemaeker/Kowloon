@@ -508,17 +508,17 @@ i {
   border-right: 1px solid #616161;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 65px;
   padding-top: 5px; }
   .category-space p {
     font-family: choplin-light;
     position: absolute;
     color: #ffffff;
     font-size: 1.2em;
-    bottom: 0px;
+    bottom: 10px;
     text-align: center; }
   .category-space .except {
-    bottom: -15px !important; }
+    bottom: -5px !important; }
   .category-space:hover {
     background-color: #313233; }
     .category-space:hover .dogcategory,
@@ -667,6 +667,10 @@ i {
   margin-top: -80px; }
   .overlay-input .input-bar .clear-overlay-input {
     cursor: pointer; }
+
+.loadMore {
+  margin-top: 50px;
+  text-align: center; }
 
 /**************
  ** product **
